@@ -1,0 +1,9 @@
+/*
+!.config
+.config/*
+!.config/awesome
+!files/
+!scripts/
+!.vimrc
+!readme
+!.gitignore
