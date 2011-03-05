@@ -1,0 +1,217 @@
+#!/bin/bash
+#-----------------------------------------------------------------
+#     filename: rm backup                                                                    
+#       author:                                                                
+#        begin:                                                                   
+#          end:                                                                    
+#      version:        
+#-----------------------------------------------------------------
+from1=$1
+from2=$2
+rmbackup=$HOME/.rmbackup
+mvlog=$rmbackup/mv.log
+if [ ! -e $rmbackup ]
+ then
+    mkdir -p $rmbackup
+    chmod 777 $rmbackup
+fi
+
+function rand
+{
+a=(0 1 2 3 4 5 6 7 8 9 a b c d e A B C D E F )
+for ((i=0;i<7;i++));do
+        echo -n ${a[$RANDOM % ${#a[*]}]}
+done
+}
+random=$(rand)
+
+function rm1
+{
+if [ -d "$from1" ]
+ then
+   echo "rm: cannot remove '$from1/' : Is a directory"
+else
+   echo "`pwd`/:$from1:$random:`date`" >> $mvlog
+   mv "$from1"  "$rmbackup/$from1:$random"
+fi
+}
+
+function more
+{
+for file in *
+do
+echo "`pwd`/:$file:$random:`date`" >> $mvlog
+mv $file "$rmbackup/$file:$random"
+done 2> /dev/null
+}
+
+function rmi
+{
+if [ ! -d "$from2" ]
+ then
+   echo -n "rm:remove regular empty file '$from2'?" ; read answer;
+    if [ "$answer" = 'y' -o "$answer" = 'Y' ]
+     then
+        echo "`pwd`/:$from2:$random:`date`" >> $mvlog
+         mv "$from2" "$rmbackup/$from2:$random"
+    fi
+else
+   echo "rm: cannot remove directory '$from2': Is a directory"  
+fi 
+ 
+}
+
+function rmf
+{
+if [ ! -d "$from2" ]
+ then
+        echo "`pwd`/:$from2:$random:`date`" >> $mvlog
+         mv "$from2" "$rmbackup/$from2:$random"
+else
+   echo "rm: cannot remove directory '$from2': Is a directory"
+fi
+
+}
+
+function rmr
+{
+if [ -e "$from2" ]
+ then
+        result=$(echo $from2 | sed 's/\///g')
+        echo "`pwd`/:$result:$random:`date`" >> $mvlog
+         mv "$result" "$rmbackup/$result:$random"
+fi
+
+
+}
+
+function rml
+{
+while :
+do
+clear
+line=$(cat -n $mvlog | awk -F : '{print $1$2, "Time:"$4":"$5":"$6}')
+linecount=$(cat $mvlog | wc -l)
+echo -e "$line\c"
+echo 
+echo 
+echo "Please input number you want revent(line count:$linecount)--exit(e)"
+read answer
+ if [ "$answer" = e -o "$answer" = E ]
+  then
+    break
+ else
+    (
+     echo "please input y(sure:)"
+       read answer1
+       if [ "$answer1" = y -o "$answer" = Y ]
+        then
+          address=$(sed -n "$answer""p" $mvlog | awk -F : '{print $1}')
+          filename=$(sed -n "$answer""p" $mvlog | awk -F : '{print $2}')
+          filerand=$(sed -n "$answer""p" $mvlog | awk -F : '{print $3}')
+          fullname=$address$filename
+           if [ -e "$fullname" ]
+            then
+               echo "The file exist!"
+               sleep 1
+           else
+               old="$rmbackup/$filename:$filerand"
+               new="$address$filename"
+               mv "$old" "$new"
+               delline=$( cat $mvlog | sed "$answer""d" | sort -o $mvlog)
+               echo "update ok!!!"
+               sleep 1
+           fi
+       fi
+    )
+  fi 
+done
+
+
+}
+
+function help
+{
+echo "
+-i)  If you wants delete some file , this function is confirm you want,the same as old rm.
+-f)  If you wants delete some directory ,you can use this function ,the same as old rm.
+-r)  If you wants delete some directory of file ,this function can use , the same as old rm.
+-l)  This is new function,is you wants resume some file or directory you can use this function,
+     first this function can list some file in you rmbackup , these have some number ,if you 
+     wants resume 1,you can input 1 and then input y to confirm. 
+
+If you want add some function or some new idear please contact me...
+     author:wds
+      email:7717060@sina.com
+      
+"
+}
+
+
+case "$1"
+  in
+[a-z]) : ;;
+[0-9]) : ;;
+[A-Z]) : ;;
+    ?) more ;;
+    *) :;;
+esac
+
+if [ "$#" -eq 0 ]
+ then
+   echo -n "rm: missing operand
+Try 'rm --help' for more informaction.
+"
+fi
+
+if [ "$#" -eq 1 ]
+ then
+   case "$from1" 
+      in 
+       -i) echo "Try 'rm --help' for more informaction."; break ;;
+       -f) echo "Try 'rm --help' for more informaction."; break ;;
+       -r) echo "Try 'rm --help' for more informaction."; break ;;
+       
+       -l) rml ;;
+   --help) help;;
+        *) rm1;;
+   esac
+fi
+
+
+
+if [ "$#" -eq 2 ]
+ then
+    case "$from1"
+      in 
+       -i) rmi ;;
+       -f) rmf ;;
+       -r) rmr ;;
+       -l) rml ;;
+      -rf) rmr ;;
+   --help) help ;;
+    esac
+fi  
+
+
+  if [ "$#" -gt 2 ]
+         then
+           for file in $*
+             do
+               mv $file "$home/"
+           done 2> /dev/null
+        fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
