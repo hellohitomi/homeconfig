@@ -2,6 +2,7 @@
 !.config
 .config/*
 !.config/awesome
+*.swp
 !files/
 !scripts/
 !.vimrc
