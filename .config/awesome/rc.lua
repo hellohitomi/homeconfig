@@ -15,7 +15,7 @@ beautiful.init("/usr/share/awesome/themes/zenburn/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 --terminal = "xterm"
-terminal = "urxvt"
+terminal = "xterm"
 editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -82,7 +82,7 @@ mylauncher = awful.widget.launcher({ image = image(beautiful.awesome_icon),
 -- Initialize widget
 netwidget = widget({ type = "textbox" })
 -- Register widget
-vicious.register(netwidget, vicious.widgets.net, '<span color="#CC9393">${eth0 down_kb}</span> <span color="#7F9F7F">${eth0 up_kb}</span>', 3)
+vicious.register(netwidget, vicious.widgets.net, '<span color="#CC9393">${wlan0 down_kb}</span> <span color="#7F9F7F">${wlan0 up_kb}</span>', 3)
 
 
 -- Create a textclock widget
