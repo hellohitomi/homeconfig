@@ -1,0 +1,1 @@
+wget --random-wait -c -r -p -np -k -t 10 -a wget.log -e robots=off -U mozilla http://en.gentoo-wiki.com/wiki/Main_Page
