@@ -1,13 +1,1 @@
-/*
-!.config
-.config/*
-!.config/awesome
 *.swp
-!files/
-!scripts/
-!.vimrc
-!readme
-!.xinitrc
-!.Xdefaults
-!.bashrc
-!.gitignore
