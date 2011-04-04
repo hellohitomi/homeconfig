@@ -27,8 +27,3 @@ export INTEL_BATCH=1
 
 # Git completion
 source ~/.git-completion.bash
-
-#export XMODIFIERS="@im=fcitx"
-#export XIM=fcitx
-#export XIM_PROGRAM=fcitx
-
