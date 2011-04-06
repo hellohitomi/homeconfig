@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="client-firefox client-firefox-4 client-gecko client-linux" dir="ltr" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Graphics drivers - Gentoo Linux Wiki</title>
+<meta name="generator" content="MediaWiki 1.18alpha">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit">
+<link rel="edit" title="Edit" href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit">
+<link rel="shortcut icon" href="http://en.gentoo-wiki.com/favicon.png">
+<link rel="search" type="application/opensearchdescription+xml" href="http://en.gentoo-wiki.com/w/opensearch_desc.php" title="Gentoo Linux Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://en.gentoo-wiki.com/w/api.php?action=rsd">
+<link rel="copyright" href="http://en.gentoo-wiki.com/wiki/Creative_Commons">
+<link rel="alternate" type="application/atom+xml" title="Gentoo Linux Wiki Atom feed" href="http://en.gentoo-wiki.com/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="Graphics_drivers_files/load_002.css">
+<link rel="stylesheet" href="Graphics_drivers_files/main.css" media="screen">
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/w/skins/monobook/IE50Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/w/skins/monobook/IE55Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/w/skins/monobook/IE60Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/w/skins/monobook/IE70Fixes.css?303" media="screen" /><![endif]--><style type="text/css" media="all">.mw-collapsible-toggle{float:right}.mw-collapsible-toggle-expanded,.mw-collapsible-toggle-expanded a{cursor:n-resize}.mw-collapsible-toggle-collapsed,.mw-collapsible-toggle-collapsed a{cursor:s-resize} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+
+/* cache key: wiki_en:resourceloader:filter:minify-css:4:282f17b90bc4ed77a9a42a15c0272eb2 */</style><style type="text/css" media="all">.js-messagebox{margin:1em 5%;padding:0.5em 2.5%;border:1px solid #ccc;background-color:#fcfcfc;font-size:0.8em}.js-messagebox .js-messagebox-group{margin:1px;padding:0.5em 2.5%;border-bottom:1px solid #ddd}.js-messagebox .js-messagebox-group:last-child{border-bottom:thin none transparent}
+
+/* cache key: wiki_en:resourceloader:filter:minify-css:4:8b08bdc91c52a9ffba396dccfb5b473c */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="Graphics_drivers_files/load.css">
+<style>a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: wiki_en:resourceloader:filter:minify-css:4:f2a9127573a22335c2a9102b208c73e7 */</style>
+<script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script><link href="Graphics_drivers_files/floatingPanel.css" type="text/css" rel="stylesheet"><link href="Graphics_drivers_files/popup.css" type="text/css" rel="stylesheet"></head>
+<body class="mediawiki ltr ns-0 ns-subject page-Graphics_drivers skin-monobook">
+
+	<div id="globalWrapper">
+		<div id="column-content">
+		<div id="gad" style="position: absolute; right: 0; top: 3em; width: 123px;">&nbsp;
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-3996301520685260";
+/* 120x600, Tall Wiki */
+google_ad_slot = "5284348083";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="Graphics_drivers_files/show_ads.js">
+</script>
+
+	</div>
+	<div id="content" style="margin-right: 128px;"><div style="display: none;" class="js-messagebox" id="mw-js-message"></div>
+			<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">Graphics drivers</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From Gentoo Linux Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table class="messagebox small-talk" align="center">
+
+<tbody><tr>
+<td style="text-align: left; font-size: small; font-weight: bold;">
+<p>X.Org TOC
+</p>
+</td></tr>
+<tr>
+<td class="todo-box" colspan="2" style="background: none repeat scroll 0% 0% rgb(255, 250, 239); padding: 0pt 5px 5px; margin: 5px; border: 1px dotted gray; font-size: 95%;">
+<ul><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org">X.Org</a>
+<ul><li> <strong class="selflink">Graphics drivers</strong>
+</li><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/Input_drivers" title="X.Org/Input drivers">Input drivers</a>
+</li></ul>
+</li><li> Advanced Configuration
+<ul><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/Dual_Monitors" title="X.Org/Dual Monitors">Dual Monitors</a>
+</li><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/Fonts" title="X.Org/Fonts">Fonts</a>
+</li><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/Modelines" title="X.Org/Modelines">Modelines</a>
+</li><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/Transparency" title="X.Org/Transparency">Transparency</a>
+</li><li> <a href="http://en.gentoo-wiki.com/wiki/X.Org/xsession" title="X.Org/xsession">xsession</a>
+</li></ul>
+</li></ul>
+</td></tr></tbody></table>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hardware_Discovery"><span class="tocnumber">1</span> <span class="toctext">Hardware Discovery</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Kernel_Configuration"><span class="tocnumber">2</span> <span class="toctext">Kernel Configuration</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Kernel_Module_Configuration"><span class="tocnumber">3</span> <span class="toctext">Kernel Module Configuration</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#VIDEO_CARDS"><span class="tocnumber">4</span> <span class="toctext">VIDEO_CARDS</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Drivers"><span class="tocnumber">5</span> <span class="toctext">Drivers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#AMD.2FATI"><span class="tocnumber">5.1</span> <span class="toctext">AMD/ATI</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Intel"><span class="tocnumber">5.2</span> <span class="toctext">Intel</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#nVidia"><span class="tocnumber">5.3</span> <span class="toctext">nVidia</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Trident"><span class="tocnumber">5.4</span> <span class="toctext">Trident</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#VIA"><span class="tocnumber">5.5</span> <span class="toctext">VIA</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Troubleshooting"><span class="tocnumber">6</span> <span class="toctext">Troubleshooting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#DRI_permissions"><span class="tocnumber">6.1</span> <span class="toctext">DRI permissions</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Direct_.26_Indirect_Rendering"><span class="tocnumber">6.2</span> <span class="toctext">Direct &amp; Indirect Rendering</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#2D_Rendering"><span class="tocnumber">6.3</span> <span class="toctext">2D Rendering</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></tbody></table>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=1" title="Edit section: Hardware Discovery">edit</a>]</span> <span class="mw-headline" id="Hardware_Discovery"> Hardware Discovery </span></h2>
+<p>What driver you need depends on the chipset and graphics card you're 
+using. So the first thing you'll need to do now is to identify these.
+To identify the bus chipset and graphic card, you use <span style="background-color:#dfdfdf; font-family:monospace;">lspci</span>(part of <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=sys-apps/pciutils">sys-apps/pciutils</a>). In the example below we are expecting to find a <i>nforce2 AGP</i> chipset and a <i>ATI Radeon X1600</i> graphics card, but for completeness we <i>grep</i> for all AGP, PCI-e buses and all VGA and Display controllers.
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">/usr/sbin/lspci | egrep "AGP|PCI Express|VGA|Display"</div>
+<p>For a more verbose output you can run,
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">/usr/sbin/lspci -vvv | egrep "AGP|PCI Express|VGA|Display"</div>
+<p>The resulting output of <span style="background-color:#dfdfdf; font-family:monospace;">lspci</span> would be something like:
+</p>
+<pre>00:1e.0 PCI bridge: nVidia Corporation nForce2 AGP (rev c1)
+03:00.0 VGA compatible controller: ATI Technologies Inc RV535 [Radeon X1650 Series] (rev 9e)
+03:00.1 Display controller: ATI Technologies Inc RV535 [Radeon X1650 Series] (rev 9e)
+</pre>
+<p>The second line is interesting: apparently, this PC uses a Radeon 
+X1650 GPU, which has an RV535 chipset. Also note that, based on the 
+information on the first line, this is an AGP card.
+</p>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=2" title="Edit section: Kernel Configuration">edit</a>]</span> <span class="mw-headline" id="Kernel_Configuration"> Kernel Configuration </span></h2>
+<p>If your graphics driver supports it, you should enable the DRM module
+ in your kernel configuration, and a corresponding kernel DRM driver. 
+The various DRM modules are listed under <i>Direct Rendering Manager (XFree86 4.1.0 and higher DRI support)</i>. If you are unsure what driver supports what card, highlight the option and press <span style="border:1px solid #bbbbbb; padding: 1.5pt; min-width: 1em; background: #eeeeee; font-weight: bold; font-size: small;">h</span>
+ too see the help screen. Take note that the DRM option for your card 
+might not appear until you enable support for the AGP, PCI or PCI-E 
+chipset.
+</p><p>If your graphics card sits on an AGP bus, you'll need to enable support for your AGP chipset under <i>/dev/agpgart (AGP Support)</i>.
+</p>
+<table style="background-color: rgb(250, 235, 215); border: 3px solid rgb(112, 112, 255); padding: 1px;" width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="background-color: rgb(112, 112, 255); color: rgb(255, 255, 255); font-size: 0.9em; padding-left: 3px;"> <b>Linux Kernel Configuration:</b> Enable AGP chipset
+</td></tr>
+<tr>
+<td>
+<pre>Device Drivers  ---&gt;
+    Graphics support  ---&gt;
+        &lt;M&gt; /dev/agpgart (AGP Support)  ---&gt;
+</pre>
+</td></tr></tbody></table>
+<p>If your graphics card sits on a PCI-e bus, you'll need to enable <i>PCI Express support</i>.
+</p>
+<table style="background-color: rgb(250, 235, 215); border: 3px solid rgb(112, 112, 255); padding: 1px;" width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="background-color: rgb(112, 112, 255); color: rgb(255, 255, 255); font-size: 0.9em; padding-left: 3px;"> <b>Linux Kernel Configuration:</b> Enable PCI-Express
+</td></tr>
+<tr>
+<td>
+<pre>Bus options (PCI etc.)  ---&gt;
+    [*] PCI Express support
+</pre>
+</td></tr></tbody></table>
+<p>Lastly, enable your graphics cards DRM module under <i>Direct Rendering Manager (XFree86 4.1.0 and higher DRI support) ---&gt;</i> if available:
+</p>
+<table style="background-color: rgb(250, 235, 215); border: 3px solid rgb(112, 112, 255); padding: 1px;" width="100%" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="background-color: rgb(112, 112, 255); color: rgb(255, 255, 255); font-size: 0.9em; padding-left: 3px;"> <b>Linux Kernel Configuration:</b> Enable DRM and Radeon DRM
+</td></tr>
+<tr>
+<td>
+<pre>Device Drivers  ---&gt;
+    Graphics support  ---&gt;
+        &lt;M&gt; Direct Rendering Manager (XFree86 4.1.0 and higher DRI support) ---&gt;
+</pre>
+</td></tr></tbody></table>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=3" title="Edit section: Kernel Module Configuration">edit</a>]</span> <span class="mw-headline" id="Kernel_Module_Configuration"> Kernel Module Configuration </span></h2>
+<p>Once you have DRM support for your chipset, you still need to 
+actually load the modules. You need to load your AGP chipset module, the
+ <i>drm</i> and your graphics cards' DRM module. If you use &lt;=<a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=sys-apps/baselayout">sys-apps/baselayout</a>-2.0.0 you should edit <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/modules.autoload.d/kernel-2.6</span>. In the example below we are using a nforce2 AGP chipset and a <i>ATI Radeon X1600</i> graphics card,
+</p>
+<div style="border: 1px solid rgb(255, 191, 191); padding: .2em .3em; margin: .2em .2em; background-color: rgb(255, 242, 242);"><div style="background-color: #ffc1c1; padding: .2em; margin: .2em; border: solid 1px #ff7070; font-size: 92%;"><b>File:</b> /etc/modules.autoload.d/kernel-2.6</div><pre>...
+nvidia-agp drm radeon
+</pre></div>
+<p>If you use &gt;=<a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=sys-apps/baselayout">sys-apps/baselayout</a>-2.0.0 you should edit <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/conf.d/modules</span>. In the example below we are using a Intel chipset,
+</p>
+<div style="border: 1px solid rgb(255, 191, 191); padding: .2em .3em; margin: .2em .2em; background-color: rgb(255, 242, 242);"><div style="background-color: #ffc1c1; padding: .2em; margin: .2em; border: solid 1px #ff7070; font-size: 92%;"><b>File:</b> /etc/conf.d/modules</div><pre>...
+modules="nvidia-agp drm radeon"
+</pre></div>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=4" title="Edit section: VIDEO CARDS">edit</a>]</span> <span class="mw-headline" id="VIDEO_CARDS"> VIDEO_CARDS </span></h2>
+<p><i>VIDEO_CARDS</i> is an alias for, among more, some <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video">x11-drivers/xf86-video</a>-* packages, and in the case of <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-base/xorg-drivers">x11-base/xorg-drivers</a>, acts as "pull in" USE flags. So <i>VIDEO_CARDS=</i>"<b>radeon</b>" will make the emerge of <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=xorg-server">xorg-server</a>(which pulls in the meta package <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-base/xorg-drivers">x11-base/xorg-drivers</a>), pull in <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-radeon">x11-drivers/xf86-video-radeon</a>. Setting the <i>VIDEO_CARDS</i> variable is a good idea as it will make the emerge include your drivers or enable support for your graphics card.
+</p><p>The package <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=media-libs/mesa">media-libs/mesa</a> might also be affected by your <i>VIDEO_CARDS</i> variable, but here it does not act as a "pull in" USE flag and actually compiles chipset specifics bits. So setting <i>VIDEO_CARDS</i>="<b>radeon</b>"
+ will when mesa is emerged also build its radeon DRI specific libraries.
+ These libraries must be available to the X server if you want <a href="http://en.gentoo-wiki.com/wiki/Graphics_drivers#Direct_.26_Indirect_Rendering" title="Graphics drivers">direct rendering</a> to work.
+</p><p>To see what <i>VIDEO_CARDS</i> variables can be set, run,
+</p>
+<div style="background-color: #ffe0e0; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #cc6666; border-left:10px solid #cc6666; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">emerge -pv xorg-drivers</div>
+<p>and look at the the output following <i>VIDEO_CARDS</i>,
+</p>
+<pre>[ebuild  N    ] x11-base/xorg-drivers-...<b>VIDEO_CARDS="..."</b>...
+</pre>
+<p>Add the <i>VIDEO_CARDS</i> variable with the driver you want in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>,
+</p>
+<div style="padding: .2em .3em; margin: .2em .2em; background-color: #c1ffc1; border: solid 1px #00B000; font-size: 92%; width: 65%;"><b>Note:</b> Note that <i>VIDEO_CARDS</i> may contain more than one driver. If this is the case for you, separate each driver with a space.</div>
+<div style="border: 1px solid rgb(255, 191, 191); padding: .2em .3em; margin: .2em .2em; background-color: rgb(255, 242, 242);"><div style="background-color: #ffc1c1; padding: .2em; margin: .2em; border: solid 1px #ff7070; font-size: 92%;"><b>File:</b> /etc/make.conf</div><pre>...
+VIDEO_CARDS="nvidia nv"
+...
+</pre></div>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=5" title="Edit section: Drivers">edit</a>]</span> <span class="mw-headline" id="Drivers">Drivers</span></h2>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=6" title="Edit section: AMD/ATI">edit</a>]</span> <span class="mw-headline" id="AMD.2FATI">AMD/ATI</span></h3>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/Fglrx">fglrx</a>
+</dt><dd>The proprietary driver for AMD/ATI graphics cards. It is commonly referred by its kernel module name, fglrx, or <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/ati-drivers">x11-drivers/ati-drivers</a>. fglrx does not support DRM, but ships with its own direct rendering mechanism. If you want to use it, set <i>VIDEO_CARDS</i> to <strong style="color:green;">fglrx</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/ati-drivers">x11-drivers/ati-drivers</a> in Portage. See <a href="http://en.gentoo-wiki.com/wiki/Fglrx">fglrx</a> for further instructions.
+</dd></dl>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/Radeon">radeon</a>
+</dt><dd>The <i>radeon</i> driver is an open-source driver for AMD/ATI graphics cards. It has DRM support for chipsets r1xx through r7xx. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">radeon</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-ati">x11-drivers/xf86-video-ati</a> in Portage. See <a href="http://en.gentoo-wiki.com/wiki/Radeon">Radeon</a> for further instructions.
+</dd></dl>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/RadeonHD">radeonhd</a>
+</dt></dl>
+<div style="padding: .2em .3em; margin: .2em .2em; background-color: #ffc1c1; border: solid 1px #ff7070; font-size: 92%;"><b>Warning:</b> RadeonHD is dead. Please use the radeon driver instead, even if you have a Radeon HD-series graphics processor.</div>
+<dl><dd>The <i>radeonhd</i> driver is another open-source driver for 
+AMD/ATI graphics cards of the Radeon HD series (which means only 
+chipsets r6xx and later). Set <i>VIDEO_CARDS</i> to <strong style="color:green;">radeonhd</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-radeonhd">x11-drivers/xf86-video-radeonhd</a> in Portage. See <a href="http://en.gentoo-wiki.com/wiki/RadeonHD">RadeonHD</a> for further instructions.
+</dd></dl>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=7" title="Edit section: Intel">edit</a>]</span> <span class="mw-headline" id="Intel">Intel</span></h3>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/Intel_GMA" title="Intel GMA">intel</a>
+</dt><dd>The <i>intel</i> driver is for most Intel on-board graphic adapters, of the 'Intel Graphic Media Accelerator' series. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">intel</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-intel">x11-drivers/xf86-video-intel</a> in Portage. See <a href="http://en.gentoo-wiki.com/wiki/Intel_GMA">Intel GMA</a> for further instructions.
+</dd></dl>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=8" title="Edit section: nVidia">edit</a>]</span> <span class="mw-headline" id="nVidia">nVidia</span></h3>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/Nouveau">nouveau</a>
+</dt><dd>Nouveau is a reverse engineered open source driver for nVidia chips. Nouveau does not yet have a <i>VIDEO_CARDS</i> flag. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-nouveau">x11-drivers/xf86-video-nouveau</a> in x11 and sunrise overlays. See <a href="http://en.gentoo-wiki.com/wiki/Nouveau">Nouveau</a> for further instructions.
+</dd></dl>
+<dl><dt>nv
+</dt><dd>nv is the official open source driver for nVidia chips. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">nv</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-nv">x11-drivers/xf86-video-nv</a> in Portage. 
+</dd></dl>
+<dl><dt><a href="http://en.gentoo-wiki.com/wiki/Nvidia">nvidia</a>
+</dt><dd>nvidia is the proprietary driver for nVidia chips. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">nvidia</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/nvidia-drivers">x11-drivers/nvidia-drivers</a> in Portage. See <a href="http://en.gentoo-wiki.com/wiki/Nvidia">nvidia</a> for further instructions.
+</dd></dl>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=9" title="Edit section: Trident">edit</a>]</span> <span class="mw-headline" id="Trident">Trident</span></h3>
+<dl><dt>trident
+</dt><dd>Trident video cards are found in many laptop computers, mostly the of the Trident CyberBlade family chipset. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">trident</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-trident">x11-drivers/xf86-video-trident</a> in Portage.
+</dd></dl>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=10" title="Edit section: VIA">edit</a>]</span> <span class="mw-headline" id="VIA">VIA</span></h3>
+<dl><dt>openchrome
+</dt><dd>openChrome is an open-source graphics driver for some VIA IGPs. Set <i>VIDEO_CARDS</i> to <strong style="color:green;">via</strong> in <span style="color:darkgreen; font-weight:bold; font-family: monospace">/etc/make.conf</span>. The package is named <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video-via">x11-drivers/xf86-video-via</a> in Portage.
+</dd></dl>
+<h2><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=11" title="Edit section: Troubleshooting">edit</a>]</span> <span class="mw-headline" id="Troubleshooting"> Troubleshooting </span></h2>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=12" title="Edit section: DRI permissions">edit</a>]</span> <span class="mw-headline" id="DRI_permissions"> DRI permissions </span></h3>
+<p>You may have trouble with DRI permissions. Add your user to the <i>video</i> group:
+</p>
+<div style="background-color: #ffe0e0; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #cc6666; border-left:10px solid #cc6666; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">gpasswd -a &lt;your user&gt; video</div>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=13" title="Edit section: Direct &amp; Indirect Rendering">edit</a>]</span> <span class="mw-headline" id="Direct_.26_Indirect_Rendering"> Direct &amp; Indirect Rendering </span></h3>
+<p>X can handle graphics in two different ways, <i>indirect</i> and <i>direct</i>.
+</p><p>The <i>indirect</i> method is when an application talks to the the X server, which in turn conveys with the hardware drivers(the <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-drivers/xf86-video">x11-drivers/xf86-video</a>-* packages) and then returns to the application through the X server. An extension to the X server called <i>GLX</i> with <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/AIGLX">AIGLX</a> enabled allows for the indirect rendering to be hardware accelerated. This requires that <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-base/xorg-server">x11-base/xorg-server</a> was emerged with <strong style="color:red;">-minimal</strong> and your graphics drivers actually do hardware acceleration. To check if your X server is AIGLX enabled, run:
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">grep "AIGLX enabled" /var/log/Xorg.0.log</div>
+<p>This should output:
+</p>
+<pre>(==) AIGLX enabled
+</pre>
+<p>The other way to X deals with graphics is the <i>direct</i> way. This
+ is when the application bypasses the X protocol and talks to the 
+hardware drivers directly. This has the benefit of being faster as it 
+skips the middleman, but you also lose the network abstraction with the X
+ server, this is however no loss if you never intend to use X to display
+ remotely. To have the X server allow for direct rendering you'll need 
+to have the DRI extension enabled, so make sure you emerged <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-base/xorg-server">x11-base/xorg-server</a> with the <strong style="color:red;">-minimal</strong> USE-flag set. It's also possible that the driver your <a href="http://en.gentoo-wiki.com/wiki/Graphics_drivers#VIDEO_CARDS" title="Graphics drivers">VIDEO_CARDS</a> variable pulled in carries the <span style="color: maroon; font-weight: bold;">dri</span> USE-flag, if so, enable it. To check if direct rendering is possible you should run <span style="background-color:#dfdfdf; font-family:monospace;">glxinfo</span>, which is comes with the <a rel="nofollow" class="external text" href="http://gentoo-portage.com/Search?search=x11-apps/mesa-progs">x11-apps/mesa-progs</a> package:
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">glxinfo | grep "direct rendering"</div>
+<p>This should output:
+</p>
+<pre>direct rendering: Yes
+</pre>
+<p>X will try to enable both AIGLX and Direct Rendering if supported.
+</p>
+<h3><span class="editsection">[<a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit&amp;section=14" title="Edit section: 2D Rendering">edit</a>]</span> <span class="mw-headline" id="2D_Rendering"> 2D Rendering </span></h3>
+<p>2D rendering is done through the driver architectures XAA, EXA or 
+UXA, allowing for 2D drawing like lines, glyphs, etc. XAA is the oldest 
+driver architecture and is support by almost all drivers. EXA, 
+superseding XAA, uses the X Render extension(<i>RENDER</i>) which, 
+depending on driver support, gives the X server greater features and 
+performance. UXA, which is set to supersede EXA is basically EXA 
+reimplemented utilizing the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Graphics_Execution_Manager">GEM</a> memory manager.
+To see what renderer the X driver uses, run:
+</p>
+<div style="background-color:#ddffdd; color:#000000; padding:.05em .5em; margin:.5em; border:1px solid #99cc99; border-left:10px solid #99cc99; font-size: 92%; white-space:pre; font-family:monospace; width: 55%;">grep "acceleration architecture" /var/log/Xorg.0.log</div>
+<p>This should tell you what architecture your driver is using. Example:
+</p>
+<pre>(**) RADEON(0): Using EXA acceleration architecture
+</pre>
+<p>If you want to change the architectures used, you'll need to set the <i>"AccelMethod"</i> option under your graphics cards "Device" section:
+</p>
+<div style="border: 1px solid rgb(255, 191, 191); padding: .2em .3em; margin: .2em .2em; background-color: rgb(255, 242, 242);"><div style="background-color: #ffc1c1; padding: .2em; margin: .2em; border: solid 1px #ff7070; font-size: 92%;"><b>File:</b> /etc/xorg.conf</div><pre>...
+Section "Device"
+    ...
+    Option    "AccelMethod" "EXA"
+    ...
+EndSection
+...
+</pre></div>
+<p>See your graphics driver man page for more information. They are usually named like the driver, i.e, <i>radeon</i> or <i>intel</i>.
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 701/1000000
+Post-expand include size: 10769/2097152 bytes
+Template argument size: 2539/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wiki_en:pcache:idhash:933-0!*!0!!en!*!* and timestamp 20110405144740 -->
+<div class="printfooter">
+Retrieved from "<a href="http://en.gentoo-wiki.com/wiki/Graphics_drivers">http://en.gentoo-wiki.com/wiki/Graphics_drivers</a>"</div>
+			<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks"><a href="http://en.gentoo-wiki.com/wiki/Special:Categories" title="Special:Categories">Category</a>: <span dir="ltr"><a href="http://en.gentoo-wiki.com/wiki/Category:X" title="Category:X">X</a></span></div></div>			<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="http://en.gentoo-wiki.com/wiki/Graphics_drivers" title="View the content page [alt-shift-c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk"><a href="http://en.gentoo-wiki.com/wiki/Talk:Graphics_drivers" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-edit"><a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=edit" title="You can edit this page. Please use the preview button before saving [alt-shift-e]" accesskey="e">Edit</a></li>
+				 <li id="ca-history"><a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="http://en.gentoo-wiki.com/w/index.php?title=Special:UserLogin&amp;returnto=Graphics_drivers" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(&quot;/img/wiki_g.png&quot;);" href="http://en.gentoo-wiki.com/wiki/Main_Page" title="Visit the main page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage-description"><a href="http://en.gentoo-wiki.com/wiki/Main_Page" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li>
+				<li id="n-News"><a href="http://en.gentoo-wiki.com/wiki/Index:News">News</a></li>
+				<li id="n-Browse-Categories"><a href="http://en.gentoo-wiki.com/wiki/Category:Browse_Categories">Browse Categories</a></li>
+				<li id="n-All-Categories"><a href="http://en.gentoo-wiki.com/wiki/Special:Categories">All Categories</a></li>
+				<li id="n-recentchanges"><a href="http://en.gentoo-wiki.com/wiki/Special:RecentChanges" title="The list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="generated-sidebar portlet" id="p-support">
+		<h5>support</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-help"><a href="http://en.gentoo-wiki.com/wiki/Help:Contents" title="The place to find out">Help</a></li>
+				<li id="n-FAQ"><a href="http://en.gentoo-wiki.com/wiki/Help:FAQ">FAQ</a></li>
+				<li id="n-IRC-.28.23gentoo-wiki.29"><a href="http://en.gentoo-wiki.com/wiki/Help:IRC">IRC (#gentoo-wiki)</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/w/index.php" id="searchform">
+				<input name="title" value="Special:Search" type="hidden">
+				<input id="searchInput" title="Search Gentoo Linux Wiki" accesskey="f" name="search" type="search">
+				<input name="go" class="searchButton" id="searchGoButton" value="Go" title="Go to a page with this exact name if exists" type="submit">&nbsp;
+				<input name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" type="submit">
+			</form>
+		</div>
+	</div>
+	<div class="generated-sidebar portlet" id="p-indexes">
+		<h5>indexes</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-Indexes"><a href="http://en.gentoo-wiki.com/wiki/Category:Index">Indexes</a></li>
+				<li id="n-Tutorials"><a href="http://en.gentoo-wiki.com/wiki/Index:Tutorials">Tutorials</a></li>
+				<li id="n-Hardware"><a href="http://en.gentoo-wiki.com/wiki/Index:Hardware">Hardware</a></li>
+				<li id="n-Laptops"><a href="http://en.gentoo-wiki.com/wiki/Index:Laptops">Laptops</a></li>
+				<li id="n-Definitions"><a href="http://en.gentoo-wiki.com/wiki/Index:Definitions">Definitions</a></li>
+				<li id="n-Official-Articles"><a href="http://en.gentoo-wiki.com/wiki/Index:Official">Official Articles</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="generated-sidebar portlet" id="p-development">
+		<h5>development</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-Style-Guide"><a href="http://en.gentoo-wiki.com/wiki/Gentoo_Linux_Wiki:Style_Guide">Style Guide</a></li>
+				<li id="n-Naming-Conventions"><a href="http://en.gentoo-wiki.com/wiki/Gentoo_Linux_Wiki:Naming_Conventions">Naming Conventions</a></li>
+				<li id="n-Templates"><a href="http://en.gentoo-wiki.com/wiki/Index:Templates">Templates</a></li>
+				<li id="n-Template-Sandbox"><a href="http://en.gentoo-wiki.com/wiki/Template:Sandbox">Template Sandbox</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="http://en.gentoo-wiki.com/wiki/Special:WhatLinksHere/Graphics_drivers" title="List of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="http://en.gentoo-wiki.com/wiki/Special:RecentChangesLinked/Graphics_drivers" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="http://en.gentoo-wiki.com/wiki/Special:SpecialPages" title="List of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="http://en.gentoo-wiki.com/w/index.php?title=Graphics_drivers&amp;oldid=29231" title="Permanent link to this revision of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+	<div id="p-lang" class="portlet">
+		<h5>In other languages</h5>
+		<div class="pBody">
+			<ul>
+				<li class="interwiki-de"><a href="http://de.gentoo-wiki.com/wiki/Grafikkarten">Deutsch</a></li>
+				<li class="interwiki-pl"><a href="http://pl.gentoo-wiki.com/wiki/Sterowniki_graficzne">Polski</a></li>
+				<li class="interwiki-tr"><a href="http://tr.gentoo-wiki.com/wiki/Ekran_karti_sueruecueleri">Türkçe</a></li>
+			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="Graphics_drivers_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 5 March 2011, at 20:51.</li>
+					<li id="copyright">Content is available under <a href="http://en.gentoo-wiki.com/wiki/Creative_Commons">Creative Commons</a>.</li>
+					<li id="privacy"><a href="http://en.gentoo-wiki.com/wiki/Gentoo_Linux_Wiki:Privacy_policy" title="Gentoo Linux Wiki:Privacy policy">Privacy policy</a></li>
+					<li id="about"><a href="http://en.gentoo-wiki.com/wiki/Gentoo_Linux_Wiki:About" title="Gentoo Linux Wiki:About">About Gentoo Linux Community Wiki</a></li>
+					<li id="disclaimer"><a href="http://en.gentoo-wiki.com/wiki/Gentoo_Linux_Wiki:General_disclaimer" title="Gentoo Linux Wiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+
+</div>
+
+<script src="Graphics_drivers_files/load_004.php"></script><script src="Graphics_drivers_files/load.php"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Graphics_drivers", "wgTitle": "Graphics drivers", "wgCurRevisionId": 29231, "wgArticleId": 933, "wgIsArticle": true, "wgAction": "view", "wgUserName": null, "wgUserGroups": ["*"], "wgCategories": ["X"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": []});
+	mw.loader.load(["mediawiki.util", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax"]);
+	mw.loader.go();
+}
+</script><script type="text/javascript" src="Graphics_drivers_files/load_002.php"></script>
+<script src="Graphics_drivers_files/load_003.php"></script>
+<script>if ( window.mediaWiki ) {
+	mw.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":true,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":true,"searchNs101":false,"searchNs102":true,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs106":false,"searchNs107":false});;mw.loader.state({"user.options":"ready"});
+	
+	/* cache key: wiki_en:resourceloader:filter:minify-js:4:8187bf550d0c25f10864fda1a2707872 */
+}
+</script><!-- Served in 0.068 secs. -->
+<div style="display: none; bottom: auto; left: 665px; right: auto; top: 121px;" class="translator-theme-default" id="translator-floating-panel"><div title="Click to translate" id="translator-floating-panel-button"></div></div><div style="display: none; max-width: 350px; bottom: 0pt; left: auto; right: 0pt; top: auto;" class="translator-theme-default" id="translator-popup"><div class="translator-clear" id="translator-popup-toolbar"><span id="translator-popup-title"></span><a title="Copy translated text to clipboard" href="javascript:void(0);" id="translator-popup-button-copy"></a></div><div style="max-height: 480px;" class="translator-message-type-normal" id="translator-popup-message"></div><div style="display: none;" id="translator-popup-notice"></div><textarea style="display: none;" id="translator-popup-textarea"></textarea></div><div style="display: none; bottom: 0pt; left: auto; right: 0pt; top: auto;" title="Translating..." class="translator-theme-default" id="translator-popup-loading"></div></body></html>
