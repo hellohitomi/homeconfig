@@ -1,0 +1,9 @@
+synclient TapButton1=1
+syndaemon -i 2 -k -d &
+export XMODIFIERS="@im=fcitx"
+export XIM=fcitx
+export XIM_PROGRAM=fcitx
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+fcitx &
+exec dbus-launch --exit-with-session ck-launch-session wmii

@@ -1,0 +1,102 @@
+/opt/ruby-enterprise-1.8.7-2010.02/bin/ruby /opt/ruby-enterprise-1.8.7-2010.02/bin/gem install -r --no-rdoc --no-ri --no-update-sources --backtrace pg
+Building native extensions.  This could take a while...
+ERROR:  Error installing pg:
+	ERROR: Failed to build gem native extension.
+
+/opt/ruby-enterprise-1.8.7-2010.02/bin/ruby extconf.rb
+checking for pg_config... no
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/opt/ruby-enterprise-1.8.7-2010.02/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/lib
+	--enable-static-build
+	--disable-static-build
+
+
+Gem files will remain installed in /opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/pg-0.9.0 for inspection.
+Results logged to /opt/ruby-enterprise-1.8.7-2010.02/lib/ruby/gems/1.8/gems/pg-0.9.0/ext/gem_make.out
+--------------------------------------------
+Warning: some libraries could not be installed
+The following gems could not be installed, probably because of an Internet
+connection error:
+
+ * mysql
+ * pg
+
+These gems are not required, i.e. Ruby Enterprise Edition will work fine without them. But most people use Ruby Enterprise Edition in combination with Phusion Passenger and Ruby on Rails, which do require one or more of the aforementioned gems, so you may want to install them later.
+
+To install the aforementioned gems, please use the following commands:
+  * /opt/ruby-enterprise-1.8.7-2010.02/bin/ruby /opt/ruby-enterprise-1.8.7-2010.02/bin/gem install mysql
+  * /opt/ruby-enterprise-1.8.7-2010.02/bin/ruby /opt/ruby-enterprise-1.8.7-2010.02/bin/gem install pg
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-stress-test...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-make-enterprisey...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-install-apache2-module...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/erb...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/testrb...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-spawn-server...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/rackup...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/tt...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/irb...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/thor...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/rake2thor...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-memory-stats...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/rails...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-config...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-install-nginx-module...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/rake...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/erubis...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/ri...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/bundle...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/gem...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/rdoc...
+Updating /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-status...
+chmod -R g+r,o+r,o-w sqlite3-ruby*
+--------------------------------------------
+Ruby Enterprise Edition is successfully installed!
+If want to use Phusion Passenger (http://www.modrails.com) in combination
+with Ruby Enterprise Edition, then you must reinstall Phusion Passenger against
+Ruby Enterprise Edition, as follows:
+
+  /opt/ruby-enterprise-1.8.7-2010.02/bin/passenger-install-apache2-module
+
+Make sure you don't forget to paste the Apache configuration directives that
+the installer gives you.
+
+
+If you ever want to uninstall Ruby Enterprise Edition, simply remove this
+directory:
+
+  /opt/ruby-enterprise-1.8.7-2010.02
+
+If you have any questions, feel free to visit our website:
+
+  http://www.rubyenterpriseedition.com
+
+Enjoy Ruby Enterprise Edition, a product of Phusion (www.phusion.nl) :-)
+
+
