@@ -1,0 +1,4 @@
+dev-libs/libxml2 icu
+app-emulation/vmware-tools vmware_guest_windows
+media-fonts/acroread-asianfonts linguas_zh_CN
+net-misc/curl nss

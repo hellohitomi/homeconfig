@@ -37,28 +37,30 @@ x11-themes/gtk-theme-switch
 x11-themes/hicolor-icon-theme
 x11-themes/tango-icon-theme
 
-media-fonts/acroread-asianfonts
-media-fonts/arphicfonts
-media-fonts/artwiz-aleczapka-en
 media-fonts/corefonts
+media-fonts/dejavu
 media-fonts/font-bh-ttf
 media-fonts/font-bh-type1
-media-fonts/font-isas-misc
 media-fonts/freefonts
-media-fonts/terminus-font
 media-fonts/ttf-bitstream-vera
 media-fonts/unifont
+media-fonts/artwiz-aleczapka-en
 media-fonts/wqy-bitmapfont
 media-fonts/wqy-microhei
 media-fonts/wqy-unibit
 media-fonts/wqy-zenhei
+media-fonts/terminus-font
+
+app-i18n/fcitx
+app-i18n/fcitx-configtool
+app-i18n/fcitx-sunpinyin
 
 media-sound/alsa-utils
 media-sound/mpc
 
-media-gfx/scrot
 media-video/mplayer
 media-video/smplayer
+media-gfx/scrot
 
 www-client/chromium
 www-client/firefox-bin
@@ -67,9 +69,6 @@ www-client/httrack
 www-client/links
 www-plugins/adobe-flash
 
-app-i18n/fcitx
-app-i18n/fcitx-configtool
-app-i18n/fcitx-sunpinyin
 
 net-firewall/iptables
 net-fs/nfs-utils
@@ -80,6 +79,7 @@ app-editors/leafpad
 app-editors/gedit
 
 app-text/acroread
+media-fonts/acroread-asianfonts linguas_zh_CN
 app-text/epdfview
 app-text/stardict
 app-text/convmv
@@ -89,6 +89,8 @@ app-text/gnochm
 app-text/pdf2html
 
 app-emulation/vmware-workstation
+app-emulation/vmware-modules
+app-emulation/vmware-tools
 app-emulation/wine
 
 app-misc/screen
@@ -97,10 +99,10 @@ app-misc/screen
 app-arch/xarchiver  #pcmanfm
 app-arch/file-roller
 app-arch/p7zip
-app-arch/rar
 app-arch/unrar
 
 
+--------------------
 app-cdr/nero
 
 dev-db/mysql
