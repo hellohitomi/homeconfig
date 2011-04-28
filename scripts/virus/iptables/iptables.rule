@@ -1,0 +1,105 @@
+#!/bin/bash
+
+# 相关变量，参数
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin
+INE="eth0"
+INNET="192.168.1.0/24"
+export PATH INE INNET
+
+# 核心功能
+
+echo "1" > /proc/sys/net/ipv4/tcp_syncookies
+echo "1" > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+for i in /proc/sys/net/ipv4/conf/*/rp_filter; do
+	echo "1" > $i
+done
+for i in /proc/sys/net/ipv4/conf/*/log_martians; do
+	echo "1" > $i
+done
+for i in /proc/sys/net/ipv4/conf/*/accept_source_route; do
+	echo "0" > $i
+done
+for i in /proc/sys/net/ipv4/conf/*/accept_redirects; do
+	echo "0" > $i
+done
+for i in /proc/sys/net/ipv4/conf/*/send_redirects; do
+	echo "0" > $i
+done
+
+# 本机整体默认策略
+
+iptables -F
+iptables -X
+iptables -Z
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A INPUT -m state --state RELATED -j ACCEPT
+
+# 加载额外模块
+
+if [ -f /usr/local/virus/iptables/iptables.deny ]; then
+	sh /usr/local/virus/iptables/iptables.deny
+fi
+
+if [ -f /usr/local/virus/iptables/iptables.allow ]; then
+	sh /usr/local/virus/iptables/iptables.allow
+fi
+
+iptables -A INPUT -m state --state ESTABLISHED -j ACCEPT
+
+# ICMP控制
+
+AICMP="0 3 4 11 12 14 16 18"
+for typeicmp in $AICMP
+do
+	iptables -A INPUT -i $INE -p icmp --icmp-type $typeicmp -j ACCEPT
+done
+
+# 服务、端口规则
+
+# iptables -A INPUT -p tcp -i $INE --dport 22 -j ACCEPT # SSH
+# iptables -A INPUT -p tcp -i $INE --dport 25 -j ACCEPT # SMTP
+# iptables -A INPUT -p udp -i $INE --sport 53 -j ACCEPT # DNS
+# iptables -A INPUT -p tcp -i $INE --sport 53 -j ACCEPT # DNS
+# iptables -A INPUT -p tcp -i $INE --dport 80 -j ACCEPT # WWW
+# iptables -A INPUT -p tcp -i $INE --dport 110 -j ACCEPT # POP3
+# iptables -A INPUT -p tcp -i $INE --dport 443 -j ACCEPT # HTTPS
+
+###################后端主机设置########################
+
+# 核心模块加载
+#modules="ip_tables iptable_nat ip_nat_ftp ip_nat_irc ip_conntrack ip_conntrack_ftp ip_conntrack_irc"
+#for mod in $modules
+#do
+#	testmod=`lsmod | grep "${mod} "`
+#	if [ "$testmod" == "" ]; then
+#		modprobe $mod
+#	fi
+#done
+
+# 清除重建NAT table规则
+#iptables -F -t nat
+#iptables -X -t nat
+#iptables -Z -t nat
+#iptables -t nat -P PREROUTING ACCEPT
+#iptables -t nat -P POSTROUTING ACCEPT
+#iptables -t nat -P OUTPUT ACCEPT
+
+# 开放路由，NAT共享上网
+#if [ "$INE" != "" ]; then
+# iptables -A INPUT -i $INE -j ACCEPT
+# echo "1" > /proc/sys/net/ipv4/ip_forward
+# if [ "$INNET" != "" ];then
+#  for innet in $INNET
+#  do
+#    iptables -t nat -A POSTROUTING -s $innet -o $OUTE -j MASQUERADE
+#  done
+# fi
+#fi
+
+# 内部服务器设置
+
+# iptables -t nat -A PREROUTING -p tcp -i $OUTE --dport 80 -j DNAT --to 192.168.1.10:80
+
