@@ -1,0 +1,2283 @@
+<html>
+<head>
+<title>gentoo security</title>
+<link rel="important stylesheet" href="chrome://messagebody/skin/messageBody.css">
+</head>
+<body>
+<table border=0 cellspacing=0 cellpadding=0 width="100%" class="header-part1"><tr><td><b>Subject: </b>gentoo security</td></tr><tr><td><b>From: </b>hellohitomi &lt;hellohitomi@gmail.com&gt;</td></tr><tr><td><b>Date: </b>Mon,  2 May 2011 00:48:38 -0700 (PDT)</td></tr></table><table border=0 cellspacing=0 cellpadding=0 width="100%" class="header-part2"><tr><td><b>To: </b>00000xff@gmail.com</td></tr></table><br>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; " />
+<style type="text/css" media="screen">
+p, td { line-height: 1.3; }
+p { padding-bottom: 1em; }
+a { color: #3697b3; font-weight: bold; text-decoration: none; }
+a:hover { color: #000; text-decoration: underline; }
+a:active { color: #000; text-decoration: underline; }
+</style>
+</head>
+<body style="font-size:12px;color:#262626;line-height:1.3;font-family:Arial, Helvetica, sans-serif;background-color:#fff;">
+ <table cellspacing="0" cellpadding="0" width="100%" style="padding-bottom:20px;padding-top:10px;">
+  <tr>
+   <td style="line-height:1;text-align:left;padding-bottom:0px;">
+    <h3 style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;color:#262626;font-weight:bold;font-size:11px;"><a href="http://www.evernote.com/" style="color:#3697b3;font-weight:bold;text-decoration:none;">From Evernote:</a></h3>
+   </td>
+  </tr>
+  <tr>
+   <td style="line-height:1.3;text-align:left;padding-top:0px;padding-bottom:7px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#b5b5b5;font-size:11px;">
+    <h1 style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-bottom:0;padding-right:0;padding-left:0;color:#262626;font-weight:bold;padding-top:5px;font-size:18px;">gentoo security</h1>
+    
+   </td>
+  </tr>
+ </table>
+<div class="ennote"><div>
+
+<div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" valign="top" height="125" bgcolor="#45347b">
+<div><img border="0" alt="Gentoo Logo" width="190" height="124" ext="jpeg" src="imap-message://00000xff%40gmail%2Ecom@imap.googlemail.com/INBOX#384?header=saveas&part=1.2&filename=9bab3b42c2d5df4f8d2dcbb4d3a6344a.jpeg" class="en-media"/></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+</td></tr><tr><td align="right" colspan="1" rowspan="1" valign="top" bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td align="left" colspan="1" rowspan="1" valign="top" width="99%">
+<h1>Gentoo Security Handbook</h1>
+<p>内容:</p>
+<ul><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1" target="_blank">系统安全</a></strong><br clear="none"/> 加强你的系统的不同组件来使它更安全。 <ol><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap1" target="_blank">预安装注意事项</a></strong><br clear="none"/> 为什么安全性对于每一个服务器管理员来说都很重要？ </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap2" target="_blank">增强安全性</a></strong><br clear="none"/> 在安装时和安装后增强系统安全性。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap3" target="_blank">日志记录</a></strong><br clear="none"/> Gentoo Linux允许你选择3种不同的日志记录器。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap4" target="_blank">挂载分区</a></strong><br clear="none"/> /etc/fstab提供了许多安全选项。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap5" target="_blank">用户和组的权限</a></strong><br clear="none"/> 控制你的资源使用。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap6" target="_blank">文件权限</a></strong><br clear="none"/> 让你的文件更安全。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap7" target="_blank">PAM</a></strong><br clear="none"/> 可插入的验证模块。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap8" target="_blank">TCP 封装（TCP Wrappers）</a></strong><br clear="none"/> 控制服务的访问。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap9" target="_blank">内核安全</a></strong><br clear="none"/> 让你的内核更加安全。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap10" target="_blank">提高服务的安全性</a></strong><br clear="none"/> 确保你的守护进程是安全的。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap11" target="_blank">Chroot和虚拟服务器</a></strong><br clear="none"/> 隔离你的服务器。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap12" target="_blank">防火墙</a></strong><br clear="none"/> 过滤你的数据包。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap13" target="_blank">入侵检测</a></strong><br clear="none"/> 检测入侵者。 </li><li> <strong><a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#book_part1_chap14" target="_blank">保持最新状态</a></strong><br clear="none"/> 确保你得到了最新的安全更新。 </li></ol> </li></ul>
+<h2><a shape="rect" href="http://a/" target="_blank">A. 系统安全</a></h2>
+<h3>1.预安装注意事项</h3>
+<p><span>1.a. </span>物理安全</p>
+无论你实现了多少安全防护措施，攻击者们仍然可以通过物理访问来绕过这些措施。尽管如此，还是有一些措施能够在您面对物理访问攻击的时候为您提供一定程度   的安全。把你的计算机锁在壁橱里能防止攻击者拔掉电源后带走你的计算机。把你的机箱锁上也是一个不错的选择，这样一来攻击者就不能把你的硬盘拿走了。为了   防止攻击者从另一块硬盘启动，然后完美地绕过你的权限设置和登陆限制，请试着在BIOS里把你的硬盘设置成第一启动设备，然后设置一个BIOS密码。设置   LILO或者GRUB的密码也是很重要的措施，这样一来一些别有用心的用户就不能进入到单用户模式，然后获取你的整个系统。更多有关的具体信息在第三章可 以找到，地址是<a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#passwording_GRUB" target="_blank">设置GRUB密码</a>和<a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#passwording_LILO" target="_blank">设置LILO密码</a>。
+<p> </p>
+<p><span>1.b. </span>规划你的守护程序和服务</p>
+<p>首先我们来说说这台机器应该运行的服务。这将有助于你为系统设计一个更好的分区结构，而且这也将有助于你更好地计划你的安全措施。当然，这对于一些简单的目的单一的机器（如桌面系统或者专用防火墙）来说是不必要的。在这些情况下，你不应该运行<span>任何</span>服务，当然sshd可能例外。</p>
+<p>这个列表对系统管理也有所帮助。如果你有所有软件的版本信息列表，当发现你的某个守护程序有远程漏洞的时候，你就会发现升级所有的东西变得更简单了。</p>
+<p><span>1.c. </span>分区结构规划</p>
+<p>分区规则：</p>
+<ul><li> 普通用户可写的每一个目录树（比如<span dir="ltr">/home</span>和<span dir="ltr">/tmp</span>）都应该被放在一个单独的分区里，并请使用磁盘配额。这将会减少某个用户填满你的整个文件系统所造成的风险。Portage使用<span dir="ltr">/var/tmp</span>来编译文件，所以这个分区应该足够大。 </li><li> 任何用来在其中安装非发行版软件的目录树应该被放在一个单独的分区里。根据<a shape="rect" href="http://www.pathname.com/fhs/" target="_blank">文件结构标准</a>，这个目录可能是<span dir="ltr">/opt</span>或者<span dir="ltr">/usr/local</span>。如果这些目录处在一个单独的分区里，在你重新安装系统的时候它们就不会被抹除掉了。 </li><li> 为了得到更多的安全性，你可以把静态数据放到单独的一个分区里，并且使用只读模式挂载这个分区。如果你还不放心，想要绝对安全的话，试试只读的媒体介质（比如CD-ROM）吧。 </li></ul>
+<p><span>1.d. </span>root用户</p>
+<p>root用户是系统中及其重要的用户，并且除了非常必要的时候请不要使用它来做任何事。如果一个攻击者取得了root权限，你唯一能够再次信任你的系统的方法就只有重新安装系统了。</p>
+<p>root用户的黄金规则</p>
+<ul><li> 请建立一个日常使用的普通用户。如果你想要它能够切换到root用户，你可以把该用户加入到“wheel”组里，这样一来一个普通用户就能使用su来切换到root用户了。 </li><li> 请不要使用root用户来运行X或其他用户程序。你应当只在真正非常需要的时候才使用root用户。如果你使用普通用户来运行一个程序，当程序出现漏洞的时候，攻击者只能得到普通用户权限，但是如果你使用root用户来运行该程序，攻击者就会得到root用户权限了。 </li><li> 当你用root用户登陆的时候，请使用绝对路径来运行程序（或者使用<span dir="ltr">su -</span>，这个命令可以把普通用户的环境变量用root用户的环境变量覆盖掉，与此同时它可以保证root用户的<span dir="ltr">PATH</span>只包含了受保护的目录（比如：<span dir="ltr">/bin</span>和<span dir="ltr">/sbin</span>）。有时候可以欺骗root用户去执行一个完全不同的程序，并令其以为他在执行他本来想执行的程序。如果root的<span dir="ltr">PATH</span>是被保护了的或者root用户只使用绝对路径来运行程序，我们就可以保证这样的事情不会发生。 </li><li> 如果一个普通用户需要以root用户身份来运行一些命令，请考虑使用<span dir="ltr">sudo</span>而不是完全切换到root用户。当你使用sudo的时候你仍然需要十分小心！ </li><li> 当你使用root用户登录的时候请永远不要离开命令行终端。 </li></ul>
+<p>Gentoo有一些默认的保护措施来抵制普通用户通过<span dir="ltr">su</span>来切换到root用户。默认的PAM设置要求普通用户要在“wheel”组里才能使用<span dir="ltr">su</span>。</p>
+<p><span>1.e. </span>安全策略</p>
+<p>因为下面几个原因你需要为你的系统和网络起草一份安全策略。</p>
+<ul><li> 一个好的安全策略可以让你在“系统”层面上进行安全规划，而不仅仅是把几个不同的特性混杂组装在一起。比如说，如果没有一个安全策略，管理员可能会决定把   telnet关掉，因为它传输未加密的密码，但是他可能忽略了具有同样缺点的FTP服务。一个好的安全策略可以让你分辨出哪些安全措施是值得做的，而哪些  是不值得做的。 </li><li> 为了诊断问题和审查用户行为或者追踪入侵者，有时候你可能需要切断网络连接，然后检查用户登录和用户命令行历史，接着查看用户主目录。如果和用户没有事先约定并且用户们并不知情的时候，这种行为可能是违法的，而且这可能使<span>你</span>陷入法律危险之中。 </li><li> 截获用户帐户是威胁到系统安全的最普遍问题。在没有向用户说明安全是多么重要和怎样做才能保障安全（比如不要使用放在他们桌面上的便签来记录密码）的情况下，你不太可能对用户安全能够抱有一丝希望。 </li><li> 一个有详细记录的网络和系统界面将会帮助你处理这些问题，也包括涉及到法律问题的强制性检查（在事后追踪入侵者和发现漏洞的必要时候）。一个安全策略将会  对入侵者打出一道横幅，它将表明你的系统是一个私人网络并且任何未经验证的操作都是不允许的，这将会帮你保住起诉入侵者的权利（在入侵者被捕后）。 </li></ul>
+<p>希望你现在能够很好地理解为什么我们需要一个良好的安全策略了。</p>
+<p>安全策略自身是一个文档或者几个文档，它描述了你的网络和系统的特性（比如说提供什么样的服务）、什么操作是被接受的和什么操作是被禁止的、最佳安 全措施  等等。每一位用户都应该知道你的安全策略和你对它做的一些升级性改动。你应该花费一些时间来帮助用户理解你的安全策略和为什么他们必须遵守规定，当然还有   用户之直接违反你的规定的后果（在你的安全策略里应该提到这一点），因为这些事情都非常重要。这些问题每年应该至少被提及一次，因为策略很有可能会有变动  （这也是对用户的一种提醒）。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 创建一个易读的和每方面都很准确的安全策略</p>
+</td></tr></table>
+<p>一个安全策略至少要包含一下内容：</p>
+<ul><li>允许的操作                
+<ul><li>屏幕保护程序</li><li>密码处理</li><li>软件下载和安装</li><li>在用户被监控的情况下输出声明信息</li><li>防病毒软件的使用</li></ul>
+</li><li>敏感信息（任何书面格式或数码格式的信息）的处理                
+<ul><li>清理桌面和锁起机密信息</li><li>在离开前关闭计算机</li><li>加密的使用</li><li>钥匙只交给可信任同事</li><li>旅游的时候机密信息的处理</li></ul>
+</li><li>旅游时计算机设备的处理                
+<ul><li>旅游或住旅馆的时候便携式电脑的处理</li></ul>
+</li></ul>
+<p>不同的用户可能需要不同的访问级别和类型，所以你要针对他们制作不同的策略。</p>
+<p>安全策略可能会很庞大，而且至关重要的信息可能会被落下。IT工作者的策略可能会包含一些对于普通用户来说是机密的信息，所以比较聪明的方法是把你的策略分成几个不同的小策略，比如说：允许的操作策略、密码策略、邮件策略和远程操作策略。</p>
+<p>你可以在<a shape="rect" href="http://www.sans.org/resources/policies/" target="_blank">SANS安全策略计划</a>里找到一些策略的样本。如果你有一个比较小的网络并且你认为这些策略对你来说太多了，你应该看一看<a shape="rect" href="ftp://ftp.isi.edu/in-notes/rfc2196.txt" target="_blank">网站安全手册</a>。</p>
+<h3>2. 紧握安全</h3>
+<p><span>2.a. </span>USE 标记</p>
+<p><span dir="ltr">make.conf</span>文件包含了一些用户定义的USE标志，<span dir="ltr">/etc/make.profile/make.defaults</span>文件包含了Gentoo Linux默认的USE标记。就这篇指南来说，以下的一些USE标记是比较重要的：<span dir="ltr">pam</span>（可拔插验证模块）、<span dir="ltr">tcpd</span>（TCP wrappers）和<span dir="ltr">ssl</span>（安全套接层协议）。这些都包含在了默认的USE标记里。</p>
+<p><span>2.b. </span>GRUB 的密码保护</p>
+<p>GRUB支持两种不同的方式来给你的引导程序加上密码。第一种方法是使用plain text（纯文本），另一种是使用md5+salt加密。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: /boot/grub/grub.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">timeout 5
+password changeme
+</pre>
+</td></tr></table>
+<p>这样将会添加一个内容为<span dir="ltr">changeme</span>的密码。如果在启动的时候没有输入密码，GRUB将会选择进入默认的选项。</p>
+<p>在添加一个md5密码的时候，你必须把你的密码转换成加密的格式，就像<span dir="ltr">/etc/shadow</span>这个文件的格式一样。请参见<span dir="ltr">man crypt</span>来得到更多的信息。就拿加密过的密码<span>changeme</span>来说吧，加密后你就会看到它会变成<span dir="ltr">$1$T7/dgdIJ$dJM.n2wZ8RG.oEiIOwJUs</span>。</p>
+<p>可以在GRUB shell中直接加密密码：</p>
+<a shape="rect" name="book_part1_chap2__chap2_pre2" target="_blank"></a> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.2: md5crypt in grub shell</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#<span>/sbin/grub</span>
+
+GRUB version 0.92 (640K lower / 3072K upper memory)
+
+   [ Minimal BASH-like line editing is supported. For the first word, TAB lists
+     possible command completions. Anywhere else TAB lists the possible
+     completions of a device/filename. ]
+
+grub&gt; <span>md5crypt</span>
+
+Password: <span>********</span>
+</pre>
+<pre xml:space="preserve"><span>（在提示中输入“changeme”）</span><br clear="none"/><br clear="none"/>Encrypted: $1$T7/dgdIJ$dJM.n2wZ8RG.oEiIOwJUs.
+
+grub&gt; <span>quit</span>
+</pre>
+</td></tr></table>
+<p>然后，粘贴到/boot/grub/grub.conf.</p>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.3: /boot/grub/grub.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">timeout 5
+password --md5 $1$T7/dgdIJ$dJM.n2wZ8RG.oEiIOwJUs.
+</pre>
+</td></tr></table>
+<p>如果你的系统是远程的，把超时时间设置成5秒钟是比较方便的，这个设置还能够在没有键盘互动的情况下重新启动系统。请运行<span dir="ltr">info grub</span>来得到更多有关GRUB密码的信息。</p>
+<p><span>2.c. </span>密码保护 LILO</p>
+<p>LILO也支持两种处理密码的方式：全局设置和为每个媒体介质分别设置，然而这两种方式都是用明文存储的。</p>
+<p>全局密码是在配置文件的头部设置的，并且它被用于每一个可启动的媒体介质：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.1: /etc/lilo.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">password=changeme
+restricted
+delay=3
+</pre>
+</td></tr></table>
+<p>而为每个媒体介质分别设置密码就如同以下展示的一样：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.2: /etc/lilo.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">image=/boot/bzImage
+      read-only
+      password=changeme
+      restricted
+</pre>
+</td></tr></table>
+<p>如果<span dir="ltr">restricted</span>选项不存在，LILO会每次启动都请求密码。</p>
+<p>为了在<span dir="ltr">lilo.conf</span>里存储新信息，你必须运行<span dir="ltr">/sbin/lilo</span>。</p>
+<p><span>2.d. </span>制约终端使用</p>
+<p><span dir="ltr">/etc/securetty</span>文件允许你指定哪一个<span dir="ltr">tty</span>（终端）设备是允许root用户登陆的。</p>
+<p>如果你在使用devfs的话，我们建议你只留下<span dir="ltr">vc/1</span>这一行，其余的全部加上注释；如果你在使用udev，我们建议你只留下<span dir="ltr">tty1</span>这一行。这样会确保root只能登陆一次，并且只能在一个终端里登陆。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 在&quot;wheel&quot;组里的用户任然可以在别的终端里使用<span dir="ltr">su -</span>来成为root。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 4.1: /etc/securetty</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span>(For devfs)</span>
+vc/1
+<span>(For udev)</span>
+tty1
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<h3>3.日志记录</h3>
+<p><span>3.a. </span>简介</p>
+<p>你的系统应该能够尽可能多地记录一些日志以捕捉一些能够表明攻击正在进行或者系统已经被攻破的警告或错误信息。攻击者经常在攻击之前扫描或者试探攻击。</p>
+<p>你的日志文件具有易读性和易管理性也是很重要的。Gentoo Linux允许你在安装的时候选择3种不同的日志记录器。</p>
+<p><span>3.b.</span>日志记录：Syslogd</p>
+<p>从大体上说，Syslogd是Linux和Unix平台上使用最广泛的日志记录器。它拥有一些日志轮换组件，并且如果你在一个cron作业里使用<span dir="ltr">/usr/sbin/logrotate</span>那就更好了（你可以在<span dir="ltr">/etc/logrotate.conf</span>里配置logrotate），因为<span dir="ltr">logrotate</span>有许多特性。日志轮换的频率决定于系统的负载。</p>
+<p>下面是一个额外添加过一些参数的标准的<span dir="ltr">syslog.conf</span>文件。我们把<span dir="ltr">cron</span>和<span dir="ltr">tty</span>这两行的注释取消掉了，并且加上了一个远程日志服务器的配置。为了进一步提高安全性，你可以同时在两个地方添加日志。</p>
+<a shape="rect" name="book_part1_chap3__chap2_pre1" target="_blank"></a> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: /etc/syslog.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#  /etc/syslog.conf      Configuration file for syslogd.
+#
+#                       For more information see syslog.conf(5)
+#                       manpage.
+#                       This is from Debian, we are using it for now
+#                       Daniel Robbins, 5/15/99
+
+#
+# First some standard logfiles.  Log by facility.
+#
+
+auth,authpriv.*                 /var/log/auth.log
+*.*;auth,authpriv.none          -/var/log/syslog
+cron.*                         /var/log/cron.log
+daemon.*                        -/var/log/daemon.log
+kern.*                          -/var/log/kern.log
+lpr.*                           -/var/log/lpr.log
+mail.*                          /var/log/mail.log
+user.*                          -/var/log/user.log
+uucp.*                          -/var/log/uucp.log
+local6.debug                    /var/log/imapd.log
+
+#
+# Logging for the mail system. Split it up so that
+# it is easy to write scripts to parse these files.
+#
+mail.info                       -/var/log/mail.info
+mail.warn                       -/var/log/mail.warn
+mail.err                        /var/log/mail.err
+
+# Logging for INN news system
+#
+news.crit                       /var/log/news/news.crit
+news.err                        /var/log/news/news.err
+news.notice                     -/var/log/news/news.notice
+
+#
+# Some `catch-all' logfiles.
+#
+*.=debug;\
+        auth,authpriv.none;\
+        news.none;mail.none     -/var/log/debug
+*.=info;*.=notice;*.=warn;\
+        auth,authpriv.none;\
+        cron,daemon.none;\
+        mail,news.none          -/var/log/messages
+
+#
+# Emergencies and alerts are sent to everybody logged in.
+#
+*.emerg                         *
+*.=alert                        *
+
+#
+# I like to have messages displayed on the console, but only on a virtual
+# console I usually leave idle.
+#
+daemon,mail.*;\
+       news.=crit;news.=err;news.=notice;\
+       *.=debug;*.=info;\
+       *.=notice;*.=warn       /dev/tty8
+
+#Setup a remote logging server
+*.*                        @logserver
+
+# The named pipe /dev/xconsole is for the `xconsole' utility.  To use it,
+# you must invoke `xconsole' with the `-file' option:
+#
+#    $ xconsole -file /dev/xconsole [...]
+#
+# NOTE: adjust the list below, or you'll go crazy if you have a reasonably
+#      busy site..
+#
+#daemon.*,mail.*;\
+#       news.crit;news.err;news.notice;\
+#       *.=debug;*.=info;\
+#       *.=notice;*.=warn       |/dev/xconsole
+
+local2.*                --/var/log/ppp.log
+</pre>
+</td></tr></table>
+<p>攻击者最有可能通过编辑或删除日志文件来抹除他们的行踪。通过使用一个或多个安装在其他机器上的远程日志服务器来记录日志，你可以使你的日志文件变得更安全来抵御入侵者。请运行<span dir="ltr">man syslog</span>来得到更多有关syslogd的信息。</p>
+<p><span>3.c. </span>Metalog</p>
+<div>Frank Dennis的<a shape="rect" href="http://metalog.sourceforge.net/" target="_blank">Metalog</a>不 能在远程服务  器上记录日志文件，但是它在性能和记录日志的灵活性上有一些自己的优点。它可以通过程序名、紧急事件和facility（像syslogd）来记录日志文  件，并且当它找到特定模式的时候,它会用正则表达式来与你能够运行的外部脚本相匹配。这在采取必要的行动时很有用。</div>
+<div><br clear="none"/></div>
+<div>针对postfix：</div>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.1: /usr/local/sbin/mail_pwd_failures.sh for postfix</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#! /bin/sh
+echo &quot;$3&quot; | mail -s &quot;Warning (program : $2)&quot; root
+</pre>
+</td></tr></table>
+<p>针对netqmail:</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.2: /usr/local/sbin/mail_pwd_failures.sh for netqmail</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#!/bin/sh
+echo &quot;To: root
+Subject:Failure (Warning: $2)
+$3
+&quot; | /var/qmail/bin/qmail-inject -f root
+</pre>
+</td></tr></table>
+<p>请记得运行<span dir="ltr">/bin/chmod +x /usr/local/sbin/mail_pwd_failures.sh</span>来确保这些脚本具有运行权限。</p>
+<p>然后找到<span dir="ltr">/etc/metalog/metalog.conf</span>，并且删掉这个文件里面&quot;Password failures&quot;这一行下面的命令行的注释，就像这样：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.3: /etc/metalog/metalog.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">command  = &quot;/usr/local/sbin/mail_pwd_failures.sh&quot;
+</pre>
+</td></tr></table>
+<p><span>3.d. </span>Syslog-ng</p>
+<p>Syslog-ng提供了一些与syslog和metalog类似的特性，但是又有一点区别。它可以根据等级和内容（像metalog一样）过滤信 息，提  供了类似于syslog的远程日志记录功能，通过syslogd处理日志文件（即使是来至于Solaris的数据流也可以处理），把日志输出到一个终端  里，还可以运行程序，并且它可以作为一个日志服务器。基本上来说它是带有一些高级设置的两种记录器的优势组合产品。</p>
+<p>下面是一个经典的配置文件，它被轻微地改动过了。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 4.1: /etc/syslog-ng/syslog-ng.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">options {
+        chain_hostnames(no);
+
+        <span># The default action of syslog-ng is to log a STATS line
+        # to the file every 10 minutes.  That's pretty ugly after a while.
+        # Change it to every 12 hours so you get a nice daily update of
+        # how many messages syslog-ng missed (0).</span>
+        stats_freq(43200);
+};
+
+source src {
+    unix-stream(&quot;/dev/log&quot; max-connections(256));
+    internal();
+};
+
+source kernsrc { file(&quot;/proc/kmsg&quot;); };
+
+<span># define destinations</span>
+destination authlog { file(&quot;/var/log/auth.log&quot;); };
+destination syslog { file(&quot;/var/log/syslog&quot;); };
+destination cron { file(&quot;/var/log/cron.log&quot;); };
+destination daemon { file(&quot;/var/log/daemon.log&quot;); };
+destination kern { file(&quot;/var/log/kern.log&quot;); };
+destination lpr { file(&quot;/var/log/lpr.log&quot;); };
+destination user { file(&quot;/var/log/user.log&quot;); };
+destination mail { file(&quot;/var/log/mail.log&quot;); };
+
+destination mailinfo { file(&quot;/var/log/mail.info&quot;); };
+destination mailwarn { file(&quot;/var/log/mail.warn&quot;); };
+destination mailerr { file(&quot;/var/log/mail.err&quot;); };
+
+destination newscrit { file(&quot;/var/log/news/news.crit&quot;); };
+destination newserr { file(&quot;/var/log/news/news.err&quot;); };
+destination newsnotice { file(&quot;/var/log/news/news.notice&quot;); };
+
+destination debug { file(&quot;/var/log/debug&quot;); };
+destination messages { file(&quot;/var/log/messages&quot;); };
+destination console { usertty(&quot;root&quot;); };
+
+<span># By default messages are logged to tty12...</span>
+destination console_all { file(&quot;/dev/tty12&quot;); };
+
+<span># ...if you intend to use /dev/console for programs like xconsole
+# you can comment out the destination line above that references /dev/tty12
+# and uncomment the line below.</span>
+#destination console_all { file(&quot;/dev/console&quot;); };
+
+<span># create filters</span>
+filter f_authpriv { facility(auth, authpriv); };
+filter f_syslog { not facility(authpriv, mail); };
+filter f_cron { facility(cron); };
+filter f_daemon { facility(daemon); };
+filter f_kern { facility(kern); };
+filter f_lpr { facility(lpr); };
+filter f_mail { facility(mail); };
+filter f_user { facility(user); };
+filter f_debug { not facility(auth, authpriv, news, mail); };
+filter f_messages { level(info..warn)
+        and not facility(auth, authpriv, mail, news); };
+filter f_emergency { level(emerg); };
+
+filter f_info { level(info); };
+filter f_notice { level(notice); };
+filter f_warn { level(warn); };
+filter f_crit { level(crit); };
+filter f_err { level(err); };
+filter f_failed { message(&quot;failed&quot;); };
+filter f_denied { message(&quot;denied&quot;); };
+
+<span># connect filter and destination</span>
+log { source(src); filter(f_authpriv); destination(authlog); };
+log { source(src); filter(f_syslog); destination(syslog); };
+log { source(src); filter(f_cron); destination(cron); };
+log { source(src); filter(f_daemon); destination(daemon); };
+log { source(kernsrc); filter(f_kern); destination(kern); };
+log { source(src); filter(f_lpr); destination(lpr); };
+log { source(src); filter(f_mail); destination(mail); };
+log { source(src); filter(f_user); destination(user); };
+log { source(src); filter(f_mail); filter(f_info); destination(mailinfo); };
+log { source(src); filter(f_mail); filter(f_warn); destination(mailwarn); };
+log { source(src); filter(f_mail); filter(f_err); destination(mailerr); };
+
+log { source(src); filter(f_debug); destination(debug); };
+log { source(src); filter(f_messages); destination(messages); };
+log { source(src); filter(f_emergency); destination(console); };
+
+<span># default log</span>
+log { source(src); destination(console_all); };
+</pre>
+</td></tr></table>
+<p>Syslog-ng的配置很容易，但也很容易因为配置文件过大而在里头落下一些东西。作者提供了一些额外的特性，比如说加密、验证、压缩和MAC控制（强制权限控制）。有了这些选项Syslog-ng就会变成一个完美的网络日志记录器，因为攻击者不能在那些日志上动手脚。</p>
+<p>syslog-ng还有另一个优势：它不需要以root身份登录运行！</p>
+<p><span>3.e. </span>使用Logcheck进行日志分析</p>
+<p>当然，把日志文件隔离开只是胜利的一半。有一些程序，比如说是Logcheck，它可以使日常的日志分析更容易。Logcheck是一个脚本，它带有一个叫做<span dir="ltr">logtail</span>的二进制可执行文件。它是从你的cron守护程序里运行的，并且根据一套可疑活动的规则检查你的日志文件。然后它就会把输出的信息通过邮件发到root的邮箱。</p>
+Logcheck使用了四个文件来从不重要的日志中过滤出重要的日志信息。这些文件是<span dir="ltr">logcheck.hacking</span>（它包括了已知的黑客攻击信息）、<span dir="ltr">logcheck.violations</span>（它包括了显示安全违规的模式）、<span dir="ltr">logcheck.violations.ignore</span>（它包括了一些用来匹配违规文件的可能关键字，允许正常的关键字被忽略）和<span dir="ltr">logcheck.ignore</span>（它包括了要被忽略的关键字）。            
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 不要让<span dir="ltr">logcheck.violations.ignore</span>空着。Logcheck将会使用<span dir="ltr">grep</span>来格式化日志文件。在一些版本上，可能会把空文件当作通配符。这样一来所有的违规就被忽略了。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<div><a shape="rect" href="http://en.gentoo-wiki.com/wiki/Syslog-ng" target="_blank">http://en.gentoo-wiki.com/wiki/Syslog-ng</a></div>
+<div>last modified on 19 February 2011, at 22:00</div>
+<div><br clear="none"/></div>
+<div>
+<h2><span>Quick Start </span></h2>
+<p>it is <a shape="rect" rel="nofollow" href="http://forums.gentoo.org/viewtopic-t-543112.html" target="_blank">recommended</a> to unmerge any system logger you have previously installed as  loggers often use <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/dev/log</span>.</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">emerge syslog-ng</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">rc-update add syslog-ng default</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">/etc/init.d/syslog-ng start</div>
+<p><br clear="none"/> Also, you may want logrotate to rotate your logs</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">emerge logrotate</div>
+<p><br clear="none"/> For a quick start, here there is a classic configuration file slightly modified from the one in the  <a shape="rect" rel="nofollow" href="http://www.gentoo.org/doc/en/security/security-handbook.xml?part=1&amp;chap=3#doc_chap4" target="_blank">Gentoo Security Guide</a>. You will see your defined log files in <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/var/log</span>. In the following sections we will explain this configuration  file in order to understand how syslog-ng works.</p>
+<ul><li> Updated for Syslog-ng version 3 formatting --<a shape="rect" title="User:Oldr4ver (page does not exist)" href="http://en.gentoo-wiki.com/w/index.php?title=User:Oldr4ver&amp;action=edit&amp;redlink=1" target="_blank">Oldr4ver</a> 16:11, 28 February 2010 (GMT)                
+<ul><li> Added Shorewall and Webmin logging to the example configuration                
+<ul><li> Edited filtering example; still not working </li></ul>
+</li></ul>
+</li></ul>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">@version: 3.0
+# /etc/syslog-ng/syslog-ng.conf
+# From the Gentoo Linux Security Guide
+# http://www.gentoo.org/doc/en/gentoo-security.xml
+# Creative Commons - Attribution / Share Alike License
+# http://creativecommons.org/licenses/by-sa/2.0<br clear="none"/><br clear="none"/><span style="text-decoration: underline;"><strong><span style="color: #339966;">#options</span></strong></span><br clear="none"/><br clear="none"/> options {
+    chain_hostnames(off); <span style="color: #339966;">#Disable the chained hostname format. Default: no</span>
+    stats_freq(43200); <span style="color: #339966;">#The period between two STATS messages in seconds. STATS are log messages sent by syslog-ng, containing statistics about dropped log messages.Default: 600</span>
+    owner(root); <span style="color: #339966;">#The default owner of output files. By default, syslog-ng changes the privileges of accessed files (e.g., /dev/null) to  root.root 0600.</span>
+    group(root); <span style="color: #339966;">#The default group of output files.</span>
+    perm(0640); <span style="color: #339966;">#The default permission for output files</span>
+    dir_perm(0740); <span style="color: #339966;">#The default permission for newly created directories. Default: 0700.</span>
+    create_dirs(yes); <span style="color: #339966;">#Enable or disable directory creation for destination files. Default: no.</span>
+    use_fqdn(no); <span style="color: #339966;">#Add Fully Qualified Domain Name instead of short hostname. Default: no.</span>
+    keep_hostname(yes); <span style="color: #339966;">#Enable or disable hostname rewriting. Enable this option to use hostname-related macros. Default: no.</span>
+    use_dns(no); <span style="color: #339966;">#Enable or disable DNS usage. Default: yes.</span>
+};
+<span style="color: #339966;">#Full description of the options can be found in the <a shape="rect" rel="nofollow" href="http://www.balabit.com/sites/default/files/documents/syslog-ng-v3.0-guide-admin-en.html/index.html-single.html#reference_options" target="_blank">syslog-ng admin guide</a>.</span>
+<br clear="none"/><span style="text-decoration: underline;"><span style="color: #339966;"><strong>#source</strong></span></span><br clear="none"/></pre>
+<p><span style="color: #339966;">#Syslog-ng receives log messages from a source. To define a source you should follow the following syntax: </span></p>
+<p><strong><span style="background-color: #dfdfdf; font-family: monospace; color: #339966;">#source &lt;identifier&gt; { source-driver(params); source-driver(params); ... };</span></strong></p>
+<p><span style="color: #339966;">#You can look at the identifiers and source-drivers in the <a shape="rect" rel="nofollow" href="http://www.balabit.com/support/documentation/" target="_blank">official manuals</a>. </span></p>
+<p><span style="color: #339966;">#This will follow the manual to explain the configuration file above. </span></p>
+<p><span style="color: #339966;">#The unix-stream() source-driver opens the given AF_UNIX <a shape="rect" rel="nofollow" href="http://en.wikipedia.org/wiki/Berkeley_sockets" target="_blank">socket</a> and starts listening on it for messages. </span></p>
+<p><span style="color: #339966;">#The internal() source-driver gets messages generated by syslog-ng.</span></p>
+<pre xml:space="preserve">#source where to read log
+source src { unix-stream(&quot;/dev/log&quot;); internal(); };</pre>
+<span style="color: #339966;"> </span>
+<p><span style="color: #339966;">#means: src gets messages from /dev/log socket and syslog-ng.</span></p>
+<pre xml:space="preserve"># kernel messages
+source kernsrc { file(&quot;/proc/kmsg&quot;); };
+</pre>
+<p><span style="color: #339966;">#The kernel sends log messages to <span style="font-weight: bold; font-family: monospace;">/proc/kmsg</span> and the file() driver reads log messages from files. </span></p>
+<p><span style="color: #339966;">means: kernsrc gets messages from file /proc/kmsg</span><br clear="none"/></p>
+<p><span style="color: #339966;">#Previously, the source in the default configuration file was defined as: </span></p>
+<p><strong><span style="background-color: #dfdfdf; font-family: monospace; color: #339966;">#source src { unix-stream(&quot;/dev/log&quot;); internal(); pipe(&quot;/proc/kmsg&quot;); };</span></strong></p>
+<p><span style="color: #339966;">#Nevertheless, as it is stated in the (<a shape="rect" rel="nofollow" href="http://www.balabit.com/sites/default/files/documents/syslog-ng-v3.0-guide-admin-en.html/index.html-single.html#configuring_sources_pipe" target="_blank">syslog-ng admin guide</a>: <em>Pipe is very similar to the file() driver, <br clear="none"/></em></span></p>
+<p><span style="color: #339966;"><em>#but there are a few</em> differences, for example pipe() opens its argument in read-write mode,  therefore it is not recommended to be used on special files like  /proc/kmsg.<em><br clear="none"/></em></span></p>
+<p><span style="color: #339966;"><em># (You can follow the discussion in <a shape="rect" rel="nofollow" href="http://forums.gentoo.org/viewtopic-t-558161.html" target="_blank">this post</a>.)</em></span></p>
+<pre xml:space="preserve"># from a chrooted bind install
+source namedsrc { unix-stream(&quot;/var/named/chroot/dev/log&quot;); };</pre>
+<span style="text-decoration: underline;"><strong><span style="color: #339966;">#destinations</span></strong></span>
+<p><span style="color: #339966;">#In syslog-ng log messages are sent to files. The syntax is very similar to sources:</span></p>
+<p><strong><span style="background-color: #dfdfdf; font-family: monospace; color: #339966;">#destination &lt;identifier&gt; {destination-driver(params); destination-driver(params); ... };</span></strong></p>
+<span style="color: #339966;"><br clear="none"/># You will be normally  logging to a file, but you could log to a different destination-driver:  pipe, unix socket, TCP-UDP ports, terminals or to specific programs. </span><br clear="none"/><br clear="none"/><span style="color: #339966;">#Therefore, this means sending authlog  messages to <span style="font-weight: bold; font-family: monospace;">/var/log/auth.log</span>:</span>
+<p><span style="color: #339966;"><strong><span style="background-color: #dfdfdf; font-family: monospace;">#destination authlog { file(&quot;/var/log/auth.log&quot;); };</span></strong></span></p>
+<span style="color: #339966;"># If the user is logged in, usertty()  sends messages to the terminal of the specified user. If you want to  send console messages to root's terminal if it is logged in:</span>
+<p><span style="color: #339966;"><strong><span style="background-color: #dfdfdf; font-family: monospace;">#destination console { usertty(&quot;root&quot;); };</span></strong></span></p>
+<span style="color: #339966;"># Messages can be sent to a pipe with pipe(). The following sends xconsole messages to the pipe <span style="font-weight: bold; font-family: monospace;">/dev/xconsole</span>. </span><br clear="none"/><span style="color: #339966;">#This needs some more configuration, so you could look at the sub-section xconsole below.</span>
+<p><span style="color: #339966;"><strong><span style="background-color: #dfdfdf; font-family: monospace;">#destination xconsole { pipe(&quot;/dev/xconsole&quot;); };</span></strong></span></p>
+<span style="color: #339966;"># To send messages on the network, use udp(). The following will send your log data out to another server.</span>
+<p><strong><span style="background-color: #dfdfdf; font-family: monospace; color: #339966;">#destination remote_server { udp(&quot;10.0.0.2&quot; port(514)); };</span></strong></p>
+<pre xml:space="preserve">#define destinations
+destination authlog { file(&quot;/var/log/auth.log&quot;); };
+destination cron { file(&quot;/var/log/cron.log&quot;); };
+destination daemon { file(&quot;/var/log/daemon.log&quot;); };
+destination kern { file(&quot;/var/log/kern.log&quot;); };
+destination user { file(&quot;/var/log/user.log&quot;); };
+destination mail { file(&quot;/var/log/maillog&quot;); };
+destination mailinfo { file(&quot;/var/log/mail.info&quot;); };
+destination mailwarn { file(&quot;/var/log/mail.warn&quot;); };
+destination mailerr { file(&quot;/var/log/mail.err&quot;); };
+destination debug { file(&quot;/var/log/debug&quot;); };
+destination messages { file(&quot;/var/log/messages&quot;); };
+destination shorewall { file(&quot;/var/log/shorewall/firewall.log&quot;); };
+destination blacklist { file(&quot;/var/log/shorewall/blacklist.log&quot;); };
+destination noblklst { file(&quot;/var/log/shorewall/noblacklist.log&quot;); };
+destination miniserv { file(&quot;/var/log/webmin/miniserv.error&quot;); };               # Webmin miniserv.error
+
+destination console { usertty(&quot;root&quot;); };
+destination console_all { file(&quot;/dev/tty12&quot;); };
+
+#create filters
+filter f_auth { facility(auth); };
+filter f_authpriv { facility(auth, authpriv); };
+filter f_cron { facility(cron); };
+filter f_daemon { facility(daemon); };
+filter f_kern { facility(kern); };
+filter f_mail { facility(mail); };
+filter f_user { facility(user); };
+filter f_debug { not facility(auth, authpriv, news, mail); };
+filter f_messages { level(info..warn) and not facility(auth, authpriv, mail, news); };
+filter f_emergency { level(emerg); };
+filter f_info { level(info); };
+filter f_notice { level(notice); };
+filter f_warn { level(warn); };
+filter f_crit { level(crit); };
+filter f_err { level(err); };
+######################################################
+# This part seems to be wrong, see the discussion 
+# on discussion tab
+# EDIT: this part should be:
+# filter f_failed { match(&quot;failed&quot; value(MESSAGE)); };                          # Filter everything except &quot;failed&quot; keyword
+# OR
+# filter f_failed { message(&quot;failed&quot;); };
+#
+filter f_failed { match(&quot;regex&quot; value(&quot;failed&quot;)); };
+filter f_denied { match(&quot;regex&quot; value(&quot;denied&quot;)); };
+filter f_shorewall { not match(&quot;regex&quot; value(&quot;Shorewall&quot;)); };                  # Filter everything except regex keyword Shorewall
+filter f_noshorewall { match(&quot;regex&quot; value(&quot;Shorewall&quot;)); };                    # Filter regex keyword Shorewall
+filter f_blacklist { not match(&quot;regex&quot; value(&quot;blacklst&quot;)); };                   # Filter everything except regex keyword blacklst
+filter f_noblklst { match(&quot;regex&quot; value(&quot;blacklst&quot;)); };                        # Filter regex keyword blacklst
+filter f_miniserv { not match(&quot;regex&quot; value(&quot;webmin&quot;)); };
+######################################################
+
+#connect filter and destination
+log { source(src); filter(f_authpriv); destination(authlog); };
+log { source(src); filter(f_cron); destination(cron); };
+log { source(src); filter(f_daemon); destination(daemon); };
+log { source(kernsrc); filter(f_kern); destination(kern); };
+log { source(src); filter(f_mail); destination(mail); };
+log { source(src); filter(f_user); destination(user); };
+log { source(src); filter(f_mail); filter(f_info); destination(mailinfo); };
+log { source(src); filter(f_mail); filter(f_warn); destination(mailwarn); };
+log { source(src); filter(f_mail); filter(f_err); destination(mailerr); };
+log { source(kernsrc); filter(f_shorewall); destination(shorewall); };                          # Shorewall full log
+log { source(kernsrc); filter(f_blacklist); destination(blacklist); };                          # Shorewall blacklist log
+log { source(kernsrc); filter(f_noblklst); destination(noblklst); };                            # Shorewall clean (no blacklist) log
+log { source(src); filter(f_miniserv); filter(f_noshorewall); destination(miniserv); };         # Webmin error log
+
+log { source(src); filter(f_debug); destination(debug); };
+log { source(src); filter(f_messages); destination(messages); };
+log { source(src); filter(f_emergency); destination(console); };
+
+#default log
+log { source(src); destination(console_all); };</pre>
+</div>
+<br clear="none"/>
+<h3><span> </span><span>xconsole </span></h3>
+<div style="padding: 0.2em 0.3em; margin: 0.2em; background-color: #ffc1c1; border: 1px solid #ff7070; font-size: 92%;"><strong>Warning:</strong> This part is not yet finished.</div>
+<div style="padding: 0.2em 0.3em; margin: 0.2em; background-color: #c1ffc1; border: 1px solid #00b000; font-size: 92%; width: 65%;"><strong>Note:</strong> You can look and contribute at this <a shape="rect" rel="nofollow" href="http://forums.gentoo.org/viewtopic-t-558611.html" target="_blank">thread</a> discussing the topic,  and have a look at this <a shape="rect" rel="nofollow" href="http://www.linuxfromscratch.org/hints/downloads/files/xconsole_setup.txt" target="_blank">explanation</a>.</div>
+<p><br clear="none"/> Before syslog-ng can send messages to the pipe  /dev/xconsole, you should  create it with mkfifo, giving the appropriate  access and owner  permissions.</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">mkfifo /dev/xconsole</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">chmod 644 /dev/xconsole</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">chown root.tty /dev/xconsole</div>
+<p><br clear="none"/> Afterwards, you need a program to read the messages sent to <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/dev/xconsole</span>. <strong>xconsole</strong> is a console that monitors system messages with X. First step is to  emerge xconsole. Tell xconsole to read /dev/xconsole after that.</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">emerge xconsole</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">xconsole -file /dev/xconsole</div>
+<p><br clear="none"/> Text window space and geometry can be modified in the following ways:</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /usr/share/X11/app-defaults/XConsole</div>
+<pre xml:space="preserve">text.width:	900
+text.height: 100
+</pre>
+</div>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">xconsole -file /dev/xconsole -geometry +67+640</div>
+<h2><span> </span><span> Creating Filters for Messages </span></h2>
+<p>The syntax for the filter statement is:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter &lt;identifier&gt; { expression; };</span></p>
+<p><br clear="none"/> Functions can be used in the expression, such as  the fuction facility() which selects messages based on the facility  codes.  The linux kernel has a few facilities you can use for logging.  Each facility has a log-level; where debug is the most verbose, and  panic only shows serious errors. You can find the facilities, log levels  and priority names in <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/usr/include/sys/syslog.h</span>. To filter those messages coming from authorisation, like  <em>May 11 23:42:31 mimosinnet su(pam_unix)[18569]: session opened for user root by (uid=1000)</em>, use the following:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_auth { facility(auth); };</span></p>
+<p><br clear="none"/> The facility expression can use the boolean operators <em>and</em>, <em>or</em>, and <em>not</em>, so the following filter selects those messages not coming from authorisation, network news or mail:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_debug { not facility(auth, authpriv, news, mail); };</span></p>
+<p><br clear="none"/> The funciont level() selects messages based on its priority level, so if you want to select informational levels:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_info { level(info); };</span></p>
+<p><br clear="none"/> Functions and boolean operators can be combined in  more complex  expressions. The following line filters messages with a  priority level  from informational to warning not coming from atuh,  authpriv, mail and news  facilities:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_messages { level(info..warn) and not facility(auth, authpriv, mail, news); };</span></p>
+<ul><li> please verify and correct the following: </li></ul>
+<p>Messages can also be selected by matching a regular expression in the   message with the function match(&quot;regex&quot; value(&quot;keyword&quot;)). For  example:</p>
+<hr/>
+<p>EDIT: for filtering by &quot;keyword&quot; in the &quot;MESSAGE&quot; field, the correct (according to documentation) should be:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">match(&quot;keyword&quot; value(MESSAGE))</span></p>
+<p>OR</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">message(&quot;keyword&quot;)</span></p>
+<hr/>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_failed { match(&quot;regex&quot; value(&quot;failed&quot;)); };</span></p>
+<h2><span> </span><span>Log Paths </span></h2>
+<p>Syslog-ng connects sources, filters and destinations with log statements. The syntax is:</p>
+<span style="background-color: #dfdfdf; font-family: monospace;"> </span>
+<pre xml:space="preserve">log {source(s1); source(s2); ...
+    filter(f1); filter(f2); ...
+    destination(d1); destination(d2); ...
+    flags(flag1[, flag2...]); };</pre>
+<p><br clear="none"/> The following for example sends messages from 'src' source to 'mailinfo' destination filtered by 'f_info' filter.</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">log { source(src); filter(f_mail); filter(f_info); destination(mailinfo); };</span></p>
+<p> </p>
+<h2><span> </span><span>Tips and Tricks </span></h2>
+<p>After understanding the logic behind syslog-ng, many possible and   complex configuration are possible. Here there are some examples.</p>
+<h3><span> </span><span>Failover Logging to Remote Host </span></h3>
+<p>This setup shows how to send the default unencrypted syslog packets   across both tcp and udp protocols, using the standard port (514) and an   alternate port.  This is sending the same output to the same machine 4   different ways to try and make sure packets make it.  Mostly useful if   you are debugging a remote server that fails to reboot.  The different   ports and protocols are to make it past any firewall filters or other   network problems.  Also useful for port-forwarding and using tunnels.    Something like this setup is ideal to tunnel across an ssh connection   that the prone-to-failover host initiates through a reverse connection.</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">#sending to a remote syslog server on tcp and udp ports (not encrypted)
+destination askapache_failover_loghost {
+    tcp(&quot;208.86.158.195&quot; port(25214));
+    udp(&quot;208.86.158.195&quot; port(25214));
+    udp(&quot;mysyslog1.dyndns.org&quot; port(514));
+};
+log { 
+    source(src); 
+    destination(askapache_failover_loghost);
+};
+</pre>
+</div>
+<p><br clear="none"/> And then on the loghost receiving these logs:</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">#a usb redirected console for flexible viewing
+destination debugging_console {
+    file(&quot;/dev/ttyU1&quot;);
+};
+
+# listens on ips and ports, sets the incoming settings
+source prone_to_failover_host {
+    tcp(ip(208.86.158.195),port(25214));
+    udp(ip(208.86.158.195) port(25214));
+
+    udp(default-facility(syslog) default-priority(emerg));
+    tcp(default-facility(syslog) default-priority(emerg));
+}
+
+# log it
+log {
+    source(prone_to_failover_host); 
+    destination(debugging_console);
+};
+</pre>
+</div>
+<h3><span>Log directly to MySQL </span></h3>
+<p><a shape="rect" href="http://en.gentoo-wiki.com/wiki/Syslog-ng_directly_to_MySQL" target="_blank">Syslog-ng directly to MySQL</a></p>
+<h3><span> Move log to another file </span></h3>
+<p>In order to move some log from <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/var/log/messages</span> to another file:</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">#sshd configuration
+destination ssh { file(&quot;/var/log/ssh.log&quot;); };
+filter f_ssh { program(&quot;sshd&quot;); };
+log { source(src); filter(f_ssh); destination(ssh); };
+</pre>
+</div>
+<p> </p>
+<h3><span>Configuring as a loghost </span></h3>
+<p>Configuring your system to be a loghost is quite simple. Drop the   following into your configuration, and create the needed directory. With  this simple configuration, log filenames will be based on the <a shape="rect" rel="nofollow" href="http://en.wikipedia.org/wiki/FQDN" target="_blank">FQDN</a> of the remote host, and located in <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/var/log/remote/</span>. After creating the remote directory, reload your syslog-ng configuration.</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">source net { udp(); };
+destination remote { file(&quot;/var/log/remote/$FULLHOST&quot;); };
+log { source(net); destination(remote); };
+</pre>
+</div>
+<p> </p>
+<h3><span>Improve Performance </span></h3>
+<p>Syslog-ng's performance can be improved in different ways:</p>
+<h4><span>Avoid redundant processing and disk space </span></h4>
+<p>A single log message can be sent to different log files several   times. For example, in the initial configuration file, we have the   following definitions:</p>
+<span style="background-color: #dfdfdf; font-family: monospace;"> </span>
+<pre xml:space="preserve">destination cron { file(&quot;/var/log/cron.log&quot;); };
+destination messages { file(&quot;/var/log/messages&quot;); };
+filter f_cron { facility(cron); };
+filter f_messages { level(info..warn) 
+       and not facility(auth, authpriv, mail, news); };
+log { source(src); filter(f_cron); destination(cron); };
+log { source(src); filter(f_messages); destination(messages); };
+</pre>
+<p><br clear="none"/> The same message from the 'cron' facility will end  up in both the  cron.log and messages file. To change this behavior we  can use the final  flag,  ending up further processing with the message.  Therefore, in this  example, if we want messages from the 'cron'  facility not ending up in  the messages file, we should change the  cron's log sentence by:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">log { source(src); filter(f_cron); destination(cron); flags(final); };</span></p>
+<p>another way is to exclude the cron facility from f_messages filter:</p>
+<p><span style="background-color: #dfdfdf; font-family: monospace;">filter f_messages { level(info..warn) and not facility(cron, auth, authpriv, mail, news); }; </span></p>
+<h3><span>Postgresql Destination </span></h3>
+<p>This section will use two roles: <em>syslog</em> and <em>logwriter</em>. <em>syslog</em> will be the administrator of the database <em>syslog</em> and <em>logwriter</em> will only be able to add records to the <em>logs</em> table.</p>
+<p>No longer needed to create table for logs. Syslog-ng will create automatically.</p>
+<div style="background-color: #ddffdd; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">psql -U postgres</div>
+<pre xml:space="preserve">postgres=# CREATE ROLE syslog WITH LOGIN;
+postgres=# \password syslog    # Using the \password function is secure because
+postgres=# \password logwriter # the password isn't saved in history.
+postgres=# CREATE DATABASE syslog OWNER syslog;
+postgres=# \q # You're done here for the moment
+</pre>
+<p>Edit <span style="color: darkgreen; font-weight: bold; font-family: monospace;">pg_hba.conf</span> to allow <em>syslog</em> and <em>logwriter</em> to establish a connection to PostgreSQL.</p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /var/lib/postgresql/8.4/data/pg_hba.conf</div>
+<pre xml:space="preserve"># TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD
+
+host    syslog      logwriter   192.168.0.1/24        md5
+host    syslog      syslog      192.168.0.10/32       md5
+</pre>
+</div>
+<p><br clear="none"/> Tell PostgreSQL to reload the configuration files:</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">/etc/init.d/postgresql-8.4 reload</div>
+<p><br clear="none"/> Edit <span style="color: darkgreen; font-weight: bold; font-family: monospace;">/etc/syslog-ng/syslog-ng.conf</span> so that it knows where and how to write to PostgreSQL. Syslog-ng will utilize the <em>logwriter</em> role.</p>
+<p><br clear="none"/> <strong>There is a problem with the PID fields down  here, and needs to be  fixed, but the idea still works once you have  the libdbi/libdbi-drivers  working</strong></p>
+<div style="border: 1px solid #ffbfbf; padding: 0.2em 0.3em; margin: 0.2em; background-color: #fff2f2;">
+<div style="background-color: #ffc1c1; padding: 0.2em; margin: 0.2em; border: 1px solid #ff7070; font-size: 92%;"><strong>File:</strong> /etc/syslog-ng/syslog-ng.conf</div>
+<pre xml:space="preserve">...
+#
+# SQL logging support
+#
+
+destination d_pgsql {
+  sql(type(pgsql)
+  host(&quot;127.0.0.1&quot;) username(&quot;logwriter&quot;) password(&quot;password&quot;) port(&quot;5432&quot;)
+  database(&quot;syslog&quot;)
+  table(&quot;logs_${HOST}_${R_YEAR}${R_MONTH}${R_DAY}&quot;) #or whatever you want, example ${HOST}&quot; for hosts, ${LEVEL}&quot; for levels.. etc
+  columns(&quot;datetime varchar(16)&quot;, &quot;host varchar(32)&quot;, &quot;program varchar(8)&quot;, &quot;message varchar(200)&quot;)
+  values(&quot;$R_DATE&quot;, &quot;$HOST&quot;, &quot;$PROGRAM&quot;, &quot;$PID&quot;, &quot;$MSG&quot;)
+  indexes(&quot;datetime&quot;, &quot;host&quot;, &quot;program&quot;, &quot;pid&quot;, &quot;message&quot;));
+};
+
+
+log { source(src); destination(d_pgsql); };
+</pre>
+</div>
+<p><br clear="none"/> Finally, restart Syslog-ng.</p>
+<div style="background-color: #ffe0e0; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">/etc/init.d/syslog-ng restart</div>
+<p><br clear="none"/> And check to see if things are being logged.</p>
+<div style="background-color: #ddffdd; color: #000000; padding: 0.05em 0.5em; margin: 0.5em; font-size: 92%; white-space: pre; font-family: monospace; width: 55%;">psql -U logwriter -d syslog</div>
+<pre xml:space="preserve">syslog=&gt; SELECT * FROM &lt;your table name&gt; ORDER BY datetime DESC LIMIT 10;
+</pre>
+<h2><span>External Links </span></h2>
+<ul><li> <a shape="rect" rel="nofollow" href="http://freshmeat.net/projects/syslog-ng/" target="_blank">Syslog-ng Project Page on Freshmeat</a> </li><li> <a shape="rect" rel="nofollow" href="http://www.balabit.com/support/documentation/" target="_blank">Portal to Syslog-ng Documentation</a> </li><li> <a shape="rect" rel="nofollow" href="http://www.gentoo.org/doc/en/security/security-handbook.xml?part=1&amp;chap=3" target="_blank">Gentoo's Security Handbook on Logging</a> </li><li> <a shape="rect" rel="nofollow" href="http://www.kdough.net/docs/syslog_postgresql/" target="_blank">Syslog Logging with PostgreSQL HOWTO</a> </li></ul>
+</div>
+<div><br clear="none"/></div>
+<div><br clear="none"/></div>
+<h3>4.挂载分区</h3>
+<p><span>4.a. </span>挂载分区</p>
+<p>在挂载一个<span dir="ltr">ext2</span>，<span dir="ltr">ext3</span>或者<span dir="ltr">reiserfs</span>格式的分区的时候，你有几个能够加入到<span dir="ltr">/etc/fstab</span>里面的选项。这些选项是：</p>
+<ul><li> <span dir="ltr">nosuid</span> - 忽略SUID bit，并且使它像一个正常文件一样 </li><li> <span dir="ltr">noexec</span> - 阻止来自这个分区的文件的执行 </li><li> <span dir="ltr">nodev</span> - 忽略设备 </li></ul>
+<p>很不幸的是，这些选项可以很容易地通过一个间接的途径而被绕过。然而，把<span dir="ltr">/tmp</span>设置成noexec模式能阻止大多数需要直接从/tmp里执行的漏洞攻击程序的攻击。</p>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: /etc/fstab</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">/dev/sda1 /boot ext2 noauto,noatime 1 1
+/dev/sda2 none swap sw 0 0
+/dev/sda3 / reiserfs notail,noatime 0 0
+/dev/sda4 /tmp reiserfs notail,noatime,nodev,nosuid,noexec 0 0
+/dev/sda5 /var reiserfs notail,noatime,nodev 0 0
+/dev/sda6 /home reiserfs notail,noatime,nodev,nosuid 0 0
+/dev/sda7 /usr reiserfs notail,noatime,nodev,ro 0 0
+/dev/cdroms/cdrom0 /mnt/cdrom iso9660 noauto,ro 0 0
+proc /proc proc defaults 0 0
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 把<span dir="ltr">/tmp</span>设置成<span dir="ltr">noexec</span>模式可以阻止某些脚本的正确运行。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 更多有关磁盘限额的信息请查看<a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#quotas" target="_blank">磁盘限额</a>。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 即使来自<span dir="ltr">/var</span>的文件通常是永远不会被执行,我也没有给它加上<span dir="ltr">noexec</span>或者<span dir="ltr">nosuid</span>选项，这是因为我安装了netqmail，它被安装在<span dir="ltr">/var/qmail</span>，并且它必须被允许执行和处理一个SUID文件。 除非我要升级Gentoo，否则我把<span dir="ltr">/usr</span>设置成只读模式，这是因为我除了升级以外从来不写任何东西到那里面去。在我要升级Gentoo的时候，我会重新用读写模式挂载文件系统，接着升级，最后再次使用只读模式挂载它。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 即使你不用netqmail，Gentoo仍然需要你给<span dir="ltr">/var/tmp</span>设置可运行选项，因为ebuild是在这里生成的。但是如果你坚持把<span dir="ltr">/var</span>挂载成<span dir="ltr">noexec</span>模式，还有一个可替代的路径设置。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<h3>5. User/Group的权限</h3>
+<p><span>5.a. </span>/etc/security/limits.conf</p>
+<p>对资源的使用进行控制可以非常有效的避免本地的拒绝服务（DoS），或者限制登入系统的组或用户的最大数。不过，太严格的设置会妨碍系统运转，还会造成程序运行失败，因此你首先需要搞清楚每个设置的含义。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: /etc/security/limits.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">*    soft core 0
+*    hard core 0
+*    hard nproc 15
+*    hard rss 10000
+*    -    maxlogins 2
+@dev hard core 100000
+@dev soft nproc 20
+@dev hard nproc 35
+@dev -    maxlogins 10
+</pre>
+</td></tr></table>
+<p>如果你打算把<span dir="ltr">nproc</span>或者<span dir="ltr">maxlogins</span>设置为0,那还不如直接删掉这些用户。上面的例子为<span dir="ltr">dev</span>组设置了进程数，core文件大小以及<span dir="ltr">maxlogins</span>最大登入数。其他的都为默认设置。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> <span dir="ltr">/etc/security/limits.conf</span>是PAM包的一部分，并且只对使用PAM的包有效。</p>
+</td></tr></table>
+<p><span>5.b. </span>/etc/limits</p>
+<p><span dir="ltr"> </span><span dir="ltr">/etc/limits</span>和限制文件<span dir="ltr">/etc/security/limits.conf</span>非常相似。唯一不同的是格式，并且只对用户或者通配符（不是组）有效。让我们来看一个范例：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: /etc/limits</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">*   L2 C0 U15 R10000
+kn L10 C100000 U35
+</pre>
+</td></tr></table>
+<p>这里我们先设置了默认值，再对用户kn进行单独设置。Limits是sys-apps/shadow包的一部分。如果你在<span dir="ltr">/etc/make.conf</span>里启用了<span dir="ltr">pam</span>的话，就没必要在这个文件里设任何限制了。</p>
+<p><span>5.c. </span>Quotas</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffffbb">
+<p><strong>重要: </strong>确定你当前使用的文件系统支持限额。用户工具可以从<a shape="rect" href="http://www.sf.net/projects/linuxquota/" target="_blank">Linux磁盘限额项目</a>处取得。</p>
+</td></tr></table>
+<p>启用磁盘限额，针对用户或者组进行磁盘使用量的限制。限额功能需要在内核中被启用，并且添加到<span dir="ltr">/etc/fstab</span>的挂载点中。启用磁盘限额，针对用户或者组进行磁盘使用量的限制。限额功能需要在内核中被启用，并且添加到<span dir="ltr">/etc/fstab</span>的挂载点中。</p>
+<p>让我们用<span dir="ltr">emerge quota</span>来开始安装限额工具吧。然后修改你的<span dir="ltr">/etc/fstab</span>并添加<span dir="ltr">usrquota</span>和<span dir="ltr">grpquota</span>到你想要限制磁盘使用的分区，就像下面这样：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.1: /etc/fstab</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">/dev/sda1 /boot ext2 noauto,noatime 1 1
+/dev/sda2 none swap sw 0 0
+/dev/sda3 / reiserfs notail,noatime 0 0
+/dev/sda4 /tmp ext3 noatime,nodev,nosuid,noexec,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv=1 0 0
+/dev/sda5 /var ext3 noatime,nodev,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv1 0 0
+/dev/sda6 /home ext3 noatime,nodev,nosuid,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv1 0 0
+/dev/sda7 /usr reiserfs notail,noatime,nodev,ro 0 0
+/dev/cdroms/cdrom0 /mnt/cdrom iso9660 noauto,ro 0 0
+proc /proc proc defaults 0 0
+</pre>
+</td></tr></table>
+<p>在你启用限额的每个分区上创建限额文件（<span dir="ltr">aquota.user</span>和<span dir="ltr">aquota.group</span>）并放置在分区的根目录中。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.2: Creating the quota files</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>touch /tmp/aquota.user</span>
+# <span>touch /tmp/aquota.group</span>
+# <span>chmod 600 /tmp/aquota.user</span>
+# <span>chmod 600 /tmp/aquota.group</span>
+</pre>
+</td></tr></table>
+<p>这一步必须在每一个启用了限额的分区上做好。在添加和配置完限额文件后，我们需要把<span dir="ltr">quota</span>脚本添加到boot运行级别。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffffbb">
+<p><strong>重要: </strong> XFS会在内部进行限额检查，而且<span>不</span>需要<span dir="ltr">quota</span>脚本被添加到boot运行级别。可能还有其他也有类似行为的文件系统没有在这篇文档中提及，因此请阅读你所使用的文件系统的手册来了解它是如何处理限额检查的。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.3: Adding quota to the boot runlevel</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>rc-update add quota boot</span>
+</pre>
+</td></tr></table>
+<p>现在我们可以在<span dir="ltr">/etc/crontab</span>中添加一行来让系统每周检查一次限额的情况：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.4: Adding quota check to crontab</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">0 3 * * 0 /usr/sbin/quotacheck -avug.
+</pre>
+</td></tr></table>
+<p>在重新启动电脑以后，该对用户和组设置限额了。<span dir="ltr">edquota -u kn</span>将会打开$EDITOR中定义的编辑器（默认是nano）并让你对用户kn设置限额。<span dir="ltr">edquota -g</span>将对组做同样的事。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.5: Setting up quota's for user kn</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">Quotas for user kn:
+/dev/sda4: blocks in use: 2594, limits (soft = 5000, hard = 6500)
+         inodes in use: 356, limits (soft = 1000, hard = 1500)
+</pre>
+</td></tr></table>
+<p>想知道更多详细用法请<span dir="ltr">man edquota</span>或者阅读<a shape="rect" href="http://www.tldp.org/HOWTO/Quota.html" target="_blank">Quota mini howto</a>。</p>
+<p><span>5.d. </span>/etc/login.defs</p>
+<p>如果你的安全策略要求用户每隔一周必须修改他们的密码，把<span dir="ltr">PASS_MAX_DAYS</span>的值改为14,<span dir="ltr">PASS_WARN_AGE</span>改为7。建议你使用口令老化，因为用暴力的办法可以破解任何密码，只要时间足够。我们同样鼓励你把<span dir="ltr">LOG_OK_LOGINS</span>设置为yes。</p>
+<p><span>5.e. </span>/etc/security/access.conf</p>
+<p><span dir="ltr">access.conf</span> 文件也是 <span dir="ltr">sys-libs/pam</span> 包的一部分，他提供登录访问控制表。这张表用来基于用户名，组名或者主机名来控制谁能登录，谁不能登录。默认的情况下，所有系统中的用户都允许登录，因此 这个文件里只有注释和范例。倘若你想让你的服务器或工作站更安全，我们建议你设置这个文件，这样除了你自己（管理员）没人能进入控制台。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 这些设置对root有效。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.1: /etc/security/access.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">-:ALL EXCEPT wheel sync:console
+-:wheel:ALL EXCEPT LOCAL .gentoo.org
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffffbb">
+<p><strong>重要: </strong> 在配置这些选项的时候请千万小心，因为如果你没有root权限的话，有些错误会让你再也无法访问到电脑了。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 这些设置对SSH无效，因为在默认情况下，SSH并不执行<span dir="ltr">/bin/login</span>。不过可以在<span dir="ltr">/etc/ssh/sshd_config</span>中设置<span dir="ltr">UseLogin yes</span>来启用它。</p>
+</td></tr></table>
+<p>这个设置可以让wheel组的成员从本地登录或者从gentoo.org这个域登录。这可能有些变态，不过安全一点总比出了问题好。</p>
+<h3>6.文件权限</h3>
+<p><span>6.a. </span>所有人可读</p>
+<p>普通用户应该没有权限访问配置文件或密码。攻击者可以从数据库或网站窃取密码用来更改数据，情况可能更糟，他们甚至会删除所有数据。因此你的文件权限正确与否至关重要。如果你确定某个文件只有root会用到，那么赋予他<span dir="ltr">0600</span>权限并使用<span dir="ltr">chown</span>更改到正确的属主。</p>
+<p><span>6.b. </span>所有人或组可写</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: Finding world-writable files and directories</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>find / -type f \( -perm -2 -o -perm -20 \) -exec ls -lg {} \; 2&gt;/dev/null &gt;writable.txt</span>
+# <span>find / -type d \( -perm -2 -o -perm -20 \) -exec ls -ldg {} \; 2&gt;/dev/null &gt;&gt;writable.txt</span>
+</pre>
+</td></tr></table>
+<p>这将创建一个巨大的文件，其内容是对所有人或组具有写权限的文件列表。检查这些文件的权限并对所有人可写的文件执行<span dir="ltr">/bin/chmod o-w</span>。</p>
+<p><span>6.c. </span>SUID/SGID files</p>
+<p>SUID或SGID位被设置的文件将以<span>所有</span>者或组的权限执行而不是执行者的权限。通常这些位被用在必须以root身份运行的文件上。这些文件可以导致本地用户获得root权限（如果他们有安全漏洞的话）。这很危险，无论如何必须避免这些文件SUID或SGID位被设置。如果你用不到这些文件，对他们运行<span dir="ltr">chmod  0</span>或者卸载含有这些文件的包（使用<span dir="ltr">equery</span>来检查他们属于哪个包；如果你没有这个命令，那么直接输入<span dir="ltr">emerge  gentoolkit</span>来安装它）。否则使用<span dir="ltr">chmod -s</span>关闭SUID位。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.1: Finding setuid files</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>find / -type f \( -perm -004000 -o -perm -002000 \) -exec ls -lg {} \; 2&gt;/dev/null &gt;suidfiles.txt</span>
+</pre>
+</td></tr></table>
+<p>这将创建一个包含所有SUID或SGID文件列表的文件。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.2: List of setuid binaries</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">/bin/su
+/bin/ping
+/bin/mount
+/bin/umount
+/var/qmail/bin/qmail-queue
+/usr/bin/chfn
+/usr/bin/chsh
+/usr/bin/crontab
+/usr/bin/chage
+/usr/bin/expiry
+/usr/bin/sperl5.6.1
+/usr/bin/newgrp
+/usr/bin/passwd
+/usr/bin/gpasswd
+/usr/bin/procmail
+/usr/bin/suidperl
+/usr/lib/misc/pt_chown
+/usr/sbin/unix_chkpwd
+/usr/sbin/traceroute
+/usr/sbin/pwdb_chkpwd
+</pre>
+</td></tr></table>
+<p>默认情况下Gentoo  Linux没有多少SUID文件（然而这依赖你安装了什么），但是你可能也会有像上面一样列表。大多数命令不应该被普通用户使用，而仅仅只被root使用。用<span dir="ltr">chmod  -s</span>关闭<span dir="ltr">ping</span>、<span dir="ltr">mount</span>、<span dir="ltr">umount</span>、<span dir="ltr">chfn</span>、<span dir="ltr">chsh</span>、<span dir="ltr">newgrp</span>、<span dir="ltr">suidperl</span>、<span dir="ltr">pt_chown</span>以及<span dir="ltr">traceroute</span>的SUID位。不要去除<span dir="ltr">su</span>、<span dir="ltr">qmail-queue</span>或者<span dir="ltr">unix_chkpwd</span>的SUID位。去除他们将使你不能执行<span dir="ltr">su</span>，接受邮件。通过清除SUID位（可以安全清除的时候），你也杜绝了一个普通用户（或者攻击者）使用这些文件取得root权限的可能性。</p>
+<p>在我系统中仅有的几个SUID文件是<span dir="ltr">su</span>、<span dir="ltr">passwd</span>、<span dir="ltr">gpasswd</span>、<span dir="ltr">qmail-queue</span>、<span dir="ltr">unix_chkpwd</span>和<span dir="ltr">pwdb_chkpwd</span>。如果运行X的话，你可能还有更多，因为X需要通过SUID提高权限。</p>
+<p><span>6.d. </span>SUID/SGID 可执行文件和 Hard links</p>
+<p>当一个文件没有任何链接指向他的时候，才能被删除。这貌似有点奇怪，但是考虑一下，一个文件名类似<span dir="ltr">/usr/bin/perl</span>它实际上链接到存放数据的inode上。文件可以被任意数目的链接指向，在所有的链接被删除以前，该文件始终存在。</p>
+<p>如果你的用户能够访问没有以<span dir="ltr">nosuid</span>或<span dir="ltr">noexec</span>参数挂载的分区（例如<span dir="ltr">/tmp</span>、<span dir="ltr">/home</span>、或<span dir="ltr">/var/tmp</span>不是单独的分区）你需要注意确保用户不会创建到SUID或SGID可执行文件的硬链接，不然在Portage更新以后他们还有访问旧版本的权限。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 如果你收到portage发出关于残留硬链接的警告，并且你的用户可以读写允许执行SUID/SGID文件的分区，你必须仔细的阅读这一节。你的某个用户  可能打算保留程序的旧版本来试图规避你的更新动作。如果用户无法创建他们自己的SUID文件，或者只能用动态装载来执行程序（使用<span dir="ltr">noexec</span>挂载的分区），你就不用担心了。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 用户不需要拥有文件的读权限即可对它建立一个链接，只需要有该文件所在目录的读权限就可以了。</p>
+</td></tr></table>
+<p>为了检查一个文件拥有多少个链接，可以使用<span dir="ltr">stat</span>命令。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 4.1: Stat command</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">$ stat /bin/su
+  File: `/bin/su'
+  Size: 29350           Blocks: 64         IO Block: 131072 regular file
+Device: 900h/2304d      Inode: 2057419     Links: 1
+Access: (4711/-rws--x--x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2005-02-07 01:59:35.000000000 +0000
+Modify: 2004-11-04 01:46:17.000000000 +0000
+Change: 2004-11-04 01:46:17.000000000 +0000
+</pre>
+</td></tr></table>
+<p>查找有多个链接的SUID和SGID文件，你可以使用<span dir="ltr">find</span>。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 4.2: Finding multiply linked suid/sgid binaries</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">$ find / -type f \( -perm -004000 -o -perm -002000 \) -links +1 -ls
+</pre>
+</td></tr></table>
+<h3>7. PAM</h3>
+<p><span>7.a. </span>PAM</p>
+<p>PAM是可以为程序中用户认证提供备选方案的一组共享库。<span dir="ltr">pam</span> USE标记默认是被打开的。因此Gentoo Linux的PAM设置是非常合理的，不过还是有改进的余地。首先安装cracklib。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: Installing cracklib</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>emerge cracklib</span>
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: /etc/pam.d/passwd</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">auth     required pam_unix.so shadow nullok
+account  required pam_unix.so
+password required pam_cracklib.so difok=3 retry=3 minlen=8 dcredit=-2 ocredit=-2
+password required pam_unix.so md5 use_authtok
+session  required pam_unix.so
+</pre>
+</td></tr></table>
+<p>这将添加cracklib来确保用户的密码至少是8个字符并且包含2个数字、2个其他字符，还要和上次的密码至少有3个字符不一样。这会强制用户选择好的密码（密码策略）。想知道更多的选项，请看<a shape="rect" href="http://www.kernel.org/pub/linux/libs/pam/Linux-PAM-html/sag-pam_cracklib.html" target="_blank">PAM</a>文档。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.3: /etc/pam.d/sshd</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">auth     required pam_unix.so nullok
+auth     required pam_shells.so
+auth     required pam_nologin.so
+auth     required pam_env.so
+account  required pam_unix.so
+password required pam_cracklib.so difok=3 retry=3 minlen=8 dcredit=-2 ocredit=-2 use_authtok
+password required pam_unix.so shadow md5
+session  required pam_unix.so
+session  required pam_limits.so
+</pre>
+</td></tr></table>
+<p>每一个在<span dir="ltr">/etc/pam.d</span>中没有配置文件的服务将使用<span dir="ltr">/etc/pam.d/other</span>里的规则。默认设置是<span dir="ltr">deny</span>，他们本该如此。但我希望有一些日志记录，因此我添加了<span dir="ltr">pam_warn.so</span>。最后一个设置是<span dir="ltr">pam_limits</span>，由<span dir="ltr">/etc/security/limits.conf</span>文件来控制。查看<a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#limits_conf" target="_blank">/etc/security/limits.conf</a>以获得更多相关设置。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.4: /etc/pam.d/other</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">auth     required pam_deny.so
+auth     required pam_warn.so
+account  required pam_deny.so
+account  required pam_warn.so
+password required pam_deny.so
+password required pam_warn.so
+session  required pam_deny.so
+session  required pam_warn.so
+</pre>
+</td></tr></table>
+<h3>8. TCP Wrappers（TCP封装）</h3>
+<p><span>8.a. </span>TCP Wrappers</p>
+<p>这是控制某些服务的访问权限的一种方法，通常这些服务由inetd运行（Gentoo里没有这个），不过也可以用在xinetd和其他一些服务上。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 这类服务需要在它的服务参数（在xinetd中）里执行tcpd。更多信息请参考xinetd的章节。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: /etc/hosts.deny</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">ALL:PARANOID
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: /etc/hosts.allow</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">ALL: LOCAL @wheel
+time: LOCAL, .gentoo.org
+</pre>
+</td></tr></table>
+<p>正如你所看到的，格式和 <span dir="ltr">/etc/security/access.conf</span>非常类似。tcpd支持设置指定的服务；它不会和 <span dir="ltr">/etc/security/access.conf</span> 中的设置存在重复的问题，因为这些设置仅仅对使用tcp wrappers的服务有效。</p>
+<p>它还能够在服务被访问到的时候执行命令（可以用在当拨号用户被接入的时候）但是我们不推荐这么做，因为我们常常庸人自扰。比如，你配置了一个脚本当 有人触 发了拒绝规则（deny   rule）的时候发一封邮件，但是接着有个攻击者启动了DoS攻击会持续触发拒绝规则。这将引发大量I/O操作和邮件，所以千万别这么做！更多信息请阅读  手册<span dir="ltr">man 5 hosts_access</span>。</p>
+<h3>9. Kernel安全</h3>
+<p><span>9.a. </span>去除功能</p>
+<p>配置内核的基本原则是去除所有你不需要的东西。这不仅生成了一个小内核，还去掉了可能存在于驱动和其他特性中的隐患。</p>
+<p>也可以考虑关闭模块支持。尽管这样还是有可能被植入rootkit，不过可以让一般的攻击者难以通过内核模块来安装rootkit。</p>
+<p><span>9.b. </span>proc文件系统</p>
+<p>很多内核参数可以通过<span dir="ltr">/proc</span>文件系统或者使用<span dir="ltr">sysctl</span>来修改。</p>
+<p>在运行时动态的改变内核参数和变量，你需要在内核中定义<span dir="ltr">CONFIG_SYSCTL</span>。这在标准的2.4内核中是默认开启的。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: Deactivate IP forwarding</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;0&quot; &gt; /proc/sys/net/ipv4/ip_forward</span>
+</pre>
+</td></tr></table>
+<p>确定IP转发已被关闭。我们仅在需要共享上网的主机上开启它。考虑在设置其他所有标志以前决定开启或关闭本标志，因为它也会启用或禁止其他标志。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.2: Drop ping packets</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;1&quot; &gt; /proc/sys/net/ipv4/icmp_echo_ignore_all</span>
+</pre>
+</td></tr></table>
+<p>这会使内核简单的忽略所有ping消息（也就是常说的ICMP类型为0的消息）。这么做的理由是载有ICMP消息的IP包可以包含一些你意想不到的 信息。  管理员使用ping作为诊断工具，而且常常抱怨如果ping响应被关闭的话，不过没有任何理由允许来自外部的ping。尽管如此，有些时候在内部可以  ping将会非常方便，因此你可以在防火墙里禁止ICMP类型为0的消息（而允许本地管理员可以继续使用ping）。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.3: Ignore broadcast pings</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;1&quot; &gt; /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts</span>
+</pre>
+</td></tr></table>
+<p>关闭对ICMP的广播响应可以防止Smurf攻击。Smurf攻击通过对一个网络的广播地址发送ICMP类型0（ping）消息而起作用。典型的攻击者会使用一个欺骗的伪造源地址。网络上的所有计算机都将响应该ping消息，从而导致被伪造的源地址主机遭受洪水攻击。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.4: Disable source routed packets</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;0&quot; &gt; /proc/sys/net/ipv4/conf/all/accept_source_route</span>
+</pre>
+</td></tr></table>
+<p>不要允许源地址路由的包。攻击者可以使用源地址路由产生自称来自你的内部网络的流量，但是实际上却是路由到它来的地方，所以攻击者可以危害到你的网络。源地址路由极少用于合法的目的，所以可以安全的禁用它。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.5: Disable redirect acceptance</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;0&quot; &gt; /proc/sys/net/ipv4/conf/all/accept_redirects</span>
+</pre>
+</td></tr></table>
+<p>不要接受ICMP重定向包。ICMP重定向可以用来更改你的路由表，很可能会指向一个恶意地址。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.6: Protect against bad error messages</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;1&quot; &gt; /proc/sys/net/ipv4/icmp_ignore_bogus_error_responses</span>
+</pre>
+</td></tr></table>
+<p>启用对伪造错误信息的防御。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.7: Enable reverse path filtering</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>for i in /proc/sys/net/ipv4/conf/*; do
+        /bin/echo &quot;1&quot; &gt; $i/rp_filter
+done</span>
+</pre>
+</td></tr></table>
+<p>开启反向路径过滤。通过自动抛弃入站数据的源地址和达到的接口网络不匹配的包，从而确定数据包使用的是合法的源地址。这对安全有好处，因为它阻止了IP地址欺骗。我们要为每个<span dir="ltr">net/ipv4/conf/*</span>启用它，不然源地址确认就不能完全起作用。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 可是如果你使用非对称路由（数据包从你到达主机的路径和从主机到你的路径不一致）或者运行一个在不同接口上拥有很多IP地址的非路由主机，那么启用反向路径过滤可能会造成问题，</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.8: Log all spoofed, source routed and redirect packets</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/bin/echo &quot;1&quot; &gt; /proc/sys/net/ipv4/conf/all/log_martians</span>
+</pre>
+</td></tr></table>
+<p>记录欺伪包、源地址路由包和重定向包</p>
+<p>所有这些设置将会在重启后失效。我建议你将他们添加到<span dir="ltr">/etc/sysctl.conf</span>，它会被<span dir="ltr">/etc/init.d/bootmisc</span>初始化脚本自动包含。</p>
+<p><span dir="ltr">/etc/sysctl.conf</span>的语法非常简单。从上面提到的路径中去掉<span dir="ltr">/proc/sys/</span>，然后把<span dir="ltr">/</span>替换成<span dir="ltr">.</span> ：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.9: Translating to sysctl.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span>(Manual using echo):</span>
+/bin/echo &quot;0&quot; &gt; /proc/sys/net/ipv4/ip_forward
+
+<span>(Automatic in sysctl.conf:)</span>
+net.ipv4.ip_forward = 0
+</pre>
+</td></tr></table>
+<p><span>9.c. </span>Grsecurity</p>
+<p>来自<a shape="rect" href="http://grsecurity.net/" target="_blank">Grsecurity</a>的补丁被标准包含在<span dir="ltr">sys-kernel/hardened-sources</span>中，不过默认被禁用。像你平常那样配置好内核，然后再配置Grsecurity选项。对Grsecurity选项更深入的解释在<a shape="rect" href="http://gentoo.druggo.org/proj/en/hardened" target="_blank">Gentoo Hardened</a>项目主页上。</p>
+<p>目前<span dir="ltr">hardened-sources</span>提供Grsecurity的2.*版本。想要了解关于这个改进版的Grsecurity补丁集，请查阅<a shape="rect" href="http://www.grsecurity.net/" target="_blank">Grsecurity home page</a>上的文档。</p>
+<p><span>9.d. </span>Kerneli</p>
+<p><a shape="rect" href="http://www.kerneli.org/" target="_blank">Kerneli</a>是个为当前内核添加加密支持的补丁。对你的内核打补丁后，你将会看到诸如加密密码、摘要算法以及加密回环过滤器等新选项。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> kerneli补丁目前对最新的内核还没有稳定版本，所以请小心使用。</p>
+</td></tr></table>
+<p><span>9.e. </span>Other kernel patches</p>
+<ul><li><a shape="rect" href="http://www.openwall.com/" target="_blank">The OpenWall Project</a></li><li><a shape="rect" href="http://www.lids.org/" target="_blank">Linux Intrusion Detection System</a></li><li><a shape="rect" href="http://www.rsbac.org/" target="_blank">Rule Set Based Access Control</a></li><li> <a shape="rect" href="http://www.nsa.gov/selinux" target="_blank">NSA's security enhanced kernel</a> </li><li><a shape="rect" href="http://sourceforge.net/projects/wolk/" target="_blank">Wolk</a></li></ul>
+<p>可能还有更多。</p>
+<h3>10. 提高服务的安全性</h3>
+<p><span>10.a. </span>Apache</p>
+<p>Apache拥有不错的配置文件，不过我们还可以改进一些东西，比如把Apache绑定到一个地址以及防止它泄漏一些信息。下面的选项你应该写到配置文件里。</p>
+<p>如果你在安装Apache之前没有在<span dir="ltr">/etc/make.conf</span>里禁用<span dir="ltr">ssl</span>，你就可以访问到一台启用了ssl的服务器。在<span dir="ltr">/etc/apache2/vhosts.d</span>里你可以找到一些配置范例。这些都是有效的例子，最好先确认下或者禁用他们。</p>
+<p>在配置文件中指定监听一个特定的IP地址（而不是你系统中所有的IP地址）是非常重要的。举个例子，对文件<span dir="ltr">00_default_vhost.conf</span>：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: /etc/apache2/vhosts.d/00_default_vhost.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span># Make it listen on your ip</span>
+Listen 127.0.0.1
+</pre>
+</td></tr></table>
+<p>我们还建议你禁止Apache对外显示一些信息。默认配置下，将会把服务器的版本和虚拟主机名添加到服务器产生的页面里。把<span dir="ltr">ServerSignature</span>设置为<span dir="ltr">Off</span>可以禁用这个功能：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: /etc/apache2/modules.d/00_default_settings.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">ServerSignature Off
+</pre>
+</td></tr></table>
+<p>Apache是以<span dir="ltr">--enable-shared=max</span>和<span dir="ltr">--enable-module=all</span>编译的。这会默认启用所有模块，所以你要在主配置文件<span dir="ltr">/etc/apache2/httpd.conf</span>的<span dir="ltr">LoadModule</span>小节（<span dir="ltr">LoadModule</span>和<span dir="ltr">AddModule</span>）里注释掉你不需要的模块。然后执行<span dir="ltr">/etc/init.d/apache2 restart</span>重启服务。</p>
+<p>相关文档在<a shape="rect" href="http://www.apache.org/" target="_blank">http://www.apache.org</a>。</p>
+<p><span>10.b. </span>Bind</p>
+<p>可以在<a shape="rect" href="http://www.isc.org/products/BIND/bind9.html" target="_blank">Internet Software Consortium</a>找到文档。<span dir="ltr">doc/arm</span>里也有BIND 9的管理员参考手册。</p>
+<p>新的BIND ebuild装好就支持chroot。在emerge完<span dir="ltr">bind</span>后按照这些简单指令做：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: Chrooting BIND</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>emerge --config bind</span>
+<span>(Before running the above command you might want to change the chroot
+directory in /etc/conf.d/named. Otherwise /chroot/dns will be used.)</span>
+
+</pre>
+</td></tr></table>
+<p><span>10.c. </span>Djbdns</p>
+<p>Djbdns是一个在安全性上有改进的DNS工具，为此作者愿意用<a shape="rect" href="http://cr.yp.to/djbdns/guarantee.html" target="_blank">钱</a>来打赌。它和BIND 9的工作方式有很大不同，值得一试。更多信息可以从<a shape="rect" href="http://www.djbdns.org/" target="_blank">http://www.djbdns.org</a>获得。</p>
+<p><span>10.d. </span>FTP</p>
+<p>通常使用FTP（File Transfer Protocol   文件传输协议）不是个好主意。它使用未加密的数据（例如，密码以明文方式发送），监听2个端口（一般是20和21端口），攻击者会频繁的寻找可以匿名登录  的站点用来交易破解软件。因为FTP协议有很多安全问题，你最好用<span dir="ltr">sftp</span>或HTTP来代替它。如果现在不能替换，那么尽你所能增强服务的安全性并做好准备吧。</p>
+<p><span>10.e. </span>Mysql</p>
+<p>如果你仅需要本地程序访问<span dir="ltr">mysql</span>数据库，在<span dir="ltr">/etc/mysql/my.cnf</span>里取消下面这行的注释。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.1: Disable network access</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">skip-networking
+</pre>
+</td></tr></table>
+<p>然后我们禁用LOAD DATA LOCAL INFILE命令。可以阻止未授权用户读取本地文件。这在PHP应用程序中新的SQL注入漏洞被发现时有用。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.2: Disable LOAD DATA LOCAL INFILE in the [mysqld] section</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">set-variable=local-infile=0
+</pre>
+</td></tr></table>
+<p>接下来，我们删除范例数据库（test）以及除本地<span dir="ltr">root</span>账号以外的所有账号。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.3: Removing sample database and all unnecessary users</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">mysql&gt; <span>drop database test;</span>
+mysql&gt; <span>use mysql;</span>
+mysql&gt; <span>delete from db;</span>
+mysql&gt; <span>delete from user where not (host=&quot;localhost&quot; and user=&quot;root&quot;);</span>
+mysql&gt; <span>flush privileges;</span>
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 如果你已经配置过用户账号，做上面步骤的时候要小心。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 如果你用MySQL命令行修改过密码，记得要清空<span dir="ltr">~/.mysql_history</span>和<span dir="ltr">/var/log/mysql/mysql.log</span>，因为他们会保存执行过的命令和明文的密码。</p>
+</td></tr></table>
+<p><span>10.f. </span>Proftpd</p>
+<p>Proftpd曾有过一些安全问题，不过大部分现在都已经修复了。但是加强一下仍然是个好主意：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.1: /etc/proftpd/proftpd.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">ServerName &quot;My ftp daemon&quot;
+#Don't show the ident of the server
+ServerIdent on &quot;Go away&quot;
+
+#Makes it easier to create virtual users
+RequireValidShell off
+
+#Use alternative password and group file (passwd uses crypt format)
+AuthUserFile &quot;/etc/proftpd/passwd&quot;
+AuthGroupFile &quot;/etc/proftpd/group&quot;
+
+# Permissions
+Umask 077
+
+# Timeouts and limitations
+MaxInstances 30
+MaxClients 10 &quot;Only 10 connections allowed&quot;
+MaxClientsPerHost 1 &quot;You have already logged on once&quot;
+MaxClientsPerUser 1 &quot;You have already logged on once&quot;
+TimeoutStalled 10
+TimeoutNoTransfer 20
+TimeoutLogin 20
+
+#Chroot everyone
+DefaultRoot ~
+
+#don't run as root
+User  nobody
+Group nogroup
+
+#Log every transfer
+TransferLog /var/log/transferlog
+
+#Problems with globbing
+DenyFilter \*.*/
+</pre>
+</td></tr></table>
+<p>可以到<a shape="rect" href="http://www.proftpd.org/" target="_blank">http://www.proftpd.org</a>阅读文档。</p>
+<p><span>10.g. </span>Pure-ftpd</p>
+<p>Pure-ftpd是原来trollftpd的一个分支版本，由福兰克•丹尼斯在安全性和功能上进行了修改。</p>
+<p>启用<span dir="ltr">AUTH</span>选项来使用虚拟用户（永远不要使用系统账号）。把它设置为<span dir="ltr">-lpuredb:/etc/pureftpd.pdb</span>并使用<span dir="ltr">/usr/bin/pure-pw</span>来创建用户。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 7.1: /etc/conf.d/pure-ftpd</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">AUTH=&quot;-lpuredb:/etc/pureftpd.pdb&quot;
+
+## Misc. Others ##
+MISC_OTHER=&quot;-A -E -X -U 177:077 -d -4 -L100:5 -I 15&quot;
+</pre>
+</td></tr></table>
+<p>配置<span dir="ltr">MISC_OTHER</span>设置来拒绝匿名用户的登录（<span dir="ltr">-E</span>），防止用户读写以.（点）开头的文件（<span dir="ltr">-X</span>），最大空闲时间（<span dir="ltr">-I</span>），递归限制（<span dir="ltr">-L</span>）以及合理的<span dir="ltr">umask</span>。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> <span>不要</span>使用<span dir="ltr">-w</span>或者<span dir="ltr">-W</span>选项！如果你想做一个破解站，那就别再看这个指南了！</p>
+</td></tr></table>
+<p>文档在这里：<a shape="rect" href="http://www.pureftpd.org/" target="_blank">http://www.pureftpd.org</a>。</p>
+<p><span>10.h. </span>Vsftpd</p>
+<p>Vsftpd（very secure ftp的缩写）是个小型的ftp守护进程，默认的配置已经不错了。它很简单而且不像pureftp和proftp拥有很多特性。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 8.1: /etc/vsftpd</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">anonymous_enable=NO
+local_enable=YES
+
+#read only
+write_enable=NO
+
+#enable logging of transfers
+xferlog_std_format=YES
+
+idle_session_timeout=20
+data_connection_timeout=20
+nopriv_user=nobody
+
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd/chrootlist
+
+ls_recurse_enable=NO
+</pre>
+</td></tr></table>
+<p>如你所见，它不能单独设置权限，但是作为匿名站点这个设置已经很好了。有时候会需要一个匿名ftp服务器（用来共享开源软件），而vsftpd正好可以胜任。</p>
+<p><span>10.i. </span>Netqmail</p>
+<p>Netqmail常常被当做一个相当安全的邮件服务器。它在编写的时候就考虑了安全性（甚至达到了偏执的程度）。它在默认情况下就不允许中继（relay）而且从1996年至今都没有发现一个安全隐患。直接<span dir="ltr">emerge netqmail</span>然后开始配置吧！<span> </span></p>
+<p><span>10.j. </span>Samba</p>
+<p>Samba是一个能和Microsoft/Novell网络共享文件的协议，请<span>不要</span>在Internet上使用。尽管如此，它还是需要更安全的设置。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 10.1: /etc/samba/smb.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">[global]
+  #Bind to an interface
+  interfaces = eth0 10.0.0.1/32
+
+  #Make sure to use encrypted password
+  encrypt passwords = yes
+  directory security mask = 0700
+
+  #allow traffic from 10.0.0.*
+  hosts allow = 10.0.0.
+
+  #Enables user authentication
+  #(don't use the share mode)
+  security = user
+
+  #Disallow privileged accounts
+  invalid users = root @wheel
+
+  #Maximum size smb shows for a share (not a limit)
+  max disk size = 102400
+
+  #Uphold the password policy
+  min password length = 8
+  null passwords = no
+
+  #Use PAM (if added support)
+  obey pam restrictions = yes
+  pam password change = yes
+</pre>
+</td></tr></table>
+<p>确保每个共享都被设置了正确的权限，记得研读<a shape="rect" href="http://www.samba.org/" target="_blank">文档</a>。</p>
+<p>现在重启服务然后添加需要访问该服务的用户。这可以通过命令<span dir="ltr">/usr/bin/smbpasswd</span>和<span dir="ltr">-a</span>参数来完成。</p>
+<p><span>10.k. </span>ssh</p>
+<p>OpenSSH唯一需要加强的就是启用一个更坚固的基于公钥加密的认证。有很多站点（例如<a shape="rect" href="http://www.sourceforge.net/" target="_blank">http://www.sourceforge.net</a>、<a shape="rect" href="http://www.php.net/" target="_blank">http://www.php.net</a>和<a shape="rect" href="http://www.apache.org/" target="_blank">http://www.apache.org</a>）曾经遭到过非法入侵，就是因为密码被泄漏或者密码太简单。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 11.1: /etc/ssh/sshd_config</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#Only enable version 2
+Protocol 2
+
+#Disable root login. Users have to su to root
+PermitRootLogin no
+
+#Turn on Public key authentication
+PubkeyAuthentication yes
+AuthorizedKeysFile      .ssh/authorized_keys
+
+#Disable .rhost and normal password authentication
+HostbasedAuthentication no
+PasswordAuthentication no
+PermitEmptyPasswords no
+
+#Only allow userin the wheel or admin group to login
+AllowGroups wheel admin
+
+#In those groups only allow the following users
+#The @&lt;domainname&gt; is optional but replaces the
+#older AllowHosts directive
+AllowUsers kn@gentoo.org bs@gentoo.org
+
+#Logging
+SyslogFacility AUTH
+LogLevel INFO
+
+<span>(Change this to your address)</span>
+ListenAddress 127.0.0.1
+</pre>
+</td></tr></table>
+<p>另外请确认配置文件里没有使用<span dir="ltr">UsePAM yes</span>，因为它会无视公钥认证机制，或者禁用<span dir="ltr">PasswordAuthentication</span>和<span dir="ltr">ChallengeResponseAuthentication</span>中一个。关于这些选项的更多信息可以在<span dir="ltr">sshd_config</span>的手册中找到。</p>
+<p>现在用户所要做的就是按照下面的命令创建密钥（在他们想钥执行登陆命令的客户机上）。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 11.2: Create a DSA keypair</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>/usr/bin/ssh-keygen -t dsa</span>
+</pre>
+</td></tr></table>
+<p>然后输入密码短语。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 11.3: Output of ssh-keygen</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">Generating public/private dsa key pair.
+Enter file in which to save the key (/home/kn/.ssh/id_dsa):<span>[Press enter]</span>
+Created directory '/home/kn/.ssh'.
+Enter passphrase (empty for no passphrase): <span>[Enter passphrase]</span>
+Enter same passphrase again: <span>[Enter passphrase again]</span>
+Your identification has been saved in /home/kn/.ssh/id_dsa.
+Your public key has been saved in /home/kn/.ssh/id_dsa.pub.
+The key fingerprint is:
+07:24:a9:12:7f:83:7e:af:b8:1f:89:a3:48:29:e2:a4 kn@knielsen
+</pre>
+</td></tr></table>
+<p>这会在你的<span dir="ltr">~/.ssh/</span>目录中添加两个文件，分别是<span dir="ltr">id_dsa</span>和<span dir="ltr">id_dsa.pub</span>。叫做<span dir="ltr">id_dsa</span>的文件是你的私钥并且绝不能泄漏给除你之外的其他人。另一个文件<span dir="ltr">id_dsa.pub</span>就是分发到每个你要登陆的服务器的公钥。把这个公钥添加到用户家目录里的<span dir="ltr">~/.ssh/authorized_keys</span>中，然后用户就可以登陆了：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 11.4: Adding the id_dsa.pub file to the authorized_keys file</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">$ <span>scp id_dsa.pub other-host:/var/tmp/currenthostname.pub</span>
+$ <span>ssh other-host</span>
+password:
+$ <span>cat /var/tmp/currenthostname.pub &gt;&gt; ~/.ssh/authorized_keys</span>
+</pre>
+</td></tr></table>
+<p>现在你的用户必须保管好他们的私钥。把它放在他们随身携带的介质中或者保存在他们的工作站里（把这个放到<a shape="rect" href="http://gentoo.druggo.org/doc/zh_cn/security/security-handbook.xml?full=1#security_policies" target="_blank">密码</a>策略里）。</p>
+<p>更多信息请看<a shape="rect" href="http://www.openssh.org/" target="_blank">OpenSSH</a>的网站。</p>
+<p><span>10.l. </span>Using xinetd</p>
+<p>xinetd是<span dir="ltr">inetd</span>（Internet服务守护进程，Gentoo里没有它）的替代品。它支持基于远程主机的地址以及时间的访问控制。同时也提供大量的日志信息，包括服务启动时间、远程主机地址、远程用户名、服务运行时间以及请求动作。</p>
+<p>和其他服务一样，最重要的就是有个好的默认配置。但是因为<span dir="ltr">xinetd</span>是以root身份运行并且支持一些你可能不了解的协议，我们建议你不要使用它了。如果你非要用的话，可以教你一些增强安全性的办法：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 12.1: Install xinetd</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>emerge xinetd tcp-wrappers</span>
+</pre>
+</td></tr></table>
+<p>编辑配置文件：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 12.2: /etc/xinetd.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">defaults
+{
+ only_from = localhost
+ instances = 10
+ log_type = SYSLOG authpriv info
+ log_on_success = HOST PID
+ log_on_failure = HOST
+ cps = 25 30
+}
+
+# This will setup pserver (cvs) via xinetd with the following settings:
+# max 10 instances (10 connections at a time)
+# limit the pserver to tcp only
+# use the user cvs to run this service
+# bind the interfaces to only 1 ip
+# allow access from 10.0.0.*
+# limit the time developers can use cvs from 8am to 5pm
+# use tpcd wrappers (access control controlled in
+# <span>/etc/hosts.allow</span> and <span>/etc/hosts.deny</span>)
+# max_load on the machine set to 1.0
+# The disable flag is per default set to no but I like having
+# it in case of it should be disabled
+service cvspserver
+{
+ socket_type = stream
+ protocol = tcp
+ instances = 10
+ protocol = tcp
+ wait = no
+ user = cvs
+ bind = 10.0.0.2
+ only_from = 10.0.0.0
+ access_times = 8:00-17:00
+ server = /usr/sbin/tcpd
+ server_args = /usr/bin/cvs --allow-root=/mnt/cvsdisk/cvsroot pserver
+ max_load = 1.0
+ log_on_failure += RECORD
+ disable = no
+}
+</pre>
+</td></tr></table>
+<p>更多信息请看<span dir="ltr">man 5 xinetd.conf</span>。</p>
+<p><span>10.m. </span>X</p>
+<p>默认情况下Xorg被配置作为一个Xserver。这可能会很危险因为X使用不加密的TCP连接并且监听客户端的连接。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffffbb">
+<p><strong>重要: </strong> 如果你不需要这个服务请禁用它！</p>
+</td></tr></table>
+<p>如果你需要你的工作站作为Xserver，那么在使用<span dir="ltr">/usr/X11R6/bin/xhost</span>命令的时候要小心。这个命令允许来自其他主机上客户端的连接并使用你的显示器。在你需要一个运行在不同机器上的X程序而且只能通过网络的时候，这会很方便，但是它也可能被攻击者所利用。该命令的语法是<span dir="ltr">/usr/X11R6/bin/xhost +hostname</span></p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> 永远不要使用<span dir="ltr">xhost +</span>！这将会允许任意客户端连接并控制你的X。如果攻击者能访问你的X，那么他就能够记录你的击键以及接管你的桌面。如果你必须使用它请记得指定一个主机。</p>
+</td></tr></table>
+<p>更安全的办法就是禁用这个特性，在启动X的时候使用<span dir="ltr">startx -- -nolisten tcp</span>或者在配置里永久禁用它。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 13.1: /usr/X11R6/bin/startx</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">defaultserverargs=&quot;-nolisten tcp&quot;
+</pre>
+</td></tr></table>
+<p>为了确保<span dir="ltr">startx</span>不会在emerge新版本的Xorg时被覆盖掉，你必须保护它。把下面这行加入<span dir="ltr">/etc/make.conf</span>：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 13.2: /etc/make.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">CONFIG_PROTECT_MASK=&quot;/usr/X11R6/bin/startx&quot;
+</pre>
+</td></tr></table>
+<p>如果你使用图形化的登陆管理器，你就需要不同的方法。</p>
+<p>对于<span dir="ltr">gdm</span>（Gnome Display Manager）</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 13.3: /etc/X11/gdm/gdm.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">[server-Standard]
+command=/usr/X11R6/bin/X -nolisten tcp
+</pre>
+</td></tr></table>
+<p>对于<span dir="ltr">xdm</span>（X Display Manager）以及<span dir="ltr">kdm</span>（Kde Display Manager）</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 13.4: /etc/X11/xdm/Xservers</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">:0 local /usr/bin/X11/X -nolisten tcp
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<h3>11. Chrooting 和虚拟服务器</h3>
+<p><span>11.a. </span>Chrooting</p>
+<p>对一个服务实施chroot是一种限制服务（或用户）的环境只能访问到它应该访问的资源，而不能获得可能导致取得root资格的权限（或信息）。通过使用除<span dir="ltr">root</span>（<span dir="ltr">nobody</span>、<span dir="ltr">apache</span>、<span dir="ltr">named</span>）以外的用户来运行服务，攻击者就仅仅能访问到该用户权限以内的文件。也就是说攻击者无法获取<span dir="ltr">root</span>权限即使该服务有安全漏洞。</p>
+<p>Some services like <span dir="ltr">pure-ftpd</span> and <span dir="ltr">bind</span> have features for chrooting, and other services do not. If the service  supports it, use it, otherwise you have to figure out how to create your  own. Lets see how to create a chroot, for a basic understanding of how  chroots work, we will test it with <span dir="ltr">bash</span> (easy way of learning).</p>
+<div>有些服务软件本身就有chroot的功能，比如<span dir="ltr">pure-ftpd</span>和<span dir="ltr">bind</span>，有些则没有。如果该服务软件支持chroot，那么就用上，否则只有自己去弄清楚怎么建立这种环境了。让我们来看看如何建立一个chroot，以便对chroot的工作原理有一个大概的了解，我们将用<span dir="ltr">bash</span>（易于学习）来做这个测试。</div>
+下面的命令将会列出<span dir="ltr">bash</span>所用到的库文件。           
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: Get listing of used libraries</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>ldd /bin/bash</span>
+  libncurses.so.5 =&gt; /lib/libncurses.so.5 (0x4001b000)
+  libdl.so.2 =&gt; /lib/libdl.so.2 (0x40060000)
+  libc.so.6 =&gt; /lib/libc.so.6 (0x40063000)
+  /lib/ld-linux.so.2 =&gt; /lib/ld-linux.so.2 (0x40000000)
+</pre>
+</td></tr></table>
+<p>现在让我们为<span dir="ltr">bash</span>创建环境。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: Create chroot-environment for bash</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>mkdir /chroot/bash</span>
+# <span>mkdir /chroot/bash/bin</span>
+# <span>mkdir /chroot/bash/lib</span>
+</pre>
+</td></tr></table>
+<p>接下来把这些<span dir="ltr">bash</span>（<span dir="ltr">/lib</span>）用到的文件复制到chroot环境的<span dir="ltr">lib</span>目录里，把bash命令复制到chroot环境的<span dir="ltr">bin</span>目录里。这会建立完全一样的环境，只是功能要少一些。完成复制以后，尝试运行：<span dir="ltr">chroot /chroot/bash /bin/bash</span>。如果得到一个<span dir="ltr">/</span>开头的提示符，你就成功了！否则会告诉你缺少哪些文件。有些共享库会互相依赖。</p>
+<p>你会发现在chroot环境里除了<span dir="ltr">echo</span>以外什么都用不了。那是因为在我们的chroot环境里除了bash还没有其他的命令，而<span dir="ltr">echo</span>是bash内建的一个功能。</p>
+<p>这就是你创建chroot服务的基本方法。唯一不同的就是服务有时依赖设备和<span dir="ltr">/etc</span>中的配置文件。直接复制他们（设备文件需要使用<span dir="ltr">cp -a</span>来复制）到chroot环境中，编辑init脚本使之启动前进入chroot环境。要找到服务所需的设备文件和配置文件可能有些难度。这个时候<span dir="ltr">strace</span>就派上用场了。用<span dir="ltr">/usr/bin/strace</span> bash来启动服务，然后注意open、read、stat、可能还有connect。这会为你需要复制的文件提供线索。不过在大多数情况下只要复制passwd文件（编辑它的拷贝，并删掉该服务无关的用户）、<span dir="ltr">/dev/zero</span>、<span dir="ltr">/dev/log</span>和<span dir="ltr">/dev/random</span>。</p>
+<p><span>11.b. </span>User Mode Linux</p>
+<p>另一个建立更安全环境的办法是运行一个虚拟机。虚拟机，顾名思义，是一个运行在你真实操作系统上的进程，它可以提供硬件和操作系统环境就好像它独占了一台机器。这种安全带来的好处就是如果运行在虚拟机上的服务被攻破，也仅仅是虚拟机受到影响，而非父操作系统。</p>
+<p>有关如何建立User Mode Linux，请参考<a shape="rect" href="http://gentoo.druggo.org/doc/en/uml.xml" target="_blank">User Mode Linux Guide</a>。</p>
+<h3>12. 防火墙</h3>
+<p><span>12.a. </span>防火墙</p>
+<p>人们常常以为有了防火墙就可以高枕无忧了，实际上并非如此。多数情况下被错误配置的防火墙比没有防火墙还要危险。防火墙也是一个软件，和其他的软件一样，都可能会有bug。</p>
+<p>所以在部署防火墙之前想一想！你真的需要吗？如果你认为需要请写下策略、防火墙的类型、以及谁将会操作它。不过最好先看看这份指南。</p>
+<p>防火墙被用于两种目的：</p>
+<ul><li>阻止用户（蠕虫/攻击者）进入</li><li>限制用户（员工/小孩）出去</li></ul>
+<p>基本上有这三类防火墙：</p>
+<ul><li>包过滤</li><li>回路中继</li><li>应用网关</li></ul>
+<p>防火墙应该是一台专用的机器并且没有运行其他服务（或者仅有<span dir="ltr">sshd</span>）然后按照本指南来使其更加安全。</p>
+<p><span>12.b. </span>包过滤</p>
+<p>所有的网络流量都是以数据包的形式来传送的。大量的数据流量被分解成小的数据包可以方便处理然后在他们到达目的地的时候又被重新组合起来。每个数据包的头部都含有如果投递以及投递到哪里的信息。而这正是包过滤防火墙要使用的信息。过滤基于：</p>
+<ul><li>基于源/目的IP地址来允许或不允许包通过</li><li>基于源/目的端口来允许或不允许包通过</li><li>基于协议来允许或不允许包通过</li><li>基于特定协议的某些标志来允许或不允许包通过</li></ul>
+<p>换句话说，这种过滤是基于包头所携带的信息而不是它的内容。</p>
+<p>缺点：</p>
+<ul><li> 包中的地址信息可能是虚假的IP地址（或者像我们说的被<span>欺骗(spoofed)</span>了）。</li><li> 被允许的包中数据或请求可能包含恶意数据，攻击者可以用来利用防火墙上的（或者防火墙后面的）服务的一些已知的bug。</li><li>通常是单点故障</li></ul>
+<p>优点：</p>
+<ul><li>简单并且容易实施</li><li> 可以在可能的攻击发生之前给出警告（例如，通过检测是否被端口扫描）</li><li>有效阻止SYN攻击</li></ul>
+<p>Linux上三款免费的包过滤防火墙：</p>
+<ul><li><a shape="rect" href="http://www.iptables.org/" target="_blank">Iptables</a></li><li> <a shape="rect" href="http://www.linuxdocs.org/HOWTOs/IPCHAINS-HOWTO.html" target="_blank">Ipchains</a> </li><li><a shape="rect" href="http://www.smoothwall.org/" target="_blank">SmoothWall</a></li></ul>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 推荐你采用iptables。Ipchains已经被淘汰了。</p>
+</td></tr></table>
+<p><span>12.c. </span>回路中继</p>
+<p>回路级网关是一个对连接的有效性确认之后才会允许数据传输的防火墙。这就是说它不会根据数据包的头部信息来简单的允许或禁止，而是在为数据传输开启会话之前根据事先制定好的规则来检验该连接的双方是否合法。过滤基于：</p>
+<ul><li>源/目的IP地址</li><li>源/目的端口</li><li>时间段</li><li>协议</li><li>用户</li><li>密码</li></ul>
+<p>所有流量都会被确认和监控，恶意的数据会被丢弃。</p>
+<p>缺点：</p>
+<ul><li> 在传输层操作而且可能需要对提供传输功能的程序进行大量修改。</li></ul>
+<p><span>12.d. </span>应用网关</p>
+<p>应用级网关是应用程序的代理，代表客户端和远程系统交换数据。它远离外部，安全的呆在DMZ（De-Militarized Zone：非军事区，内部网络中一小块可以透过防火墙被外面看见的地方）后面或者防火墙禁止从外部来的连接。过滤基于：</p>
+<ul><li>基于源/目的IP地址来允许或不允许</li><li>基于数据包的内容</li><li>根据文件类型或扩展名来限制访问</li></ul>
+<p>优点：</p>
+<ul><li>能够缓存文件，提高网络性能</li><li>对所有连接有详细日志</li><li>便于扩展（有些代理服务器能够“共享”缓存数据）</li><li>从外部无法直接访问</li><li>甚至可以即时改变包的内容</li></ul>
+<p>缺点：</p>
+<ul><li>配置很复杂</li></ul>
+<p>应用网关被当作最安全的解决方案，因为它不需要以root身份运行并且其后的主机无法从互联网访问到。</p>
+<p>免费的应用网关：</p>
+<ul><li><a shape="rect" href="http://www.squid-cache.org/" target="_blank">Squid</a></li></ul>
+<p><span>12.e. </span>Iptables</p>
+<p>为了使用iptables，你必须在内核中启用它。我以模块方式（需要的时候iptables命令会自动加载它们）添加了iptables，然后重新编译内核（如果你打算禁用内核模块，你就需要将iptables编入内核）。有关如何配置内核来启用iptables请看<a shape="rect" href="http://iptables-tutorial.frozentux.net/iptables-tutorial.html#PREPARATIONS" target="_blank">Iptables教程第五章：准备</a>。在你编译完新内核之后（或者在编译内核的时候），你需要安装<span dir="ltr">iptables</span>命令。只要<span dir="ltr">emerge iptables</span>就可以了。</p>
+<p>现在用<span dir="ltr">iptables -L</span>来测试一下是否有用。如果失败了，那说明有些问题，你得再次检查你的配置了。</p>
+<p>Iptables是Linux2.4内核中新式的并且有重大改进的包过滤器。它是前Linux2.2系列内核中ipchains包过滤器的接替者。其中最重要的改进是iptables能够根据包的状态进行过滤。使用有状态的过滤就有可能跟踪每一条建立的TCP连接。</p>
+<p>一个TCP连接由一系列包含源IP地址、目的IP地址、源端口、目的端口以及序号（据此数据包才能被完整的重组）等信息的包组成。TCP是面向连接的协议，而UDP则是无连接的。</p>
+<p>通过对TCP包头的检查，有状态过滤器就能确定一个收到的TCP包是否是一个已建立连接的一部分，从而决定是接受还是丢弃它。</p>
+<p>通过篡改TCP包头就有可能欺骗无状态的包过滤器接受那些本该被丢弃的包。这可以通过修改TCP包头里的SYN标志或者其他标志来达到使一个恶意包 看起来  就像是某个已建立连接的一部分（因为包过滤器本身并不做连接跟踪）。而对有状态包过滤器则会丢弃这样的包，因为它们不是任何一个已建立连接的一部分。而且  “隐蔽扫描”（端口扫描的一种，对于通常有SYN标志的包，扫描器发出的包带有可能不被防火墙记录的标志）也没了可能。</p>
+<p>Iptables还提供了其他一些特性，例如NAT（Network Address Translation，网络地址转换）和速率限制。限速功能在对付某些DoS（Denial of Service，拒绝服务）攻击，比如SYN洪水攻击上相当有效。</p>
+<p>一个TCP连接通过所谓的三次握手来建立。当要建立一个TCP连接的时候，客户端向服务器发出带有SYN标志的包。当服务器收到这个SYN包后将返回一个带有SYN+ACK标志的包给客户端。客户端收到后再回应第三个带有ACK标志的包给服务器，那么这个连接就建好了。</p>
+<p>SYN洪水攻击通过发送SYN包但不应答SYN+ACK包来进行。客户端可以伪造一个包含虚假的源IP地址的包，因为它根本不需要回应。而服务器在 收到  SYN包后将在半连接队列中添加一个条目，并且会在删除该条目之前一直等待那个最终的ACK包。队列的大小是有限制的，队列满了以后，将无法打开新的连接   了。如果在指定的超时时间内还没有收到ACK包，该条目将被自动从队列中删除。这个超时时间并不一定，通常典型值是30到60秒钟或者更长。客户端通过伪   造大量含有不同源IP地址的SYN包并尽可能快的发往目标IP地址来发起进攻，因此半连接队列将被填满，从而导致其他客户端无法同服务器建立合法的连接。</p>
+<p>这时候限速功能就派上用场了。可以使用<span dir="ltr">-m limit --limit 1/s</span>来限制接受SYN包的速度。现在SYN包的接受速度被限制在一秒钟一个，因此SYN洪水对我们资源的占用也被限制住了。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 另一个防止SYN洪水攻击的方法是<a shape="rect" href="http://cr.yp.to/syncookies.html" target="_blank">SYN cookies</a>，它可以允许你的计算机响应SYN包而不用将其加入到连接队列中。SYN cookies可以在Linux内核配置中启用，不过目前还属于实验性质。</p>
+</td></tr></table>
+<p>好了，现在我们来练习一下！</p>
+<p>当iptables被载入内核后，会有5个钩子供你存放规则。它们是<span dir="ltr">INPUT</span>、<span dir="ltr">OUTPUT</span>、<span dir="ltr">FORWARD</span>、<span dir="ltr">PREROUTING</span>、<span dir="ltr">POSTROUTING</span>。每个都被称为一个链并且由一系列规则组成。每条规则描述匹配的包将如何处理。如果该规则不匹配，那么进入下一条规则。</p>
+<p>你可以直接在这5个主链中放置规则，或者创建新链并把它们当做规则加入到已存在的链中。Iptables支持以下选选项。</p>
+<table width="436"><tr><td colspan="1" rowspan="1"><strong>Option:</strong></td><td colspan="1" rowspan="1"><strong>Description:</strong></td></tr><tr><td colspan="1" rowspan="1">-A</td><td colspan="1" rowspan="1">追加</td></tr><tr><td colspan="1" rowspan="1">-D</td><td colspan="1" rowspan="1">删除</td></tr><tr><td colspan="1" rowspan="1">-I</td><td colspan="1" rowspan="1">插入</td></tr><tr><td colspan="1" rowspan="1">-R</td><td colspan="1" rowspan="1">替换</td></tr><tr><td colspan="1" rowspan="1">-L</td><td colspan="1" rowspan="1">列表</td></tr><tr><td colspan="1" rowspan="1">-F</td><td colspan="1" rowspan="1">删除链中的所有规则或者所有链</td></tr><tr><td colspan="1" rowspan="1">-Z</td><td colspan="1" rowspan="1">链或所有链中的计数器归零</td></tr><tr><td colspan="1" rowspan="1">-C</td><td colspan="1" rowspan="1">在链中测试这个包</td></tr><tr><td colspan="1" rowspan="1">-N</td><td colspan="1" rowspan="1">创建用户定义的链</td></tr><tr><td colspan="1" rowspan="1">-X</td><td colspan="1" rowspan="1">删除用户定义的链</td></tr><tr><td colspan="1" rowspan="1">-P</td><td colspan="1" rowspan="1">改变链的默认策略</td></tr><tr><td colspan="1" rowspan="1">-E</td><td colspan="1" rowspan="1">修改链名</td></tr><tr><td colspan="1" rowspan="1">-p</td><td colspan="1" rowspan="1">协议</td></tr><tr><td colspan="1" rowspan="1">-s</td><td colspan="1" rowspan="1">源地址/掩码</td></tr><tr><td colspan="1" rowspan="1">-d</td><td colspan="1" rowspan="1">目的地址/掩码</td></tr><tr><td colspan="1" rowspan="1">-i</td><td colspan="1" rowspan="1">输入名（网卡名）</td></tr><tr><td colspan="1" rowspan="1">-o</td><td colspan="1" rowspan="1">输出名（网卡名）</td></tr><tr><td colspan="1" rowspan="1">-j</td><td colspan="1" rowspan="1">跳转（规则的目标）</td></tr><tr><td colspan="1" rowspan="1">-m</td><td colspan="1" rowspan="1">扩展匹配（可能要使用扩展）</td></tr><tr><td colspan="1" rowspan="1">-n</td><td colspan="1" rowspan="1">以数字形式输出地址和端口号</td></tr><tr><td colspan="1" rowspan="1">-t</td><td colspan="1" rowspan="1">要操作的表</td></tr><tr><td colspan="1" rowspan="1">-v</td><td colspan="1" rowspan="1">详细信息模式</td></tr><tr><td colspan="1" rowspan="1">-x</td><td colspan="1" rowspan="1">展开数字（显示确切数值）</td></tr><tr><td colspan="1" rowspan="1">-f</td><td colspan="1" rowspan="1">仅匹配第二个或更多片断</td></tr><tr><td colspan="1" rowspan="1">-V</td><td colspan="1" rowspan="1">显示版本号</td></tr><tr><td colspan="1" rowspan="1">--line-numbers</td><td colspan="1" rowspan="1">列表时显示行号</td></tr></table>
+<p>首先我们将尝试阻止所有到我们机器上的ICMP包，以此熟悉iptables。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.1: Block all ICMP packets</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>iptables -A INPUT -p icmp -j DROP</span>
+</pre>
+</td></tr></table>
+<p>首先我们指定要追加规则的链，接着是匹配包的协议，最后是目标。目标可以是用户定义的链名，或者是以下特殊目标之一：<span dir="ltr">ACCEPT</span>、<span dir="ltr">DROP</span>、<span dir="ltr">REJECT</span>、<span dir="ltr">LOG</span>、<span dir="ltr">QUEUE</span>或<span dir="ltr">MASQUERADE</span>。本例中我们使用<span dir="ltr">DROP</span>，它将丢弃数据包并且不回应客户端。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> <span dir="ltr">LOG</span>目标也就是通常所说的“不终止”。如果一个包匹配的规则目标是<span dir="ltr">LOG</span>，该包将继续匹配后面的规则，而不会停止。这可以允许你在正常处理的时候记录下这些包。</p>
+</td></tr></table>
+<p>现在试试<span dir="ltr">ping localhost</span>。你将得不到任何回应，因为iptables丢弃了所有进入的ICMP报文。你也没有办法ping其他机器了，因为ICMP应答包同样会被丢弃。现在清空链以便ICMP可以再次通过。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.2: Flush all rules</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>iptables -F</span>
+</pre>
+</td></tr></table>
+<p>现在让我们看看有状态包在iptables中的过滤情况。如果我们想启用进入eth0的有状态包的检查，我们要执行命令：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.3: Accept packets that originate from an already established connection</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>iptables -A INPUT -i eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT</span>
+</pre>
+</td></tr></table>
+<p>这会接受任何源自一个已建立连接的包或者INPUT链中有关联的包。你还可以在上一条命令之前通过运行<span dir="ltr" style="color: #0000ff;">iptables -A INPUT -i eth0 -m state --state INVALID -j DROP</span>来丢弃所有不在状态表中的包。这是通过在iptables中加载“state”扩展来启用状态包的过滤。如果你打算允许其他人连接到你的机器，你可以用<span dir="ltr">--state NEW</span>标志。Iptables包含一些不同用途的模块。其中一些是：</p>
+<table><tr><td colspan="1" rowspan="1"><strong>Module/Match</strong></td><td colspan="1" rowspan="1"><strong>Description</strong></td><td colspan="1" rowspan="1"><strong>Extended options</strong></td></tr><tr><td colspan="1" rowspan="1">mac</td><td colspan="1" rowspan="1">入包mac地址的匹配扩展</td><td colspan="1" rowspan="1">--mac-source</td></tr><tr><td colspan="1" rowspan="1">state</td><td colspan="1" rowspan="1">启用状态检查</td><td colspan="1" rowspan="1">--state (states are ESTABLISHED,RELATED, INVALID, NEW)</td></tr><tr><td colspan="1" rowspan="1">limit</td><td colspan="1" rowspan="1">速率匹配限制</td><td colspan="1" rowspan="1">--limit, --limit-burst</td></tr><tr><td colspan="1" rowspan="1">owner</td><td colspan="1" rowspan="1">尝试匹配包创建者的各种特征</td><td colspan="1" rowspan="1">--uid-owner userid --gid-owner groupid --pid-owner processid --sid-owner     sessionid</td></tr><tr><td colspan="1" rowspan="1">unclean</td><td colspan="1" rowspan="1">对包的多种随机健全性检查</td><td colspan="1" rowspan="1"><br clear="none"/></td></tr></table>
+<p>让我们来试着建立一个自定义的链，并把它应用到一个现有的链中：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.4: Creating a user defined chain</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span>(Create a new chain with one rule)</span>
+# <span>iptables -X mychain</span>
+# <span>iptables -N mychain</span>
+# <span>iptables -A mychain -i eth0 -m state --state ESTABLISHED,RELATED -j ACCEPT</span>
+<span>(The default policy is all outgoing traffic is allowed. Incoming is dropped.)</span>
+# <span>iptables -P OUTPUT ACCEPT</span>
+# <span>iptables -P INPUT DROP</span>
+<span>(And add it to the INPUT chain)</span>
+# <span>iptables -A INPUT -j mychain</span>
+</pre>
+</td></tr></table>
+<p>应用该规则到input链后我们现在的策略是：所有出站包被允许和所有入站包被丢弃。</p>
+<p>可以在<a shape="rect" href="http://www.iptables.org/documentation/index.html#HOWTO" target="_blank">Netfilter/iptables documentation</a>找到文档。</p>
+<p>让我们看一个完整的例子。在这个例子中我的防火墙/网关的策略是：</p>
+<ul><li>仅允许通过SSH（端口22）连接到防火墙</li><li> 本地网络可以访问HTTP、HTTPS和SSH（DNS同样也是允许的） </li><li> ICMP流量可以携带负荷因此不应该被允许。当然我们要允许某些ICMP通过。 </li><li>端口扫描应该被检测和记录</li><li>应该避免SYN攻击</li><li>其他所有流量都应该丢弃并记录下来</li></ul>
+<a shape="rect" name="book_part1_chap12__chap5_pre5" target="_blank"></a> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 5.5: /etc/init.d/firewall</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">#!/sbin/runscript
+IPTABLES=/sbin/iptables
+IPTABLESSAVE=/sbin/iptables-save
+IPTABLESRESTORE=/sbin/iptables-restore
+FIREWALL=/etc/firewall.rules
+DNS1=212.242.40.3
+DNS2=212.242.40.51
+#inside
+IIP=10.0.0.2
+IINTERFACE=eth0
+LOCAL_NETWORK=10.0.0.0/24
+#outside
+OIP=217.157.156.144
+OINTERFACE=eth1
+
+opts=&quot;${opts} showstatus panic save restore showoptions rules&quot;
+
+depend() {
+  need net
+}
+
+rules() {
+  stop
+  ebegin &quot;Setting internal rules&quot;
+
+  einfo &quot;Setting default rule to drop&quot;
+  $IPTABLES -P FORWARD DROP
+  $IPTABLES -P INPUT   DROP
+  $IPTABLES -P OUTPUT  DROP
+
+  #default rule
+  einfo &quot;Creating states chain&quot;
+  $IPTABLES -N allowed-connection
+  $IPTABLES -F allowed-connection
+  $IPTABLES -A allowed-connection -m state --state ESTABLISHED,RELATED -j ACCEPT
+  $IPTABLES -A allowed-connection -i $IINTERFACE -m limit -j LOG --log-prefix \
+      &quot;Bad packet from ${IINTERFACE}:&quot;
+  $IPTABLES -A allowed-connection -j DROP
+
+  #ICMP traffic
+  einfo &quot;Creating icmp chain&quot;
+  $IPTABLES -N icmp_allowed
+  $IPTABLES -F icmp_allowed
+  $IPTABLES -A icmp_allowed -m state --state NEW -p icmp --icmp-type \
+      time-exceeded -j ACCEPT
+  $IPTABLES -A icmp_allowed -m state --state NEW -p icmp --icmp-type \
+      destination-unreachable -j ACCEPT
+  $IPTABLES -A icmp_allowed -p icmp -j LOG --log-prefix &quot;Bad ICMP traffic:&quot;
+  $IPTABLES -A icmp_allowed -p icmp -j DROP
+
+  #Incoming traffic
+  einfo &quot;Creating incoming ssh traffic chain&quot;
+  $IPTABLES -N allow-ssh-traffic-in
+  $IPTABLES -F allow-ssh-traffic-in
+  #Flood protection
+  $IPTABLES -A allow-ssh-traffic-in -m limit --limit 1/second -p tcp --tcp-flags \
+      ALL RST --dport ssh -j ACCEPT
+  $IPTABLES -A allow-ssh-traffic-in -m limit --limit 1/second -p tcp --tcp-flags \
+      ALL FIN --dport ssh -j ACCEPT
+  $IPTABLES -A allow-ssh-traffic-in -m limit --limit 1/second -p tcp --tcp-flags \
+      ALL SYN --dport ssh -j ACCEPT
+  $IPTABLES -A allow-ssh-traffic-in -m state --state RELATED,ESTABLISHED -p tcp --dport ssh -j ACCEPT
+
+  #outgoing traffic
+  einfo &quot;Creating outgoing ssh traffic chain&quot;
+  $IPTABLES -N allow-ssh-traffic-out
+  $IPTABLES -F allow-ssh-traffic-out
+  $IPTABLES -A allow-ssh-traffic-out -p tcp --dport ssh -j ACCEPT
+
+  einfo &quot;Creating outgoing dns traffic chain&quot;
+  $IPTABLES -N allow-dns-traffic-out
+  $IPTABLES -F allow-dns-traffic-out
+  $IPTABLES -A allow-dns-traffic-out -p udp -d $DNS1 --dport domain \
+      -j ACCEPT
+  $IPTABLES -A allow-dns-traffic-out -p udp -d $DNS2 --dport domain \
+     -j ACCEPT
+
+  einfo &quot;Creating outgoing http/https traffic chain&quot;
+  $IPTABLES -N allow-www-traffic-out
+  $IPTABLES -F allow-www-traffic-out
+  $IPTABLES -A allow-www-traffic-out -p tcp --dport www -j ACCEPT
+  $IPTABLES -A allow-www-traffic-out -p tcp --dport https -j ACCEPT
+
+  #Catch portscanners
+  einfo &quot;Creating portscan detection chain&quot;
+  $IPTABLES -N check-flags
+  $IPTABLES -F check-flags
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL FIN,URG,PSH -m limit \
+      --limit 5/minute -j LOG --log-level alert --log-prefix &quot;NMAP-XMAS:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL FIN,URG,PSH -j DROP
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL ALL -m limit --limit \
+      5/minute -j LOG --log-level 1 --log-prefix &quot;XMAS:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL ALL -j DROP
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL SYN,RST,ACK,FIN,URG \
+      -m limit --limit 5/minute -j LOG --log-level 1 --log-prefix &quot;XMAS-PSH:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL SYN,RST,ACK,FIN,URG -j DROP
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL NONE -m limit \
+      --limit 5/minute -j LOG --log-level 1 --log-prefix &quot;NULL_SCAN:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags ALL NONE -j DROP
+  $IPTABLES -A check-flags -p tcp --tcp-flags SYN,RST SYN,RST -m limit \
+      --limit 5/minute -j LOG --log-level 5 --log-prefix &quot;SYN/RST:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags SYN,RST SYN,RST -j DROP
+  $IPTABLES -A check-flags -p tcp --tcp-flags SYN,FIN SYN,FIN -m limit \
+      --limit 5/minute -j LOG --log-level 5 --log-prefix &quot;SYN/FIN:&quot;
+  $IPTABLES -A check-flags -p tcp --tcp-flags SYN,FIN SYN,FIN -j DROP
+
+  # Apply and add invalid states to the chains
+  einfo &quot;Applying chains to INPUT&quot;
+  $IPTABLES -A INPUT -m state --state INVALID -j DROP
+  $IPTABLES -A INPUT -p icmp -j icmp_allowed
+  $IPTABLES -A INPUT -j check-flags
+  $IPTABLES -A INPUT -i lo -j ACCEPT
+  $IPTABLES -A INPUT -j allow-ssh-traffic-in
+  $IPTABLES -A INPUT -j allowed-connection
+
+  einfo &quot;Applying chains to FORWARD&quot;
+  $IPTABLES -A FORWARD -m state --state INVALID -j DROP
+  $IPTABLES -A FORWARD -p icmp -j icmp_allowed
+  $IPTABLES -A FORWARD -j check-flags
+  $IPTABLES -A FORWARD -o lo -j ACCEPT
+  $IPTABLES -A FORWARD -j allow-ssh-traffic-in
+  $IPTABLES -A FORWARD -j allow-www-traffic-out
+  $IPTABLES -A FORWARD -j allowed-connection
+
+  einfo &quot;Applying chains to OUTPUT&quot;
+  $IPTABLES -A OUTPUT -m state --state INVALID -j DROP
+  $IPTABLES -A OUTPUT -p icmp -j icmp_allowed
+  $IPTABLES -A OUTPUT -j check-flags
+  $IPTABLES -A OUTPUT -o lo -j ACCEPT
+  $IPTABLES -A OUTPUT -j allow-ssh-traffic-out
+  $IPTABLES -A OUTPUT -j allow-dns-traffic-out
+  $IPTABLES -A OUTPUT -j allow-www-traffic-out
+  $IPTABLES -A OUTPUT -j allowed-connection
+
+  #Allow client to route through via NAT (Network Address Translation)
+  $IPTABLES -t nat -A POSTROUTING -o $OINTERFACE -j MASQUERADE
+  eend $?
+}
+
+start() {
+  ebegin &quot;Starting firewall&quot;
+  if [ -e &quot;${FIREWALL}&quot; ]; then
+    restore
+  else
+    einfo &quot;${FIREWALL} does not exists. Using default rules.&quot;
+    rules
+  fi
+  eend $?
+}
+
+stop() {
+  ebegin &quot;Stopping firewall&quot;
+  $IPTABLES -F
+  $IPTABLES -t nat -F
+  $IPTABLES -X
+  $IPTABLES -P FORWARD ACCEPT
+  $IPTABLES -P INPUT   ACCEPT
+  $IPTABLES -P OUTPUT  ACCEPT
+  eend $?
+}
+
+showstatus() {
+  ebegin &quot;Status&quot;
+  $IPTABLES -L -n -v --line-numbers
+  einfo &quot;NAT status&quot;
+  $IPTABLES -L -n -v --line-numbers -t nat
+  eend $?
+}
+
+panic() {
+  ebegin &quot;Setting panic rules&quot;
+  $IPTABLES -F
+  $IPTABLES -X
+  $IPTABLES -t nat -F
+  $IPTABLES -P FORWARD DROP
+  $IPTABLES -P INPUT   DROP
+  $IPTABLES -P OUTPUT  DROP
+  $IPTABLES -A INPUT -i lo -j ACCEPT
+  $IPTABLES -A OUTPUT -o lo -j ACCEPT
+  eend $?
+}
+
+save() {
+  ebegin &quot;Saving Firewall rules&quot;
+  $IPTABLESSAVE &gt; $FIREWALL
+  eend $?
+}
+
+restore() {
+  ebegin &quot;Restoring Firewall rules&quot;
+  $IPTABLESRESTORE &lt; $FIREWALL
+  eend $?
+}
+
+restart() {
+  svc_stop; svc_start
+}
+
+showoptions() {
+  echo &quot;Usage: $0 {start|save|restore|panic|stop|restart|showstatus}&quot;
+  echo &quot;start)      will restore setting if exists else force rules&quot;
+  echo &quot;stop)       delete all rules and set all to accept&quot;
+  echo &quot;rules)      force settings of new rules&quot;
+  echo &quot;save)       will store settings in ${FIREWALL}&quot;
+  echo &quot;restore)    will restore settings from ${FIREWALL}&quot;
+  echo &quot;showstatus) Shows the status&quot;
+}
+</pre>
+</td></tr></table>
+<p>创建防火墙时的一些建议：</p>
+<ol><li>实施之前先建立防火墙策略</li><li>尽量简单</li><li> 了解各个协议是如何工作的（阅读相关的<a shape="rect" href="http://www.ietf.org/" target="_blank">RFC</a>（Request For Comments 请求注解）） </li><li> 记住防火墙只不过是一个以root身份运行的软件。 </li><li>测试你的防火墙</li></ol>
+<p>如果你觉得iptables难以理解或者创建一个像样的防火墙花费太多时间，那么可以使用<a shape="rect" href="http://www.shorewall.net/" target="_blank">Shorewall</a>。它基本上是使用iptables来产生防火墙规则，不过重心集中在规则上而非特定的协议。</p>
+<p><span>12.f. </span>Squid</p>
+<p>Squid是一个非常强大的代理服务器。它可以基于时间、路径/URI的正则表达式、源和目的IP地址、域名、浏览器、认证用户名、MIME类型以及端口号（协议）来对流量进行过滤。我可能漏掉了一些特性，因为在这里列出所有的功能实在有些困难。</p>
+<p>下面的例子我添加一个广告过滤器来代替基于色情网站的过滤器。因为Gentoo.org<span>不</span>应该像某些色情网站一样被列出。我也不想浪费时间来帮你找一些好网站。</p>
+<p>本例中，我的策略是：</p>
+<ul><li> 上班时间（周一到周五的8点到17点和周六的8点到13点）允许上网（HTTP/HTTPS），但是如果员工来晚了，那么就应该工作，不能上网。 </li><li> 不允许下载文件（.exe、.com、.arj、.zip、.asf、.avi、.mpg、.mpeg，等等） </li><li> 我们讨厌广告，因此它们被过滤掉并且被替换成一个透明的gif图片（这就看你的创造力了！）。 </li><li> 其他所有进出互联网的连接都被禁止。 </li></ul>
+<p>只要<span>简单</span>的4步。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.1: /etc/squid/squid.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># Bind to a ip and port
+http_port 10.0.2.1:3128
+
+# Standard configuration
+hierarchy_stoplist cgi-bin ?
+acl QUERY urlpath_regex cgi-bin \?
+no_cache deny QUERY
+
+# Add basic access control lists
+acl all src 0.0.0.0/0.0.0.0
+acl manager proto cache_object
+acl localhost src 127.0.0.1/255.255.255.255
+
+# Add who can access this proxy server
+acl localnet src 10.0.0.0/255.255.0.0
+
+# And ports
+acl SSL_ports port 443
+acl Safe_ports port 80
+acl Safe_ports port 443
+acl purge method PURGE
+
+# Add access control list based on regular
+# expressions within urls
+acl archives urlpath_regex &quot;/etc/squid/files.acl&quot;
+acl url_ads url_regex &quot;/etc/squid/banner-ads.acl&quot;
+
+# Add access control list based on time and day
+acl restricted_weekdays time MTWHF 8:00-17:00
+acl restricted_weekends time A 8:00-13:00
+
+acl CONNECT method CONNECT
+
+#allow manager access from localhost
+http_access allow manager localhost
+http_access deny manager
+
+# Only allow purge requests from localhost
+http_access allow purge localhost
+http_access deny purge
+
+# Deny requests to unknown ports
+http_access deny !Safe_ports
+
+# Deny CONNECT to other than SSL ports
+http_access deny CONNECT !SSL_ports
+
+# My own rules
+
+# Add a page do be displayed when
+# a banner is removed
+deny_info NOTE_ADS_FILTERED url_ads
+
+# Then deny them
+http_access deny url_ads
+
+# Deny all archives
+http_access deny archives
+
+# Restrict access to work hours
+http_access allow localnet restricted_weekdays
+http_access allow localnet restricted_weekends
+
+# Deny the rest
+http_access deny all
+</pre>
+</td></tr></table>
+<p>接下来填写你不允许用户下载的文件类型。我添加了zip、viv、exe、mp3、rar、ace、avi、mov、mpg、mpeg、au、ra、arj、tar、gz以及z文件。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.2: /etc/squid/files.acl</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">\.[Zz][Ii][pP]$
+\.[Vv][Ii][Vv].*
+\.[Ee][Xx][Ee]$
+\.[Mm][Pp]3$
+\.[Rr][Aa][Rr]$
+\.[Aa][Cc][Ee]$
+\.[Aa][Ss][Ff]$
+\.[Aa][Vv][Ii]$
+\.[Mm][Oo][Vv]$
+\.[Mm][Pp][Gg]$
+\.[Mm][Pp][Ee][Gg]$
+\.[Aa][Uu]$
+\.[Rr][Aa]$
+\.[Aa][Rr][Jj]$
+\.[Tt][Aa][Rr]$
+\.[Gg][Zz]$
+\.[Zz]$
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 请注意[]中填写每个字母的大写和小写。这样就没有人能通过使用AvI替代avi来欺骗过滤器。</p>
+</td></tr></table>
+<p>下面我们添加一个正则表达式来识别广告条。这方面你可能比我更在行：</p>
+<a shape="rect" name="book_part1_chap12__chap6_pre3" target="_blank"></a> 
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.3: /etc/squid/banner-ads.acl</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">/adv/.*\.gif$
+/[Aa]ds/.*\.gif$
+/[Aa]d[Pp]ix/
+/[Aa]d[Ss]erver
+/[Aa][Dd]/.*\.[GgJj][IiPp][FfGg]$
+/[Bb]annerads/
+/adbanner.*\.[GgJj][IiPp][FfGg]$
+/images/ad/
+/reklame/
+/RealMedia/ads/.*
+^http://www\.submit-it.*
+^http://www\.eads.*
+^http://ads\.
+^http://ad\.
+^http://ads02\.
+^http://adaver.*\.
+^http://adforce\.
+adbot\.com
+/ads/.*\.gif.*
+_ad\..*cgi
+/Banners/
+/SmartBanner/
+/Ads/Media/Images/
+^http://static\.wired\.com/advertising/
+^http://*\.dejanews\.com/ads/
+^http://adfu\.blockstackers\.com/
+^http://ads2\.zdnet\.com/adverts
+^http://www2\.burstnet\.com/gifs/
+^http://www.\.valueclick\.com/cgi-bin/cycle
+^http://www\.altavista\.com/av/gifs/ie_horiz\.gif
+</pre>
+</td></tr></table>
+<p>作为最后一步，我们希望在广告条被移除后显示这个文件。它一般是有个4x4的透明gif图片的半个html文件。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.4: /etc/squid/errors/NOTE_ADS_FILTERED</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META HTTP-EQUIV=&quot;REFRESH&quot; CONTENT=&quot;0; URL=http://localhost/images/4x4.gif&quot;&gt;
+&lt;TITLE&gt;ERROR: The requested URL could not be retrieved&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;H1&gt;Add filtered!&lt;/H1&gt;
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 不要关闭&lt;HTML&gt; &lt;BODY&gt;标签，交给squid吧。</p>
+</td></tr></table>
+<p>如你所见，Squid有着多种可能性并且在过滤和代理上都相当有效。甚至在很大型的网络上都可以选择Squid代理来进行扩展。下面我列出来的配置适合多数1-20个用户的小型网络。</p>
+<p>但是把包过滤器（iptables）和应用网关（Squid）组合起来使用可能是最佳方案，即使Squid位于某个安全并且从外部无法访问到的地方也是如此。我们还要防范来自内部的攻击者。</p>
+<p>现在你必须配置客户端的浏览器来使用代理服务器。网关将会阻止用户和外部的任何联系除非他们使用代理。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong> </strong><strong>注意: </strong> Mozilla Firefox的用户在Edit-&gt;Preferences-&gt;Advanced-&gt;Network里设置。</p>
+</td></tr></table>
+<p>也可以用iptables来转发所有出站流量到Squid代理以实现透明代理。这可以通过在网关上添加一条转发/预路由规则来做到。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 6.5: Enable portforwarding to our proxyserver</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to proxyhost:3128</span>
+# <span>iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to proxyhost:3128</span>
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong> </strong><strong>注意: </strong> 如果代理运行在包过滤器所在主机上──尽管我们不推荐这么做，也许在你没有多余机器的时候这是必须的──使用<span dir="ltr">REDIRECT</span>目标来代替<span dir="ltr">DNAT</span>（<span dir="ltr">REDIRECT</span>将包定向到本机）。</p>
+</td></tr></table>
+<p><span>12.g. </span>小节</p>
+<p>我们学到了：</p>
+<ol><li> 防火墙自身也可能是风险所在。配置不当的防火墙比没有防火墙还糟糕。</li><li>如何设置基本网关和透明代理</li><li>好的防火墙的关键在于了解你所允许的协议。</li><li> IP流量并不总是含有合法数据，例如ICMP包，它可以携带恶意数据。</li><li>如何防止SYN攻击</li><li>通过移除不良图片和病毒来过滤HTTP流量。</li><li> 组合包过滤器和应用网关以提供更好的控制。 </li></ol>
+<p>现在，如果你<span>确实</span>需要，那么去搭建一个满足你需要的防火墙吧。</p>
+<h3>13. 入侵检测</h3>
+<p><span>13.a. </span>AIDE (Advanced Intrusion Detection Environment 高级入侵检测环境)</p>
+<p>AIDE是一种基于主机的入侵检测系统（HIDS），Tripwire（如果你已经了解Tripwire，那么学习AIDE的配置文件将轻而易举） 的一个免费替代品。HIDS用于检测重要的系统配置文件和二进制文件的变化，通常对将要检查的文件生成唯一的加密哈希并保存在安全的地方。定期的（比如每 天一次）用“已知正  确”的哈希和当前各个文件生成的哈希进行比较，以此判断文件是否有变化。HIDS用来检测系统的非法改动是个好办法，不过需要花点时间来利用好它。</p>
+<p>配置文件基于文件和目录的正则表达式、宏还有规则。我们有如下一些宏：</p>
+<table><tr><td colspan="1" rowspan="1"><strong>宏</strong></td><td colspan="1" rowspan="1"><strong>说明</strong></td><td colspan="1" rowspan="1"><strong>语法</strong></td></tr><tr><td colspan="1" rowspan="1">ifdef</td><td colspan="1" rowspan="1">If definded</td><td colspan="1" rowspan="1">@@ifdef &quot;name&quot;</td></tr><tr><td colspan="1" rowspan="1">ifndef</td><td colspan="1" rowspan="1">If not defined</td><td colspan="1" rowspan="1">@@ifndef &quot;name&quot;</td></tr><tr><td colspan="1" rowspan="1">define</td><td colspan="1" rowspan="1">Define a variable</td><td colspan="1" rowspan="1">@@define &quot;name&quot; &quot;value&quot;</td></tr><tr><td colspan="1" rowspan="1">undef</td><td colspan="1" rowspan="1">Undefine a variable</td><td colspan="1" rowspan="1">@@undef &quot;name&quot;</td></tr><tr><td colspan="1" rowspan="1">ifhost</td><td colspan="1" rowspan="1">if &quot;hostname&quot;</td><td colspan="1" rowspan="1">@@ifhost &quot;hostname&quot;</td></tr><tr><td colspan="1" rowspan="1">ifnhost</td><td colspan="1" rowspan="1">if not &quot;hostname&quot;</td><td colspan="1" rowspan="1">@@ifnhost &quot;hostname&quot;</td></tr><tr><td colspan="1" rowspan="1">endif</td><td colspan="1" rowspan="1">Endif must be used after any of the above macros except define and undef</td><td colspan="1" rowspan="1">@@endif</td></tr></table>
+<p>这些宏在你有很多Gentoo机器并且都打算使用AIDE的时候会很方便。尽管这些机器运行不一样的服务，甚至连用户也不相同。</p>
+<p>接下来我们有套标志来检查文件和目录。这些是权限的组合、文件的属性以及加密的哈希（例如：校验和）。</p>
+<table><tr><td colspan="1" rowspan="1"><strong>标志</strong></td><td colspan="1" rowspan="1"><strong>说明</strong></td></tr><tr><td colspan="1" rowspan="1">p</td><td colspan="1" rowspan="1">权限</td></tr><tr><td colspan="1" rowspan="1">i</td><td colspan="1" rowspan="1">inode（索引节点）</td></tr><tr><td colspan="1" rowspan="1">n</td><td colspan="1" rowspan="1">连接数</td></tr><tr><td colspan="1" rowspan="1">u</td><td colspan="1" rowspan="1">用户</td></tr><tr><td colspan="1" rowspan="1">g</td><td colspan="1" rowspan="1">组</td></tr><tr><td colspan="1" rowspan="1">s</td><td colspan="1" rowspan="1">大小</td></tr><tr><td colspan="1" rowspan="1">b</td><td colspan="1" rowspan="1">块数</td></tr><tr><td colspan="1" rowspan="1">m</td><td colspan="1" rowspan="1">mtime（最近内容修改时间）</td></tr><tr><td colspan="1" rowspan="1">a</td><td colspan="1" rowspan="1">atime（最近访问时间）</td></tr><tr><td colspan="1" rowspan="1">c</td><td colspan="1" rowspan="1">ctime（最近属性修改时间）</td></tr><tr><td colspan="1" rowspan="1">S</td><td colspan="1" rowspan="1">检查大小增长</td></tr><tr><td colspan="1" rowspan="1">md5</td><td colspan="1" rowspan="1">md5校验和</td></tr><tr><td colspan="1" rowspan="1">sha1</td><td colspan="1" rowspan="1">sha1校验和</td></tr><tr><td colspan="1" rowspan="1">rmd160</td><td colspan="1" rowspan="1">rmd160校验和</td></tr><tr><td colspan="1" rowspan="1">tiger</td><td colspan="1" rowspan="1">tiger校验和</td></tr><tr><td colspan="1" rowspan="1">R</td><td colspan="1" rowspan="1">p+i+n+u+g+s+m+c+md5</td></tr><tr><td colspan="1" rowspan="1">L</td><td colspan="1" rowspan="1">p+i+n+u+g</td></tr><tr><td colspan="1" rowspan="1">E</td><td colspan="1" rowspan="1">空组</td></tr><tr><td colspan="1" rowspan="1">&gt;</td><td colspan="1" rowspan="1">增大的日志文件p+u+g+i+n+S</td></tr></table>
+<p>如果AIDE编译了mhash支持，那它还可以支持其他一些特性：</p>
+<table><tr><td colspan="1" rowspan="1"><strong>标志</strong></td><td colspan="1" rowspan="1"><strong>说明</strong></td></tr><tr><td colspan="1" rowspan="1">haval</td><td colspan="1" rowspan="1">haval 校验和</td></tr><tr><td colspan="1" rowspan="1">gost</td><td colspan="1" rowspan="1">gost 校验和</td></tr><tr><td colspan="1" rowspan="1">crc32</td><td colspan="1" rowspan="1">crc32 校验和</td></tr></table>
+<p>现在你可以用上面的标志像这样组合他们来创建你自己的规则了：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: Create a ruleset for AIDE</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">All=R+a+sha1+rmd160
+Norm=s+n+b+md5+sha1+rmd160
+</pre>
+</td></tr></table>
+<p>创建我们自己的配置文件的最后一件事就是如何给一个文件或者目录添加规则。把文件或目录的名字跟规则合并起来就可以了。AIDE会递归加入所有文件除非你有指定其他规则。</p>
+<table><tr><td colspan="1" rowspan="1"><strong>标志</strong></td><td colspan="1" rowspan="1"><strong>说明</strong></td></tr><tr><td colspan="1" rowspan="1">!</td><td colspan="1" rowspan="1">不添加该文件或目录。</td></tr><tr><td colspan="1" rowspan="1">=</td><td colspan="1" rowspan="1">添加该目录，但是不递归。</td></tr></table>
+<p>那么让我们来看一份完整的例子：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: /etc/aide/aide.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">@@ifndef TOPDIR
+@@define TOPDIR /
+@@endif
+
+@@ifndef AIDEDIR
+@@define AIDEDIR /etc/aide
+@@endif
+
+@@ifhost smbserv
+@@define smbactive
+@@endif
+
+# The location of the database to be read.
+database=file:@@{AIDEDIR}/aide.db
+
+# The location of the database to be written.
+database_out=file:aide.db.new
+
+verbose=20
+report_url=stdout
+
+# Rule definition
+All=R+a+sha1+rmd160
+Norm=s+n+b+md5+sha1+rmd160
+
+@@{TOPDIR} Norm
+!@@{TOPDIR}etc/aide
+!@@{TOPDIR}dev
+!@@{TOPDIR}media
+!@@{TOPDIR}mnt
+!@@{TOPDIR}proc
+!@@{TOPDIR}root
+!@@{TOPDIR}sys
+!@@{TOPDIR}tmp
+!@@{TOPDIR}var/log
+!@@{TOPDIR}var/run
+!@@{TOPDIR}usr/portage
+@@ifdef smbactive
+!@@{TOPDIR}etc/smb/private/secrets.tdb
+@@endif
+=@@{TOPDIR}home Norm
+</pre>
+</td></tr></table>
+<p>上面的例子中我们用一些宏指定了起始目录和AIDE目录的位置。AIDE进行文件完整性检查时会查询<span dir="ltr">/etc/aide/aide.db</span>。但在更新和新建文件时将把信息存入<span dir="ltr">/etc/aide/aide.db.new</span>。这样就不会自动覆盖旧的数据库文件了。<span dir="ltr">report_URL</span>选项目前还没弄好，不过作者是打算用来发邮件或者甚至是执行脚本。</p>
+<p>现在开始AIDE的ebuild自带一个可用的默认配置文件、一个辅助脚本以及crontab脚本。辅助脚本会为你完成很多工作并提供一个更友好的接口。要查看所有可用选项，试试<span dir="ltr">aide --help</span>。要开始用的话，只要运行<span dir="ltr">aide -i</span>以及crontab脚本应该检测到数据库并且每天发一个邮件。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong> </strong><strong>注意: </strong> 取决于你的CPU、磁盘速度以及你对文件设置的标志，这需要花一些时间。</p>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#bbffbb">
+<p><strong>注意: </strong> 记得设置一个别名以便接收root的邮件。不然的话你永远都不知道AIDE报告了什么。</p>
+</td></tr></table>
+<p>现在本地存储数据库文件有一些固有的风险，因为攻击者几乎肯定会改动数据库文件，更新数据库文件或者修改<span dir="ltr">/usr/bin/aide</span>。所以你需要创建一个CD或者其他介质并把数据库文件和AIDE的二进制文件的副本放进来。</p>
+<p>可以在<a shape="rect" href="http://www.cs.tut.fi/%7Erammer/aide.html" target="_blank">AIDE</a>项目首页找到相关信息。</p>
+<p><span>13.b. </span>Snort</p>
+<p>Snort是一个网络入侵检测系统（NIDS）。用下面的例子来安装和配置它。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.1: /etc/conf.d/snort</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">PIDFILE=/var/run/snort_eth0.pid
+MODE=&quot;full&quot;
+NETWORK=&quot;10.0.0.0/24&quot;
+LOGDIR=&quot;/var/log/snort&quot;
+CONF=/etc/snort/snort.conf
+SNORT_OPTS=&quot;-D -s -u snort -dev -l $LOGDIR -h $NETWORK -c $CONF&quot;
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.2: /etc/snort/snort.conf</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span>(Step 1)</span>
+var HOME_NET 10.0.0.0/24
+var EXTERNAL_NET any
+var SMTP $HOME_NET
+var HTTP_SERVERS $HOME_NET
+var SQL_SERVERS $HOME_NET
+var DNS_SERVERS [10.0.0.2/32,212.242.40.51/32]
+var RULE_PATH ./
+
+<span>(Step 2)</span>
+preprocessor frag2
+preprocessor stream4: detect_scans detect_state_problems detect_scans disable_evasion_alerts
+preprocessor stream4_reassemble: ports all
+preprocessor http_decode: 80 8080 unicode iis_alt_unicode double_encode iis_flip_slash full_whitespace
+preprocessor rpc_decode: 111 32771
+preprocessor bo: -nobrute
+preprocessor telnet_decode
+
+<span>(Step 3)</span>
+include classification.config
+
+<span>(Step 4)</span>
+include $RULE_PATH/bad-traffic.rules
+include $RULE_PATH/exploit.rules
+include $RULE_PATH/scan.rules
+include $RULE_PATH/finger.rules
+include $RULE_PATH/ftp.rules
+include $RULE_PATH/telnet.rules
+include $RULE_PATH/smtp.rules
+include $RULE_PATH/rpc.rules
+include $RULE_PATH/rservices.rules
+include $RULE_PATH/dos.rules
+include $RULE_PATH/ddos.rules
+include $RULE_PATH/dns.rules
+include $RULE_PATH/tftp.rules
+include $RULE_PATH/web-cgi.rules
+include $RULE_PATH/web-coldfusion.rules
+include $RULE_PATH/web-iis.rules
+include $RULE_PATH/web-frontpage.rules
+include $RULE_PATH/web-misc.rules
+include $RULE_PATH/web-attacks.rules
+include $RULE_PATH/sql.rules
+include $RULE_PATH/x11.rules
+include $RULE_PATH/icmp.rules
+include $RULE_PATH/netbios.rules
+include $RULE_PATH/misc.rules
+include $RULE_PATH/attack-responses.rules
+include $RULE_PATH/backdoor.rules
+include $RULE_PATH/shellcode.rules
+include $RULE_PATH/policy.rules
+include $RULE_PATH/porn.rules
+include $RULE_PATH/info.rules
+include $RULE_PATH/icmp-info.rules
+include $RULE_PATH/virus.rules
+# include $RULE_PATH/experimental.rules
+include $RULE_PATH/local.rules
+</pre>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 2.3: /etc/snort/classification.config</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">config classification: not-suspicious,Not Suspicious Traffic,3
+config classification: unknown,Unknown Traffic,3
+config classification: bad-unknown,Potentially Bad Traffic, 2
+config classification: attempted-recon,Attempted Information Leak,2
+config classification: successful-recon-limited,Information Leak,2
+config classification: successful-recon-largescale,Large Scale Information Leak,2
+config classification: attempted-dos,Attempted Denial of Service,2
+config classification: successful-dos,Denial of Service,2
+config classification: attempted-user,Attempted User Privilege Gain,1
+config classification: unsuccessful-user,Unsuccessful User Privilege Gain,1
+config classification: successful-user,Successful User Privilege Gain,1
+config classification: attempted-admin,Attempted Administrator Privilege Gain,1
+config classification: successful-admin,Successful Administrator Privilege Gain,1
+
+# NEW CLASSIFICATIONS
+config classification: rpc-portmap-decode,Decode of an RPC Query,2
+config classification: shellcode-detect,Executable code was detected,1
+config classification: string-detect,A suspicious string was detected,3
+config classification: suspicious-filename-detect,A suspicious filename was detected,2
+config classification: suspicious-login,An attempted login using a suspicious username was detected,2
+config classification: system-call-detect,A system call was detected,2
+config classification: tcp-connection,A TCP connection was detected,4
+config classification: trojan-activity,A Network Trojan was detected, 1
+config classification: unusual-client-port-connection,A client was using an unusual port,2
+config classification: network-scan,Detection of a Network Scan,3
+config classification: denial-of-service,Detection of a Denial of Service Attack,2
+config classification: non-standard-protocol,Detection of a non-standard protocol or event,2
+config classification: protocol-command-decode,Generic Protocol Command Decode,3
+config classification: web-application-activity,access to a potentially vulnerable web application,2
+config classification: web-application-attack,Web Application Attack,1
+config classification: misc-activity,Misc activity,3
+config classification: misc-attack,Misc Attack,2
+config classification: icmp-event,Generic ICMP event,3
+config classification: kickass-porn,SCORE! Get the lotion!,1
+</pre>
+</td></tr></table>
+<p>更多信息请查看<a shape="rect" href="http://www.snort.org/" target="_blank">Snort</a>网站。</p>
+<p><span>13.c. </span>使用chkrootkit检测恶意软件</p>
+<p>类似AIDE一样的HIDS已经是一种检测系统变化的好办法，但是再多一层防御也不为过。<span dir="ltr">chkrootkit</span>是一个通过扫描常见系统文件来发现rootkit--用来隐藏入侵者痕迹和允许他保有访问权限的软件--以及发现一些按键记录器可能存在痕迹和其他“恶意软件”的工具。尽管<span dir="ltr">chkrootkit</span>（可选的还有<span dir="ltr">rkhunter</span>）是不错的工具，但是对于系统维护和受到攻击后对入侵者的追踪，它们并不能保证你的系统就是安全的。</p>
+<p>使用<span dir="ltr">chkrootkit</span>检测入侵的最好办法就是通过<span dir="ltr">cron</span>来日常运行。先emerge <span dir="ltr">app-forensics/chkrootkit</span>。<span dir="ltr">chkrootkit</span>可以从命令行以同样名字运行，或者像这样从<span dir="ltr">cron</span>运行：</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 3.1: Schedule chkrootkit as a cronjob</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve">0 3 * * * /usr/sbin/chkrootkit
+</pre>
+</td></tr></table>
+<h3>14. 保持最新状态</h3>
+<p><span>14.a. </span>保持最新状态</p>
+<p>一旦你成功安装完系统并确保系统处于良好的安全级别，这并不是结束。安全是一个持续的过程；大多数入侵都是由于系统对已知漏洞未打补丁所致。保持系统在最新状态是带来更好安全的最有价值的一步。</p>
+<p>如果你安装了最新版本的<span dir="ltr">portage</span>，你可以先用<span dir="ltr">emerge --sync</span>同步portage树，然后运行命令<span dir="ltr">glsa-check --list</span>来检查系统是否处在安全上的最新状态。<span dir="ltr">glsa-check</span>是<span dir="ltr">app-portage/gentoolkit</span>的一部分。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.1: Example output of glsa-check -l</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"># <span>glsa-check -l</span>
+WARNING: This tool is completely new and not very tested, so it should not be
+used on production systems. It's mainly a test tool for the new GLSA release
+and distribution system, it's functionality will later be merged into emerge
+and equery.
+Please read http://www.gentoo.org/proj/en/portage/glsa-integration.xml
+before using this tool AND before reporting a bug.
+
+[A] means this GLSA was already applied,
+[U] means the system is not affected and
+[N] indicates that the system might be affected.
+
+200406-03 [N] sitecopy: Multiple vulnerabilities in included libneon ( net-misc/sitecopy )
+200406-04 [U] Mailman: Member password disclosure vulnerability ( net-mail/mailman )
+.......
+</pre>
+</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffbbbb">
+<p><strong>警告: </strong> <span dir="ltr">glsa-check</span>还是实验性的，因此如果安全性确实是你最优先要考虑的，那么最好同其他安全资源一起仔细检查。</p>
+</td></tr></table>
+<p>所有标有<span dir="ltr">[A]</span>和<span dir="ltr">[U]</span>的行可以被安全的忽略，因为当前系统并未受该GLSA影响。</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#ffffbb">
+<p><strong>重要: </strong> 请注意，通常<span dir="ltr">emerge -vpuD world</span>并不会将所有软件包升级。你需要使用<span dir="ltr">glsa-check</span>来确保所有GLSA在你系统上都被修复了。</p>
+</td></tr></table>
+<div><br clear="none"/></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td colspan="1" rowspan="1" bgcolor="#7a5ada">
+<p>Code Listing 1.2: Check all GLSAs</p>
+</td></tr><tr><td align="left" colspan="1" rowspan="1" dir="ltr" bgcolor="#eeeeff">
+<pre xml:space="preserve"><span>(Check if your system is affected by GLSAs)</span>
+# <span>glsa-check -t all</span>
+WARNING: This tool is completely new and not very tested, so it should not be
+used on production systems. It's mainly a test tool for the new GLSA release
+and distribution system, it's functionality will later be merged into emerge
+and equery.
+Please read http://www.gentoo.org/proj/en/portage/glsa-integration.xml
+before using this tool AND before reporting a bug.
+
+This system is affected by the following GLSA:
+200504-06
+200510-08
+200506-14
+200501-35
+200508-12
+200507-16
+
+<span>(See what packages would be emerged)</span>
+# <span>glsa-check -p $(glsa-check -t all)</span>
+     <span>(partial output)</span>
+Checking GLSA 200504-06
+The following updates will be performed for this GLSA:
+     app-arch/sharutils-4.2.1-r11 (4.2.1-r10)
+
+     **********************************************************************
+
+     Checking GLSA 200510-08
+     The following updates will be performed for this GLSA:
+          media-libs/xine-lib-1.1.0-r5 (1.1.0-r4)
+
+<span>(Apply required fixes)</span>
+# <span>glsa-check -f $(glsa-check -t all)</span>
+</pre>
+</td></tr></table>
+<p>如果你升级了正在运行的服务，不要忘记重新启动它。</p>
+<p>保持你的<a shape="rect" href="http://gentoo.druggo.org/doc/en/kernel-upgrade.xml" target="_blank">内核最新</a>也是被推荐的。</p>
+<p>如果你想在每次GLSA发布的时候收到一封邮件请订阅<span dir="ltr">gentoo-announce</span>邮件列表。加入的方法和其他一些不错的邮件列表可以查看<a shape="rect" href="http://gentoo.druggo.org/main/en/lists.xml" target="_blank">Gentoo Linux邮件列表综述</a>。</p>
+<p>另一个很棒的安全资源是<a shape="rect" href="http://www.securityfocus.com/archive/1" target="_blank">Bugtraq邮件列表</a>。</p>
+</td></tr></table>
+</td></tr><tr><td align="right" colspan="2" rowspan="1">Copyright 2001-2011 Gentoo Foundation, Inc. Questions, Comments? <a shape="rect" href="http://www.gentoo.org/main/en/contact.xml" target="_blank">Contact us</a>.</td></tr></table>
+</div>
+
+</div></div>
+</body>
+</html>
+</body>
+</html>

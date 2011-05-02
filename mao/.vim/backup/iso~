@@ -1,0 +1,3 @@
+#!/bin/bash
+cmd="/usr/bin/sudo"
+$cmd "mkdir 123456"

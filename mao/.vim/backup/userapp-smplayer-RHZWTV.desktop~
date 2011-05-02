@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=smplayer
+Exec=smplayer
+NoDisplay=true

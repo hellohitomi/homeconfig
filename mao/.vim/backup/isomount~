@@ -1,0 +1,34 @@
+#!/bin/bash
+
+###作者：wkt@ubuntu.org.cn
+###修改者：fortruth@ubuntu.org.cn
+###修改内容：修改内容主要针对KDE 环境
+###1.调用kde下的sudo 前端kdesudo
+###2.挂载上后用konqueror在新标签打开文件夹
+[ `whoami` == "root" ] || cmd="sudo" ##不是root 就cmd=kdesudo
+count=0
+dir="/media/cdrom$count" ##设置挂载点
+uid=$2
+while df | grep -q $dir 2>/dev/null ##挂载点 是否使用了
+do
+echo $dir
+let count=$count 1
+dir="/media/cdrom$count" ###新挂载点
+done
+echo $dir
+###使用kdesudo 是需要root 权限
+if [ ! -d $dir ];then
+$cmd mkdir -p $dir ##创建挂载点
+fi
+if mount | grep $1;then
+exit 0
+fi
+if [ -f $1 ] ;then
+echo "$1 mount on $dir"
+$cmd mount -t iso9660 -o ro,loop,uid=$UID,utf8 $1 $dir ###挂载
+fi
+for dir in /media/cdrom[1-9]*
+do
+$cmd umount $dir
+$cmd rmdir $dir #####拿掉没用的目录
+done
