@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#AMULE_PORT="4662 4672 4665"
+#for port in $AMULE_PORT ; do
+#iptables -A INPUT -i $INE -p tcp --dport $port -j ACCEPT
+#iptables -A INPUT -i $INE -p tcp --sport $port -j ACCEPT
+#iptables -A INPUT -i $INE -p udp --dport $port -j ACCEPT
+#iptables -A INPUT -i $INE -p udp --sport $port -j ACCEPT
+#donei
+
+#Mldonkey
+iptables -A INPUT -i $INE -p tcp --dport 6050 -j ACCEPT
+iptables -A INPUT -i $INE -p tcp --dport 9980 -j ACCEPT
+#iptables -A INPUT -i $INE -p tcp --dport 6881 -j ACCEPT
+#iptables -A INPUT -i $INE -p tcp --dport 19925 -j ACCEPT
+#iptables -A INPUT -i $INE -p udp --dport 19929 -j ACCEPT
+#iptables -A INPUT -i $INE -p tcp --dport 9980 -j ACCEPT
+iptables -A INPUT -i $INE -p udp --dport 6054 -j ACCEPT
+iptables -A INPUT -i $INE -p udp --dport 9353 -j ACCEPT
+iptables -A INPUT -i $INE -p udp --dport 9980 -j ACCEPT
+
+#Notebook
+iptables -A INPUT -i $INE -s 192.168.1.200 -j ACCEPT
+iptables -A INPUT -i $INE -s 192.168.1.201 -j ACCEPT
+iptables -A INPUT -i $INE -s 192.168.1.101 -j ACCEPT
