@@ -1,0 +1,22 @@
+"1.0b6 (created: 2011/03/09 09:25:18)
+
+loadplugins '\.(js|penta)$'
+group user
+map -modes=n,v , -builtin <C-o>
+map -modes=n,v . -builtin <C-i>
+map -modes=n,v <C-c> -builtin <C-v><C-c>
+map -modes=n,v <C-f> -builtin <C-v><C-f>
+map -modes=n,v <C-v> -builtin <C-v><C-v>
+map -modes=n,v <C-x> -builtin <C-v><C-x>
+map -modes=n,v j -builtin 10j
+map -modes=n,v k -builtin 10k
+map -modes=n,v <C-b> -builtin <C-v><C-b>
+map -modes=c <C-v> -builtin <C-v><C-v>
+map -modes=c <C-c> -builtin <C-v><C-c>
+map -modes=c <C-x> -builtin <C-v><C-x>
+map -modes=i <C-v> -builtin <C-v><C-v>
+map -modes=i <C-c> -builtin <C-v><C-c>
+map -modes=i <C-x> -builtin <C-v><C-x>
+set guioptions=Tnrs
+
+" vim: set ft=pentadactyl:
