@@ -26,5 +26,9 @@ alias la='ls -A'
 alias l='ls -CF'
 alias cls='clear'
 
+#export PAGER='/usr/bin/most -s'
+#export BROWSER='/usr/bin/most -s'
+export EDITOR='/usr/bin/vim'
+
 # Git completion
 [[ -f ~/.git-completion.bash ]] && source ~/.git-completion.bash
