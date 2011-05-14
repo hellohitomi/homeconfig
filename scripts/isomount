@@ -1,14 +1,14 @@
 #!/bin/bash
 
-[ $UID == 0 ] || cmd="gksu"
 if [ ! -f $1 ]; then
     exit 2
 fi
-dir="/media/`basename $1 .iso`"
-if [ ! -d $dir ]; then
-    $cmd mkdir $dir
-    $cmd "mount -t iso9660 -o ro,loop,uid=$UID,utf8 $1 $dir"
+FILE=`basename $1 .iso`
+MOUNTPOINT="$HOME/Desktop/$FILE"
+if [ ! -d $MOUNTPOINT ]; then
+    mkdir $MOUNTPOINT
+    fuseiso -p "$1" "$MOUNTPOINT"
 else
-    $cmd umount $dir
-    $cmd rmdir $dir
+    fusermount -u "$MOUNTPOINT"
+    rmdir $MOUNTPOINT
 fi
