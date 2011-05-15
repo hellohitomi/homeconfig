@@ -1,0 +1,7 @@
+export XMODIFIERS="@im=fcitx"
+export XIM=fcitx
+export XIM_PROGRAM=fcitx
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
+fcitx &
+exec ck-launch-session dbus-launch --exit-with-session wmii

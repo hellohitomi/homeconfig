@@ -1,0 +1,16 @@
+
+[Added Associations]
+text/html=userapp-firefox-9U77TV.desktop;wine-extension-htm.desktop;wine-extension-html.desktop;chromium-browser-chromium.desktop;wine-extension-txt.desktop;leafpad.desktop;gvim.desktop;
+video/quicktime=smplayer.desktop;smplayer_enqueue.desktop;
+image/png=userapp-firefox-GHC8TV.desktop;wine-extension-png.desktop;
+application/pdf=AdobeReader.desktop;epdfview.desktop;
+text/plain=gvim.desktop;leafpad.desktop;
+video/x-matroska=smplayer_enqueue.desktop;smplayer.desktop;userapp-smplayer %s-KGY5TV.desktop;
+application/vnd.rn-realmedia=userapp-smplayer-RHZWTV.desktop;
+application/epub+zip=userapp-firefox %s-5VQZTV.desktop;
+application/x-cd-image=userapp-isomount-I0PUTV.desktop;userapp-pcmanfm-ND89UV.desktop;userapp-fuseiso-PKN0UV.desktop;
+image/gif=userapp-firefox-0SF5TV.desktop;userapp-firefox %s-ICM6TV.desktop;wine-extension-gif.desktop;
+application/x-chm=chmsee.desktop;
+
+[Default Applications]
+application/x-cd-image=userapp-isomount-I0PUTV.desktop

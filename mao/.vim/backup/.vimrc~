@@ -48,8 +48,8 @@ set selection=inclusive
 
 " Set colorscheme
 "colorscheme desert
-"colo molokai
-colo blackboard
+colo molokai
+"colo blackboard
 
 " Enable syntax highlight
 syntax on
@@ -176,7 +176,7 @@ set ambiwidth=double    "防止特殊符号无法显示
 """""""""""""""""""""""""""""""""""""""""""""""
 " Spell
 """""""""""""""""""""""""""""""""""""""""""""""
-"set spell
+set spell spelllang=en
 
 
 
@@ -232,10 +232,21 @@ set cscopetagorder=1
 " Use quickfix window to show cscope results
 set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
 
+" Viki
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+" Filetypes
+au BufRead,BufNewFile *.viki set ft=viki
+" Protocols for Viki
+let g:vikiOpenUrlWith_http = "silent !firefox %{URL}"
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
 """""""""""""""""""""""""""""""""""""""""""""""
+
+" To save, ctrl-s
+nmap <c-s> :w<CR>
+imap <c-s> <Esc>:w<CR>a
 
 " Tab navigation
 nnoremap tp :tabprevious<CR>
@@ -243,6 +254,8 @@ nnoremap tn :tabnext<CR>
 nnoremap to :tabnew<CR>
 nnoremap tc :tabclose<CR>
 nnoremap gf <C-W>gf
+noremap <A-j> gT
+noremap <A-k> gt
 
 " Move among windows
 noremap <C-h> <C-W>h

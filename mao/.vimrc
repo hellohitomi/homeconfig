@@ -48,7 +48,8 @@ set selection=inclusive
 
 " Set colorscheme
 "colorscheme desert
-colo torte
+colo molokai
+"colo blackboard
 
 " Enable syntax highlight
 syntax on
@@ -59,6 +60,7 @@ syntax on
 """""""""""""""""""""""""""""""""""""""""""""""
 
 set guifont=Monaco\ 10
+let g:molokai_original = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Backup
@@ -174,7 +176,7 @@ set ambiwidth=double    "防止特殊符号无法显示
 """""""""""""""""""""""""""""""""""""""""""""""
 " Spell
 """""""""""""""""""""""""""""""""""""""""""""""
-"set spell
+set spell spelllang=en
 
 
 
@@ -214,6 +216,7 @@ let Tlist_Enable_Fold_Column=0
 
 let Tlist_File_Fold_Auto_Close=1
 
+
 " Cscope
 """""""""""""""""""""""""""""""""""""""""""""""
 
@@ -229,10 +232,29 @@ set cscopetagorder=1
 " Use quickfix window to show cscope results
 set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
 
+" Viki
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+" Filetypes
+autocmd! BufRead,BufNewFile $HOME/viki/* set ft=viki"
+au BufRead,BufNewFile *.viki set ft=viki
+
+" Protocols for Viki
+let g:vikiOpenUrlWith_http = "silent !firefox %{URL}"
+let g:vikiOpenUrlWith_mailto = "silent !alpine %{URL}"
+
+" Intervikis
+"let g:viki_intervikis['WIKI']  = '[$HOME."/viki/", ".viki"]'
+"let g:viki_intervikis['NOTES'] = '[$HOME."/viki/Notes", ".otl"]'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
 """""""""""""""""""""""""""""""""""""""""""""""
+
+" To save, ctrl-s
+nmap <c-s> :w<CR>
+imap <c-s> <Esc>:w<CR>a
 
 " Tab navigation
 nnoremap tp :tabprevious<CR>
@@ -240,6 +262,8 @@ nnoremap tn :tabnext<CR>
 nnoremap to :tabnew<CR>
 nnoremap tc :tabclose<CR>
 nnoremap gf <C-W>gf
+noremap <A-j> gT
+noremap <A-k> gt
 
 " Move among windows
 noremap <C-h> <C-W>h
