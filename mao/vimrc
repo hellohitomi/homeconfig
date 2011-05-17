@@ -1,0 +1,48 @@
+" Basics {
+    set nocompatible
+    set noexrc " don't use local version of .(g)vimrc, .exrc
+    set background=dark
+    set cpoptions=aABceFsmq
+    "             |||||||||
+    "             ||||||||+-- When joining lines,leave the cursor between joined lines
+    "             |||||||+-- When a new match is created(showmatch) pause for .5
+    "             ||||||+-- Set buffer options when entering the buffer
+    "             |||||+-- :write updates current file name
+    "             ||||+-- Automatically add <CR> to the last line when use :@r
+    "             |||+-- Searching continues at the end of the match at the cursor position
+    "             ||+-- A backslash has no special meaning in mappings 
+    "             |+-- :write updates alternative file name
+    "             +-- :read updates alternative file name
+    syntax on
+" }
+
+" General {
+    filetype plugin indent on " load filetype plugins/indent settings
+    set autochdir " always switch to the current file directory 
+    set backspace=indent,eol,start " make backspace a more flexible
+    set backup
+    set backupdir=$HOME/.vim/backup
+    "autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M") " Keep more backups for one file
+    set clipboard+=unnamed " share windows clipboard
+    set directory=~/.vim/tmp " directory to place swap files in
+    set fileformats=unix,dos,mac " support all three, in this order
+    set hidden " you can change buffers without saving
+    " (XXX: #VIM/tpope warns the line below could break things)
+    set iskeyword+=_,$,@,%,# " none of these are word dividers
+    set mouse=a " use mouse everywhere
+    set noerrorbells " don't make noise
+    set whichwrap=b,s,h,l,<,>,~,[,] " everything wraps
+    "             | | | | | | | | |
+    "             | | | | | | | | +-- "]" Insert and Replace
+    "             | | | | | | | +-- "[" Insert and Replace
+    "             | | | | | | +-- "~" Normal
+    "             | | | | | +-- <Right> Normal and Visual
+    "             | | | | +-- <Left> Normal and Visual
+    "             | | | +-- "l" Normal and Visual (not recommended)
+    "             | | +-- "h" Normal and Visual (not recommended)
+    "             | +-- <Space> Normal and Visual
+    "             +-- <BS> Normal and Visual
+    set wildmenu " turn on command line completion wild style
+    set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*.pyc,*.jpg,*.gif,*.png " ignore these list file extensions
+    set wildmode=list:longest "turn on wild mode huge list
+" }
