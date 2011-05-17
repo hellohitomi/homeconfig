@@ -45,7 +45,7 @@ set selection=inclusive
 """""""""""""""""""""""""""""""""""""""""""""""
 " Fonts & Colors
 """""""""""""""""""""""""""""""""""""""""""""""
-
+set background=dark
 " Set colorscheme
 "colorscheme desert
 colo molokai
@@ -247,6 +247,9 @@ let g:vikiOpenUrlWith_mailto = "silent !alpine %{URL}"
 "let g:viki_intervikis['WIKI']  = '[$HOME."/viki/", ".viki"]'
 "let g:viki_intervikis['NOTES'] = '[$HOME."/viki/Notes", ".otl"]'
 
+" xmledit
+autocmd BufNewFile,BufRead *.xml source ~/.vim/ftplugin/xml.vim
+autocmd BufNewFile,BufRead *.html source ~/.vim/ftplugin/xml.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
