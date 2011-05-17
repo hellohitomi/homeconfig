@@ -85,7 +85,16 @@ set backupdir=$HOME/.vim/backup
 set ruler
 
 " Show status bar
-"set laststatus=2 
+set laststatus=2 
+set statusline=
+set statusline+=%-3.3n\                      " buffer number
+set statusline+=%f\                          " filename
+set statusline+=%h%m%r%w                     " status flags
+set statusline+=\[%{strlen(&ft)?&ft:'none'}] " file type
+set statusline+=%=                           " right align remainder
+set statusline+=0x%-8B                       " character value
+set statusline+=%-14(%l,%c%V%)               " line, character
+set statusline+=%<%P                         " file position
 
 " Turn on Wild menu
 set wildmenu
@@ -97,9 +106,20 @@ set selectmode=
 set keymodel=               
 set mousemodel=popup
 
-" For gdbvim
-"set noshowcmd
+" Minimal number of screen lines to keep above and below the cursor.
+"set scrolloff=999
 
+" Display incomplete commands.
+set showcmd
+
+" Show editing mode
+set showmode
+
+" Error bells are displayed visually
+set visualbell
+
+" Show autocomplete menus
+set wildmenu
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Tab & Indent
@@ -107,6 +127,9 @@ set mousemodel=popup
 
 " 打开普通文件类型的自动缩进
 set ai
+
+" Automatically indent when adding a curly bracket, etc.
+set smartindent
 
 " 按一下 Backspace 删除 4 个空格
 set smarttab        
