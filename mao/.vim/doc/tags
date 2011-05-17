@@ -534,3 +534,8 @@ vikiSpecialFiles	viki.txt	/*vikiSpecialFiles*
 vikiSpecialProtocols	viki.txt	/*vikiSpecialProtocols*
 vikiSplit	viki.txt	/*vikiSplit*
 vikiTextStyles	viki.txt	/*vikiTextStyles*
+xml-plugin-callbacks	xml-plugin.txt	/*xml-plugin-callbacks*
+xml-plugin-html	xml-plugin.txt	/*xml-plugin-html*
+xml-plugin-mappings	xml-plugin.txt	/*xml-plugin-mappings*
+xml-plugin-settings	xml-plugin.txt	/*xml-plugin-settings*
+xml-plugin.txt	xml-plugin.txt	/*xml-plugin.txt*

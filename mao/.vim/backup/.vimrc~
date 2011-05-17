@@ -45,7 +45,7 @@ set selection=inclusive
 """""""""""""""""""""""""""""""""""""""""""""""
 " Fonts & Colors
 """""""""""""""""""""""""""""""""""""""""""""""
-
+set background=dark
 " Set colorscheme
 "colorscheme desert
 colo molokai
@@ -236,9 +236,19 @@ set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
 """""""""""""""""""""""""""""""""""""""""""""""
 
 " Filetypes
+autocmd! BufRead,BufNewFile $HOME/viki/* set ft=viki"
 au BufRead,BufNewFile *.viki set ft=viki
+
 " Protocols for Viki
 let g:vikiOpenUrlWith_http = "silent !firefox %{URL}"
+let g:vikiOpenUrlWith_mailto = "silent !alpine %{URL}"
+
+" Intervikis
+"let g:viki_intervikis['WIKI']  = '[$HOME."/viki/", ".viki"]'
+"let g:viki_intervikis['NOTES'] = '[$HOME."/viki/Notes", ".otl"]'
+
+" xmledit
+autocmd BufNewFile,BufRead *.xml source ~/.vim/ftplugin/xml.vim
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
