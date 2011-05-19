@@ -18,7 +18,7 @@
 
 " General {
     filetype plugin indent on " load filetype plugins/indent settings
-    set autochdir " always switch to the current file directory 
+    set autochdir " always switch to the current file directory
     set backspace=indent,eol,start " make backspace a more flexible
     set backup
     set backupdir=$HOME/.vim/backup
@@ -115,15 +115,15 @@
 
 " GUI Settings {
 if has("gui_running")
-    " Basics {
-        colorscheme molokai 
-        set guifont=Monaco\ 10
-        set guioptions=ce
-        "              ||
-        "              |+-- use simple dialogs rather than pop-ups
-        "              + use GUI tabs,not console style tabs
-        set lines=55
-        set mousehide
-    " }
+    colorscheme molokai
+    set guifont=Monaco\ 10
+    set guioptions=ce
+    "              ||
+    "              |+-- use simple dialogs rather than pop-ups
+    "              + use GUI tabs,not console style tabs
+    set lines=55
+    set mousehide
+else
+    colorscheme molokai
 endif
 " }
