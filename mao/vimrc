@@ -56,6 +56,7 @@
     set linespace=0 " do not insert any extra pixel lines betweens rows
     set list " we do what to show tabs,to ensure we get them out of my files
     set listchars=tab:>-,trail:- " show tabs and trailing
+    set matchpairs+=<:>
     set matchtime=5 "how many tenths of a second to blink matching brackets for
     set nohlsearch " do not highlight searched for phrases
     set nostartofline " leave my cursor where it was
@@ -69,6 +70,7 @@
     set showcmd " show the command being typed
     set showmatch " show matching brackets
     set sidescrolloff=10 " Keep 5 lines at the size
+    set title " Dyncmic title
     set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
     "              | | | | |  |   |      |  |     |    |
     "              | | | | |  |   |      |  |     |    + current column
@@ -104,7 +106,7 @@
     set foldmethod=marker " Fold on the marker
     set foldlevel=100 " Don't autofold anything (but I can still fold manually)
     set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
-    
+
     function SimpleFoldText() " {
         return getline(v:foldstart).' '
     endfunction " }
