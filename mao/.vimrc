@@ -1,347 +1,146 @@
-"""""""""""""""""""""""""""""""""""""""""""""""
-" General settings
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Show ruler
-set ru                      " 打开状态栏标尺显示行号、列号、百分比
-
-" Dynamic title
-set title
-
-" Set backspace
-set backspace=indent,eol,start  
-
-
-" Display line number
-set nu
-
-" Set non-linewise display
-set display=lastline
-
-" Disable VI compatible mode
-set nocp
-
-" Auto change current directory
-set autochdir
-
-" Use absolute paths in sessions
-set sessionoptions-=curdir
-
-" Lines folding
-set foldenable
-set foldnestmax=1
-set foldmethod=syntax
-
-" %跳转，缺省为 "(:),{:},[:]"形成配对
-set matchpairs+=<:>     
-
-" 显示括号配对情况
-set sm              
-
-" 指定在选择文本时， 光标所在位置也属于被选中的范围
-set selection=inclusive     
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Fonts & Colors
-"""""""""""""""""""""""""""""""""""""""""""""""
-set background=dark
-" Set colorscheme
-"colorscheme desert
-colo molokai
-"colo blackboard
-
-" Enable syntax highlight
-syntax on
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" GVIM
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-set guifont=Monaco\ 10
-let g:molokai_original = 1
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Backup
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Turn backup on
-set backup
-
-" Set backup directory
-set backupdir=$HOME/.vim/backup
-
-" Keep more backups for one file
-"autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M")
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Show
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Show ruler
-set ruler
-
-" Show status bar
-set laststatus=2 
-set statusline=
-set statusline+=%-3.3n\                      " buffer number
-set statusline+=%f\                          " filename
-set statusline+=%h%m%r%w                     " status flags
-set statusline+=\[%{strlen(&ft)?&ft:'none'}] " file type
-set statusline+=%=                           " right align remainder
-set statusline+=0x%-8B                       " character value
-set statusline+=%-14(%l,%c%V%)               " line, character
-set statusline+=%<%P                         " file position
-
-" Turn on Wild menu
-set wildmenu
-
-" 如果打开，窗口的分割会把新窗口放到当前窗口之下
-set splitbelow      
-
-set selectmode=
-set keymodel=               
-set mousemodel=popup
-
-" Minimal number of screen lines to keep above and below the cursor.
-"set scrolloff=999
-
-" Display incomplete commands.
-set showcmd
-
-" Show editing mode
-set showmode
-
-" Error bells are displayed visually
-set visualbell
-
-" Show autocomplete menus
-set wildmenu
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Tab & Indent
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" 打开普通文件类型的自动缩进
-set ai
-
-" Automatically indent when adding a curly bracket, etc.
-set smartindent
-
-" 按一下 Backspace 删除 4 个空格
-set smarttab        
-
-" Use hard tabs
-set sw=4                        " 自动缩进的时候， 缩进尺寸为 4 个空格
-set ts=4                        " Tab 宽度为 4 个字符
-set et                          " Tab 替换为空格，对于打开已有文件， 将已有 Tab 替换为空格用 :retab
-
-" Break lines
-set tw=78                       " 设置光标超过 78 列时候折行
-set lbr                         " 不在单词中间断行
-set fo+=mB                      " 断行支持东亚语言
-set whichwrap=b,s,<,>,[,]       " 按键开启到头后自动折向下一行
-
-" Config C-indenting
-set cin                         "打开 C/C++ 风格的自动缩进
-set cino=:0g0t0(sus             "设定 C/C++ 风格自动缩进的选项
-
-
-" Enable filetype plugin
-filetype plugin indent on
-
-" set textwidth for mail
-autocmd Filetype mail set textwidth=72
-
-" Use soft tabs for python
-autocmd Filetype python set et sta ts=4 sw=4
-
-
-"粘贴乱版问题
-":set paste关闭所有自动缩进粘贴完毕后再输入:set nopaste 
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Search
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Enable magic matching
-set magic
-
-" Show matching bracets
-set showmatch
-
-" Highlight search things
-set hlsearch
-
-" Ignore case when searching
-set smartcase
-set ignorecase
-
-" Incremental match when searching
-set incsearch
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Encoding
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Set fileencodings
-set fileencodings=ucs-bom,utf-8,gbk,big5
- 
-
-set ambiwidth=double    "防止特殊符号无法显示
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Spell
-"""""""""""""""""""""""""""""""""""""""""""""""
-set spell spelllang=en
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Use my own cscope mappings
-let autocscope_menus=0
-
-" Auto change the root directory
-let NERDTreeChDirMode=2
-
-" CTags
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Auto finding
-set tags=tags;
-
-" Sort by name
-let Tlist_Sort_Type="name"
-
-" Use right window
-let Tlist_Use_Right_Window=1
-
-" Enable auto update
-let Tlist_Auto_Update=1
-
-" Set compart format
-let Tlist_Compart_Format=1
-
-" Set exit by window
-let Tlist_Exit_OnlyWindow=1
-
-" Disable fold column
-let Tlist_Enable_Fold_Column=0
-
-let Tlist_File_Fold_Auto_Close=1
-
-
-" Cscope
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Use both cscope and ctag
-set cscopetag
-
-" Show msg when cscope db added
-set cscopeverbose
-
-" Use tags for definition search first
-set cscopetagorder=1
-
-" Use quickfix window to show cscope results
-set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
-
-" Viki
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" Filetypes
-autocmd! BufRead,BufNewFile $HOME/viki/* set ft=viki"
-au BufRead,BufNewFile *.viki set ft=viki
-
-" Protocols for Viki
-let g:vikiOpenUrlWith_http = "silent !firefox %{URL}"
-let g:vikiOpenUrlWith_mailto = "silent !alpine %{URL}"
-
-" Intervikis
-"let g:viki_intervikis['WIKI']  = '[$HOME."/viki/", ".viki"]'
-"let g:viki_intervikis['NOTES'] = '[$HOME."/viki/Notes", ".otl"]'
-
-" xmledit
-autocmd BufNewFile,BufRead *.xml source ~/.vim/ftplugin/xml.vim
-autocmd BufNewFile,BufRead *.html source ~/.vim/ftplugin/xml.vim
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" Mappings
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" To save, ctrl-s
-nmap <c-s> :w<CR>
-imap <c-s> <Esc>:w<CR>a
-
-" Tab navigation
-nnoremap tp :tabprevious<CR>
-nnoremap tn :tabnext<CR>
-nnoremap to :tabnew<CR>
-nnoremap tc :tabclose<CR>
-nnoremap gf <C-W>gf
-noremap <A-j> gT
-noremap <A-k> gt
-
-" Move among windows
-noremap <C-h> <C-W>h
-noremap <C-l> <C-W>l
-noremap <C-j> <C-W>j
-noremap <C-k> <C-W>k
-
-" Cscope mappings
-nnoremap <C-w>\ :scs find c <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>s :scs find s <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>g :scs find g <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>d :scs find d <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>c :scs find c <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>t :scs find t <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>e :scs find e <C-R>=expand("<cword>")<CR><CR>
-nnoremap <C-\>f :scs find f <C-R>=expand("<cfile>")<CR><CR>
-nnoremap <C-\>i :scs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
-
-" Set Up and Down non-linewise
-noremap <Up> gk
-noremap <Down> gj
-
-" Toggle Tlist
-nnoremap <silent> <F2> :TlistToggle<CR>:TlistUpdate<CR>
-
-" Grep search tools
-nnoremap <F3> :Rgrep<CR>
-
-" Paste toggle
-set pastetoggle=<F4>
-
-" Save & Make
-nnoremap <F5> :w<CR>:make!<CR>
-nnoremap <F6> :w<CR>:make! %< CC=gcc CFLAGS="-Wall -g -O2"<CR>:!./%<<CR>
-
-" Quickfix window
-nnoremap <silent> <F7> :botright copen<CR>
-nnoremap <silent> <F8> :cclose<CR>
-
-" NERDTreeToggle
-nnoremap <silent> <F9> :NERDTreeToggle<CR>
-
-" Toggle display line number
-nnoremap <silent> <F10> :set number!<CR>
-
-" Use <space> to toggle fold
-nnoremap <silent> <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
-
-" Use xsel to access the X clipboard
-if $DISPLAY != '' && executable('xsel')
-    nnoremap <silent> "*y :'[,']w !xsel -i -p -l /dev/null<CR>
-    nnoremap <silent> "*p :r!xsel -p<CR>
-    nnoremap <silent> "+y :'[,']w !xsel -i -b -l /dev/null<CR>
-    nnoremap <silent> "+p :r!xsel -b<CR>
+" Basics {
+    set nocompatible
+    set noexrc " don't use local version of .(g)vimrc, .exrc
+    set background=dark
+    set cpoptions=aABceFsmq
+    "             |||||||||
+    "             ||||||||+-- When joining lines,leave the cursor between joined lines
+    "             |||||||+-- When a new match is created(showmatch) pause for .5
+    "             ||||||+-- Set buffer options when entering the buffer
+    "             |||||+-- :write updates current file name
+    "             ||||+-- Automatically add <CR> to the last line when use :@r
+    "             |||+-- Searching continues at the end of the match at the cursor position
+    "             ||+-- A backslash has no special meaning in mappings 
+    "             |+-- :write updates alternative file name
+    "             +-- :read updates alternative file name
+    syntax on
+" }
+
+" General {
+    filetype plugin indent on " load filetype plugins/indent settings
+    set autochdir " always switch to the current file directory
+    set backspace=indent,eol,start " make backspace a more flexible
+    set backup
+    set backupdir=$HOME/.vim/backup
+    "autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M") " Keep more backups for one file
+    set clipboard+=unnamed " share windows clipboard
+    set directory=~/.vim/tmp " directory to place swap files in
+    set fileformats=unix,dos,mac " support all three, in this order
+    set hidden " you can change buffers without saving
+    " (XXX: #VIM/tpope warns the line below could break things)
+    set iskeyword+=_,$,@,%,# " none of these are word dividers
+    set mouse=a " use mouse everywhere
+    set mousemodel=popup " 鼠标右键功能
+    set noerrorbells " don't make noise
+    set wildmenu " turn on command line completion wild style
+    set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*.pyc,*.jpg,*.gif,*.png " ignore these list file extensions
+    set wildmode=list:longest "turn on wild mode huge list
+    set whichwrap=b,s,h,l,<,>,~,[,] " everything wraps
+    "             | | | | | | | | |
+    "             | | | | | | | | +-- "]" Insert and Replace
+    "             | | | | | | | +-- "[" Insert and Replace
+    "             | | | | | | +-- "~" Normal
+    "             | | | | | +-- <Right> Normal and Visual
+    "             | | | | +-- <Left> Normal and Visual
+    "             | | | +-- "l" Normal and Visual (not recommended)
+    "             | | +-- "h" Normal and Visual (not recommended)
+    "             | +-- <Space> Normal and Visual
+    "             +-- <BS> Normal and Visual
+" }
+
+" Vim UI {
+    "set cursorcolumn " highlight the current column
+    "set cursorline " highlight current line
+    set incsearch " highlight as you type you search phrase
+    set laststatus=2 " always show the status line
+    set lazyredraw " do not redraw while running macros
+    set linespace=0 " do not insert any extra pixel lines betweens rows
+    set list " we do what to show tabs,to ensure we get them out of my files
+    set listchars=tab:>-,trail:- " show tabs and trailing
+    set matchpairs+=<:> " 符号匹配
+    set matchtime=5 "how many tenths of a second to blink matching brackets for
+    set nohlsearch " do not highlight searched for phrases
+    set nostartofline " leave my cursor where it was
+    set novisualbell " don't blink
+    set number " turn on line numbers
+    set numberwidth=5 " We are good up to 99999 lines
+    set report=0 " tell us when anything is changed via :...
+    set ruler " Always show current positions along the bottom
+    set scrolloff=10 " Keep 10 lines (top/bottom) for scope
+    set shortmess=aOstT " shortens messages to avoid 'press a key' prompt
+    set showcmd " show the command being typed
+    set showmatch " show matching brackets
+    set sidescrolloff=10 " Keep 5 lines at the size
+    set title " Dyncmic title
+    set splitbelow " 拆分窗口置于下方
+    set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
+    "              | | | | |  |   |      |  |     |    |
+    "              | | | | |  |   |      |  |     |    + current column
+    "              | | | | |  |   |      |  |     + current line
+    "              | | | | |  |   |      |  + current % into file
+    "              | | | | |  |   |      + current syntax in square brackets
+    "              | | | | |  |   + current fileformat
+    "              | | | | |  + number of lines
+    "              | | | | + preview flag in square brackets
+    "              | | | + help flag in square brackets
+    "              | | + readonly flag in square brackets
+    "              | + modified flag in square brackets
+    "              + full path to file in the buffer
+" }
+
+" Text Formatting/Layout {
+    set completeopt= " don't use a pop up menu for completions
+    set formatoptions=rq " Automatically insert comment leader on return,and let gq format comment
+    set ignorecase " case insensitive by default
+    set infercase " case inferred by default
+    set nowrap " do not wrap line
+    set shiftround " when at 3 spaces, and I hit > ... go to 4, not 5
+    set smartcase " if there are caps, go case-sensitive
+    set shiftwidth=4 " auto-indent amount when using cindent, >>, << and stuff like that
+    set softtabstop=4 " when hitting tab or backspace, how many spaces should a tab be (see expandtab)
+    set tabstop=8 " real tabs should be 8, and they will show with set list on
+    set expandtab " no real tabs please!
+    set autoindent " 普通文件型的自动缩进
+
+" }
+"
+" Folding {
+    set foldenable " Turn on folding
+    set foldmarker={,} " Fold C style code (only use this as default if you use a high foldlevel)
+    set foldmethod=marker " Fold on the marker
+    set foldlevel=100 " Don't autofold anything (but I can still fold manually)
+    set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
+
+    function SimpleFoldText() " {
+        return getline(v:foldstart).' '
+    endfunction " }
+    set foldtext=SimpleFoldText() " Custom fold text function " (cleaner than default)
+" }
+
+" GUI Settings {
+if has("gui_running")
+    colorscheme molokai
+    set guifont=Monaco\ 10
+    set guioptions=ce
+    "              ||
+    "              |+-- use simple dialogs rather than pop-ups
+    "              + use GUI tabs,not console style tabs
+    set lines=55
+    set mousehide
+else
+    colorscheme molokai
 endif
+" }
+
+
+" Mappings {
+
+    " Tab navigation
+    nnoremap tp :tabprevious<CR>
+    nnoremap tn :tabnext<CR>
+    nnoremap to :tabnew<CR>
+    nnoremap tc :tabclose<CR>
+    nnoremap gf <C-W>gf
+    noremap <A-j> gT
+    noremap <A-k> gt
+" }
