@@ -14,6 +14,8 @@
     "             |+-- :write updates alternative file name
     "             +-- :read updates alternative file name
     syntax on
+    set encoding=utf-8
+    set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " }
 
 " General {
@@ -50,7 +52,7 @@
 
 " Vim UI {
     "set cursorcolumn " highlight the current column
-    "set cursorline " highlight current line
+    set cursorline " highlight current line
     set incsearch " highlight as you type you search phrase
     set laststatus=2 " always show the status line
     set lazyredraw " do not redraw while running macros
@@ -103,7 +105,7 @@
     set autoindent " 缩进了某一行，并且后续行也要缩进到同一级别
     set smartindent " 在一个新的语句块之后的行自动缩进到下一个级别
 " }
-"
+
 " Folding {
     set foldenable " Turn on folding
     set foldmarker={,} " Fold C style code (only use this as default if you use a high foldlevel)
@@ -132,8 +134,28 @@ else
 endif
 " }
 
+" Plugin Settings{
+
+    " FencView {
+        " 关闭Fencview自动检测
+        let g:fencview_autodetect=0
+    " }
+" }
 
 " Mappings {
+
+    " Map F1-F12 {
+
+        " Fencview 显示编码
+        map <F2> :FencView<CR>
+    " }
+
+    " To save, Ctrl-s
+    nmap <c-s> :w<CR>
+    imap <c-s> <Esc>:w<CR>a
+
+    " To jump to the keyword help,Press K
+    set keywordprg=:help
 
     " Tab navigation
     nnoremap tp :tabprevious<CR>
@@ -143,4 +165,19 @@ endif
     nnoremap gf <C-W>gf
     noremap <A-j> gT
     noremap <A-k> gt
+
+    " Move among windows
+    noremap <C-h> <C-W>h
+    noremap <C-l> <C-W>l
+    noremap <C-j> <C-W>j
+    noremap <C-k> <C-W>k
+
+    " Folding
+    " 空格打开关闭折叠
+    nnoremap <space> za
+
+    " Set Up and Down non-linewise
+    noremap <Up> gk
+    noremap <Down> gj
+
 " }
