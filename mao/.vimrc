@@ -19,6 +19,7 @@
     if v:lang =~? '^\(zh\)\|\(ja\)\|\(ko\)'
         set ambiwidth=double
     endif
+    set spell spelllang=en
 " }
 
 " General {
@@ -66,7 +67,7 @@
     set ruler " Always show current positions along the bottom
     set lazyredraw " do not redraw while running macros
     set linespace=0 " do not insert any extra pixel lines betweens rows
-    set list " 显示tabs,to ensure we get them out of my files
+    set list " 显示 tabs,to ensure we get them out of my files
     set listchars=tab:>-,trail:- " tabs和拖尾显示为 
     set showmatch " show matching brackets
     set matchpairs+=<:> " 增加符号匹配
@@ -116,9 +117,9 @@
     set foldmarker={,} " Fold C style code (only use this as default if you use a high foldlevel)
     set foldmethod=marker " Fold on the marker
     set foldlevel=100 " Don't autofold anything (but I can still fold manually)
-    set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
+    set foldopen=block,hor,mark,percent,quickfix,search,tag " what movements open folds
 
-    function SimpleFoldText() " {
+    function! SimpleFoldText() " {
         return getline(v:foldstart).' '
     endfunction " }
     set foldtext=SimpleFoldText() " Custom fold text function " (cleaner than default)
@@ -139,23 +140,51 @@ else
 endif
 " }
 
-" Plugin Settings{
+" Plugin Settings {
 
-    " FencView {
+    " FencView  http://www.vim.org/scripts/script.php?script_id=1708
+    " {
         " 关闭Fencview自动检测
         let g:fencview_autodetect=0
     " }
+
+    " Taglist http://www.vim.org/scripts/script.php?script_id=273
+    " {
+    "   " Auto finding
+        set tags=tags;
+        " Sort by name
+        let Tlist_Sort_Type="name"
+        " Use right window
+        let Tlist_Use_Right_Window=1
+        " Enable auto update
+        let Tlist_Auto_Update=1
+        " Set compart format
+        let Tlist_Compart_Format=1
+        " Set exit by window
+        let Tlist_Exit_OnlyWindow=1
+        " Disable fold column
+        let Tlist_Enable_Fold_Column=0
+
+        let Tlist_File_Fold_Auto_Close=1
+    " }
+" }
+
+" Autocommands {
+    autocmd! bufwritepost .vimrc source ~/.vimrc " When .vimrc save,reload it
 " }
 
 " Mappings {
 
     " Map F1-F12 {
 
+        " Toggle Tlist
+        nnoremap <silent> <F2> :TlistToggle<CR>:TlistUpdate<CR>
+
         " Fencview 显示编码
-        map <F2> :FencView<CR>
+        map <silent> <F12> :FencView<CR>
     " }
 
-    " Fast save, Ctrl-s
+    " Fast save, Ctrl-s to save
     nmap <c-s> :w<CR>
     imap <c-s> <Esc>:w<CR>a
 
