@@ -23,6 +23,8 @@
 
 " General {
     filetype plugin indent on " load filetype plugins/indent settings
+    set history=700 "Sets how many lines of history VIM has to remember
+    set autoread " Set to auto read when file is changed from the outside
     set autochdir " always switch to the current file directory
     set backspace=indent,eol,start " make backspace a more flexible
     set backup
@@ -56,26 +58,26 @@
 " Vim UI {
     "set cursorcolumn " highlight the current column
     set cursorline " highlight current line
-    set incsearch " highlight as you type you search phrase
-    set laststatus=2 " always show the status line
-    set lazyredraw " do not redraw while running macros
-    set linespace=0 " do not insert any extra pixel lines betweens rows
-    set list " we do what to show tabs,to ensure we get them out of my files
-    set listchars=tab:>-,trail:- " show tabs and trailing
-    set matchpairs+=<:> " 符号匹配
-    set matchtime=5 "how many tenths of a second to blink matching brackets for
     set nohlsearch " do not highlight searched for phrases
-    set nostartofline " leave my cursor where it was
-    set novisualbell " don't blink
+    set incsearch " highlight as you type you search phrase
     set number " turn on line numbers
     set numberwidth=5 " We are good up to 99999 lines
-    set report=0 " tell us when anything is changed via :...
+    set laststatus=2 " always show the status line
     set ruler " Always show current positions along the bottom
-    set scrolloff=10 " Keep 10 lines (top/bottom) for scope
+    set lazyredraw " do not redraw while running macros
+    set linespace=0 " do not insert any extra pixel lines betweens rows
+    set list " 显示tabs,to ensure we get them out of my files
+    set listchars=tab:>-,trail:- " tabs和拖尾显示为 
+    set showmatch " show matching brackets
+    set matchpairs+=<:> " 增加符号匹配
+    set matchtime=5 "显示匹配的时间,how many tenths of a second to blink matching brackets for
+    set nostartofline " leave my cursor where it was
+    set novisualbell " don't blink
+    set report=0 " tell us when anything is changed via :...
+    set scrolloff=10 " 光标上下两侧保留10行
+    set sidescrolloff=10 " 光标左右两侧保留的最少屏幕列数,Keep 5 lines at the size
     set shortmess=aOstT " shortens messages to avoid 'press a key' prompt
     set showcmd " show the command being typed
-    set showmatch " show matching brackets
-    set sidescrolloff=10 " Keep 5 lines at the size
     set title " Dyncmic title
     set splitbelow " 拆分窗口置于下方
     set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
@@ -98,7 +100,7 @@
     set formatoptions=rq " Automatically insert comment leader on return,and let gq format comment
     set ignorecase " case insensitive by default
     set infercase " case inferred by default
-    set nowrap " do not wrap line
+    set nowrap " 不拆行,do not wrap line
     set shiftround " when at 3 spaces, and I hit > ... go to 4, not 5
     set smartcase " if there are caps, go case-sensitive
     set shiftwidth=4 " auto-indent amount when using cindent, >>, << and stuff like that
@@ -133,7 +135,7 @@ if has("gui_running")
     set lines=55
     set mousehide
 else
-    colorscheme molokai
+    colorscheme desert256
 endif
 " }
 
@@ -153,7 +155,7 @@ endif
         map <F2> :FencView<CR>
     " }
 
-    " To save, Ctrl-s
+    " Fast save, Ctrl-s
     nmap <c-s> :w<CR>
     imap <c-s> <Esc>:w<CR>a
 
