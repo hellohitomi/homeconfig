@@ -106,7 +106,7 @@
     set smartcase " if there are caps, go case-sensitive
     set shiftwidth=4 " auto-indent amount when using cindent, >>, << and stuff like that
     set softtabstop=4 " when hitting tab or backspace, how many spaces should a tab be (see expandtab)
-    set tabstop=8 " real tabs should be 8, and they will show with set list on
+    set tabstop=4 " real tabs should be 8, and they will show with set list on
     set expandtab " no real tabs please!
     set autoindent " 缩进了某一行，并且后续行也要缩进到同一级别
     set smartindent " 在一个新的语句块之后的行自动缩进到下一个级别
@@ -167,6 +167,11 @@ endif
 
         let Tlist_File_Fold_Auto_Close=1
     " }
+
+    " xmledit http://www.vim.org/scripts/script.php?script_id=301
+
+    " ZenCoding http://www.vim.org/scripts/script.php?script_id=2981
+
 " }
 
 " Autocommands {
