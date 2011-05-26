@@ -58,7 +58,7 @@
 
 " Vim UI {
     "set cursorcolumn " highlight the current column
-    set cursorline " highlight current line
+    "set cursorline " highlight current line
     set nohlsearch " do not highlight searched for phrases
     set incsearch " highlight as you type you search phrase
     set number " turn on line numbers

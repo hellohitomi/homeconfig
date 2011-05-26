@@ -167,6 +167,11 @@ endif
 
         let Tlist_File_Fold_Auto_Close=1
     " }
+
+    " xmledit http://www.vim.org/scripts/script.php?script_id=301
+
+    " ZenCoding http://www.vim.org/scripts/script.php?script_id=2981
+
 " }
 
 " Autocommands {
