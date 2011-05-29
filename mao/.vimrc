@@ -196,6 +196,9 @@ endif
         " NERD_Tree
         nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
+        " BufExplorer
+        map <silent> <F4> :BufExplorer<CR>
+
         " Fencview 显示编码
         map <silent> <F12> :FencView<CR>
     " }
