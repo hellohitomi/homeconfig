@@ -148,6 +148,11 @@ endif
         let g:fencview_autodetect=0
     " }
 
+    " NERD_tree http://www.vim.org/scripts/script.php?script_id=1658
+    " {
+        let NERDTreeChDirMode=2
+    " }
+
     " Taglist http://www.vim.org/scripts/script.php?script_id=273
     " {
     "   " Auto finding
@@ -176,6 +181,9 @@ endif
 
 " Autocommands {
     autocmd! bufwritepost .vimrc source ~/.vimrc " When .vimrc save,reload it
+
+    " Use soft tabs for python
+    autocmd Filetype html set sts=2 ts=2 sw=2
 " }
 
 " Mappings {
@@ -184,6 +192,9 @@ endif
 
         " Toggle Tlist
         nnoremap <silent> <F2> :TlistToggle<CR>:TlistUpdate<CR>
+
+        " NERD_Tree
+        nnoremap <silent> <F3> :NERDTreeToggle<CR>
 
         " Fencview 显示编码
         map <silent> <F12> :FencView<CR>
