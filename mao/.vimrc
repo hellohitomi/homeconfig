@@ -1,6 +1,7 @@
 " Basics {
     set nocompatible
     set noexrc " don't use local version of .(g)vimrc, .exrc
+    call pathogen#runtime_append_all_bundles()
     set background=dark
     set cpoptions=aABceFsmq
     "             |||||||||
